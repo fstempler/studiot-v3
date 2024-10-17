@@ -1,0 +1,69 @@
+.sliderText{
+    font-family: "Archivo", sans-serif;
+    font-size: 20px;
+    white-space: nowrap; /* Para asegurar que el texto no se rompa en líneas múltiples */
+}
+.clientlogosSlider{
+    color: #242424;
+    width: 75%;
+    object-fit: contain; /* Asegura que las imágenes no se distorsionen */
+}
+section {
+	display:flex;
+	flex-flow:column;
+	align-items:center;    
+	div.container {
+		transition:all .3s ease;		
+	}
+	@media (max-width:992px) { padding:0 20px 0 20px; }
+}
+section.slide-option {
+    background-color: #E6FF58;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+div.highway-slider {
+	display:flex;
+	justify-content:center;
+    align-items: start;
+	width:100%;
+	height:50px;
+	div.highway-barrier {
+		overflow:hidden;
+		position:relative;
+	}
+	ul.highway-lane {
+		display:flex;
+		height:100%;
+		li.highway-car {
+			flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center; /* Esto centrará verticalmente */
+            background: #ffffff00;
+            color: #343434;
+		}
+	}
+}
+
+
+@keyframes translateinfinite {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(-200px * 24)); } /* Ajusta según el número total de elementos */
+}
+#infinite-left div.highway-barrier ul.highway-lane {
+    display: flex;
+    width: 200%; /* Hacemos que el ancho del contenedor sea el doble para soportar el efecto continuo */
+}
+
+#infinite-left div.highway-barrier ul.highway-lane li.highway-car {
+    width: 200px;
+    height: 50px;
+    animation: translateinfinite 35s linear infinite; /* La animación corre de manera infinita */
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+

@@ -1,0 +1,90 @@
+.algorithm__MainContainer{
+    background-color: #282627;
+    width: 100%;
+}
+.algorithm__LeftColumn{
+    padding-top: 75px;
+    padding-left: 100px;
+}
+.algorithm__Title{
+    font-family: "Archivo", sans-serif;
+    color: #93A2FD;
+    font-size: 122px;
+    line-height: 100px;
+    font-weight: 900;
+}
+.share__BadgeContainer, .love__BadgeContainer{
+    display: flex;
+    justify-content: end;
+}
+.share__Badge{
+    background-color: #FF45C7;
+    width: 157px;
+    border-radius: 25px;
+    text-align: center;
+    font-family: "Archivo", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    transform: rotate(10deg); 
+    display: inline-block; 
+}
+.algorithm__SubTitle{
+    font-family: "Archivo", sans-serif;
+    color: #FF45C7;
+    font-size: 50px;
+    line-height: 55px;
+    font-weight: 900;
+}
+
+.love__Badge{
+    background-color: #DAFF01;
+    width: 157px;
+    border-radius: 25px;
+    text-align: center;
+    font-family: "Archivo", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    transform: rotate(-10deg); 
+    display: inline-block; 
+}
+.algorithm__LeftImage{
+    width: 100%;
+}
+.algorithm__RightImageContainer{
+    display: flex;
+    justify-content: right;
+}
+.algorithm__RightImage{
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .algorithm__LeftColumn{
+        padding-top: 50px;
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 3px;
+    }
+    .algorithm__Title{        
+        font-size: 52px;
+        line-height: 52px;
+        font-weight: 900;
+    }
+    .algorithm__SubTitle{     
+        font-size: 25px;
+        line-height: 30px;        
+    }  
+    .share__Badge{        
+        width: 100px;        
+        font-size: 18px;
+    }
+    .love__Badge{        
+        width: 100px;        
+        font-size: 18px;        
+    }
+    .algorithm__RightColumn{
+        padding: 0;
+    }
+}

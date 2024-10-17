@@ -1,0 +1,28 @@
+.cta__Container{
+    background-color: #DAFF01;
+    border: 1.6px solid #242424;
+    border-radius: 50px;
+    padding: 8px 26px;
+    width: 267px;
+    display: flex;
+    justify-content: center;
+    font-family: "Archivo", sans-serif;
+    font-weight: 400;
+    color: #242424;
+    font-size: 30px;    
+    transition: all 0.35s ease-out;
+    cursor: pointer;
+}
+.cta__Container:hover{
+    background-color: #242424;    
+    color: #DAFF01;
+    border: 1.6px solid #DAFF01;
+}
+
+@media (max-width: 768px) {
+    .cta__Container{        
+        border: 1.6px solid #242424;       
+        width: 167px;
+        font-size: 18px;        
+    }
+}

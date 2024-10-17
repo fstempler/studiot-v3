@@ -1,0 +1,86 @@
+.recordSection__MainContainer{
+    width: 100%;        
+    background-color: #93A2FD;     
+}
+.recordSecation__LeftColumn{
+    background-image: url(../../assets/whiteSpark.png);
+    background-repeat: no-repeat;
+    margin-top: 50px;  
+    margin-left: 50px;  
+}
+.recordSecation__Title{
+    font-family: "DM Serif Text", serif;
+    font-size: 112px;
+    font-weight: 400;
+    line-height: 122px;    
+    padding: 140px;
+    padding-top: 80px;
+    color: #242424;
+}
+.recordSecation__RightColumn{
+    background-image: url(../../assets/circleBackground.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.recordSecation__Number{
+    position: absolute;
+    font-family: "Archivo", sans-serif;
+    font-size: 139px;
+    font-weight: 900;
+    line-height: 167px;
+    
+}
+.rightColumn__ImageContainer{
+    margin-top: 200px;
+}
+.rightColumn__BtnContainer{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 100px;    
+}
+
+@media (max-width: 768px) {
+    .recordSecation__LeftColumn{        
+        margin-top: 50px;  
+        margin-left: 50px;  
+        background-size: contain;
+    }
+    .recordSecation__Title{
+        font-size: 52px;
+        font-weight: 400;
+        line-height: 52px;
+        padding: 0;            
+    }
+    .recordSecation__RightColumn{        
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 50px;
+    }
+    .recordSecation__Number{
+        position: absolute;
+        font-family: "Archivo", sans-serif;
+        font-size: 59px;
+        font-weight: 900;
+        line-height: 67px;   
+    }
+    .rightColumn__ImageContainer{
+        margin-top: 200px;  
+        display: flex;      
+        justify-content: center;
+    }
+    .processBar{
+        width: 75%;
+    }
+    .rightColumn__BtnContainer{        
+        justify-content: center; 
+        padding: 0;
+    }
+}

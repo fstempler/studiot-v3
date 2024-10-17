@@ -1,0 +1,57 @@
+nav{
+    
+    font-family: "Archivo", sans-serif;    
+    margin: 18px 45px 0;
+    border: 1px solid #FFFEF6;
+    border-radius: 50px;
+    background-color: transparent;    
+    z-index: 900;
+}
+.navbar__MainContainer{
+    padding: 15px 45px;
+}
+.nav-link{
+    color: #FFFEF6;
+    margin: 0 10px
+}
+.contactusbtn{
+    background-color: #E6FF58;
+    width: 200px;    
+    border: 1px solid #242424;
+    border-radius: 50px;
+    padding: 5px 20px;
+    font-family: "Archivo", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    align-self: center;
+    transition: all 0.35s ease-out;
+}
+.contactusbtn:hover{
+    background-color: #242424;    
+    color: #DAFF01;
+    border: 1px solid #DAFF01;
+}
+
+@media (max-width: 768px) {
+    nav{
+        margin: 5px;        
+    }
+    .navbar__Logo{
+        width: 50%;
+    }
+    .navbar__MainContainer {
+        padding: 10px 5px;
+    }
+    
+    .nav-link {
+        margin: 0 5px;
+        font-size: 15px; 
+    }
+
+    .contactusbtn{        
+        width: 100px;    
+        padding: 5px 10px;
+        font-weight: 400;
+        font-size: 15px;
+    }
+}

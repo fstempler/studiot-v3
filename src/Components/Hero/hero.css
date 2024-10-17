@@ -1,0 +1,33 @@
+.hero__MainContainer{
+    background-image: url(../../assets/heroBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;    
+    height: 110vh;
+    margin-top: -90px;
+}
+.hero__Title-Container{    
+    margin-top: 50px;
+    padding-right: 500px;
+}
+.hero__Title{
+    font-family: "DM Serif Text", serif;
+    font-weight: 600;
+    font-size: 95px;
+    color: #FFF;
+    margin-top: 300px;
+}
+.hero__Btn-Container{
+    margin-top: 80px;
+}
+
+@media (max-width: 768px) {
+    .hero__Title-Container{    
+        margin-top: 50px;
+        padding-right: 0;
+    }
+    .hero__Title{        
+        font-size: 45px;        
+        margin-top: 300px;
+    }
+}

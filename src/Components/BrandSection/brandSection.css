@@ -1,0 +1,44 @@
+.brandSection__MainContainer{
+    background-color: #FFFEF6;
+    background: radial-gradient(circle at center top, #EBFF7D, #FFFEF6);
+    width: 100%;
+}
+
+.brandSection__Title{
+    font-family: "DM Serif Text", serif;
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 80px;
+    padding-top: 100px;
+}
+
+.brandSection__Logo{
+    filter: brightness(50%);
+}
+
+.brandSection__BrandsContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    row-gap: 0;
+    column-gap: 50px;
+    padding: 50px 100px;
+    margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+    .brandSection__Title{        
+        font-size: 35px;       
+        line-height: 40px; 
+    }
+    .brandSection__BrandsContainer{        
+        column-gap: 25px;
+        padding: 25px 25px;
+        margin-top: 50px;
+    }
+    .brandSection__Logo{
+        width: 25%;
+    }
+    
+}

@@ -1,0 +1,95 @@
+.creativity__MainContainer{
+    background-color: #FFFEF6;
+}
+.creativity__TitleContainer{
+    padding-top: 100px;    
+}
+.creativity__Title{
+    font-family: "DM Serif Text", serif;
+    font-size: 80px;  
+    font-weight: 400;
+    line-height: 70px;
+}
+.creativity__TextContainer{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.creativity__Text{
+    font-family: "Archivo", sans-serif;
+    font-size: 30px;  
+    font-weight: 400;
+    line-height: 32px;
+}
+.creativity__RightContainer{
+    background-image: url(../../assets/spark-bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+/* Accordion */
+.creativity__AccordionContainer{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.creativity__AccordionBadge{
+    position: absolute;
+    z-index: 100;
+    margin-top: -25px;
+    margin-left: 10px;
+}
+.serviceBadge__Text{
+    padding: 8px;
+    background-color: #242424;
+    color: #FFFEF6;
+    border-radius: 9px;
+    width: 166px;
+    height: 39px;
+    font-family: "Archivo", sans-serif;
+    text-align: center;
+    font-size: 20px; 
+    font-weight: 400;   
+    line-height: 22px;    
+}
+.accordion{
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(13, 109, 253, 0);
+    width: 50%;
+    border-radius: 25px;
+    margin-bottom: 150px;
+}
+.accordion-button{
+    background-color: #DAFF01;
+    border-style: none;
+    box-shadow: none;
+    font-family: "Archivo", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #DAFF01;
+    border-style: none;
+    box-shadow: none;
+}
+.accordion-item{
+    background-color: #DAFF01;
+}
+.creativity__Accordion-Btn{
+    background-color: #242424;
+    border-radius: 16px;
+    width: 262px;
+    height: 57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.creativity__Accordion-Btn-Text{
+    font-family: "Archivo", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 19px;
+    color: #DAFF01;
+}
