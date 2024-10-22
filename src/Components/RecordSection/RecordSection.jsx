@@ -8,7 +8,7 @@ import YellowCTA from '../yellowCTA/YellowCTA'
 const RecordSection = () => {
     return (
         <section className='recordSection__MainContainer'>
-            <div className='row'>
+            <div className='row recordSection__Row'>
                 <div className='col recordSecation__LeftColumn'>
                     <h2 className='recordSecation__Title'>
                         Record highs of our hook rate  average  

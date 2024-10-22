@@ -15,12 +15,25 @@
     font-weight: 600;
     font-size: 95px;
     color: #FFF;
-    margin-top: 300px;
+    margin-top: 300px;    
+    letter-spacing: 2px;
 }
 .hero__Btn-Container{
     margin-top: 80px;
 }
 
+@media (max-width: 1200px) {
+    .hero__Title-Container{    
+        margin-top: 30px;
+        padding-right: 270px;
+    }
+}
+@media (max-width: 1024px) {
+    .hero__Title-Container{    
+        margin-top: 50px;
+        padding-right: 20px;
+    }
+}
 @media (max-width: 768px) {
     .hero__Title-Container{    
         margin-top: 50px;

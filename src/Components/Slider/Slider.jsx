@@ -1,6 +1,6 @@
 import './slider.css'
 //images
-import sun from '../../assets/sun.png'
+import sun from '../../assets/studioT-blackSpark.png'
 
 const Slider = () => {
     return (

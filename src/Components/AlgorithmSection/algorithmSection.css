@@ -57,15 +57,38 @@
 .algorithm__RightImage{
     width: 100%;
 }
-
-@media (max-width: 768px) {
-    .algorithm__LeftColumn{
-        padding-top: 50px;
-        padding-left: 0;
+@media (max-width: 1440px) {        
+    .algorithm__RightColumn{
+        padding: 0;
         display: flex;
         justify-content: center;
-        flex-direction: column;
-        padding-left: 3px;
+        align-items: flex-end;
+
+    }
+}
+@media (max-width: 1200px) {    
+    .algorithm__LeftColumn{                
+        padding: 20px 10px;       
+    }    
+}
+
+@media (max-width: 1024px) {
+    .algorithm__LeftColumn{
+        padding-top: 0;
+        padding-left: 0;
+        padding: 10px;
+    }
+    .algorithm__Title{        
+        font-size: 82px;
+        line-height: 80px;        
+    }   
+}
+@media (max-width: 768px) {    
+    .algorithm__LeftColumn{                
+        display: flex;
+        justify-content: center;
+        flex-direction: column; 
+        padding: 20px;       
     }
     .algorithm__Title{        
         font-size: 52px;

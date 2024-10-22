@@ -1,0 +1,39 @@
+.designersSectionCard__Container{
+    padding: 30px 230px;    
+}
+.designersSectionCard__Title{
+    font-family: "DM Serif Text", serif;
+    color: #FFFEF6;
+    font-size: 60px;
+    line-height: 58px;
+}
+.designersSectionCard__Text{
+    font-family: "Archivo", sans-serif;
+    font-size: 35px;
+    color: #FFFEF6;
+    font-weight: 400;
+    margin-top: 30px;
+}
+@media (max-width: 1440px) {
+    .designersSectionCard__Container{
+        padding: 0px;    
+        width: 80%;    
+    }    
+}
+@media (max-width: 1024px) {    
+    .designersSectionCard__Container{
+        padding: 0px;    
+    }    
+}
+@media (max-width: 768px) {    
+    .designersSectionCard__Container{
+        padding: 40px;    
+    }
+    .designersSectionCard__Title{        
+        font-size: 45px;
+        line-height: 45px;
+    }
+    .designersSectionCard__Text{
+        font-size: 18px;
+    }
+}

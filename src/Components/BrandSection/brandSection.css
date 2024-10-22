@@ -1,6 +1,8 @@
 .brandSection__MainContainer{
-    background-color: #FFFEF6;
-    background: radial-gradient(circle at center top, #EBFF7D, #FFFEF6);
+    background-color: #FFFEF6;    
+    background-image: url(../../assets/gradientBg.png);
+    background-position: center bottom;
+    background-repeat: no-repeat; 
     width: 100%;
 }
 
@@ -26,11 +28,27 @@
     padding: 50px 100px;
     margin-top: 50px;
 }
-
+@media (max-width: 1440px) {
+    .brandSection__Title{                
+        text-align: center;
+    }
+}
+@media (max-width: 1024px) {    
+    .brandSection__BrandsContainer{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        row-gap: 0;
+        column-gap: 80px;
+        padding: 50px 100px;
+        margin-top: 50px;
+    }
+}
 @media (max-width: 768px) {
     .brandSection__Title{        
-        font-size: 35px;       
-        line-height: 40px; 
+        font-size: 40px;       
+        line-height: 40px;         
     }
     .brandSection__BrandsContainer{        
         column-gap: 25px;
@@ -38,7 +56,15 @@
         margin-top: 50px;
     }
     .brandSection__Logo{
-        width: 25%;
+        width: 15%;
     }
     
+}
+@media (max-width: 440px) {
+    .brandSection__Title{        
+        font-size: 35px;       
+    }
+    .brandSection__Logo{
+        width: 25%;
+    }
 }

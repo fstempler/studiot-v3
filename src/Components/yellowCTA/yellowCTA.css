@@ -2,8 +2,9 @@
     background-color: #DAFF01;
     border: 1.6px solid #242424;
     border-radius: 50px;
-    padding: 8px 26px;
-    width: 267px;
+    padding: 8px 46px;
+    /* width: 267px; */
+    width: fit-content;
     display: flex;
     justify-content: center;
     font-family: "Archivo", sans-serif;
@@ -22,7 +23,7 @@
 @media (max-width: 768px) {
     .cta__Container{        
         border: 1.6px solid #242424;       
-        width: 167px;
+        width: 180px;
         font-size: 18px;        
     }
 }

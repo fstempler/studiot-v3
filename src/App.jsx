@@ -1,15 +1,17 @@
 import './App.css'
 //components
 import Navbar from './Components/Navbar/Navbar'
+import Footer from './Components/Footer/Footer'
 import { createBrowserRouter, createRoutesFromElements, Outlet, RouterProvider, Route } from 'react-router-dom'
 //Pages
-import Home from './pages/Home'
+import Home from '../src/Pages/Home'
 
 const Root = () => {
   return (
     <>
     <Navbar />
     <Outlet />
+    <Footer />
     </>
   )
 }

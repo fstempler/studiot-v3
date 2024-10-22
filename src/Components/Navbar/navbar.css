@@ -1,5 +1,4 @@
-nav{
-    
+nav{    
     font-family: "Archivo", sans-serif;    
     margin: 18px 45px 0;
     border: 1px solid #FFFEF6;
@@ -7,8 +6,8 @@ nav{
     background-color: transparent;    
     z-index: 900;
 }
-.navbar__MainContainer{
-    padding: 15px 45px;
+.navbar__Container{
+    padding: 15px 45px;    
 }
 .nav-link{
     color: #FFFEF6;

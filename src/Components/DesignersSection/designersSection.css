@@ -1,0 +1,99 @@
+.designersSection__MainContainer{
+    background-image: url(../../assets/designers-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.designersSection__Row{
+    height: 100%;
+    width: auto;
+    padding: 0;
+    margin: 0;
+}
+.designersSection__Container{
+    height: 100%;
+    width: auto;
+}
+.designersSection__LeftColumn{    
+    padding: 0;
+}
+.designersSection__RightColumn{
+    height: 100%;    
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+}
+.designersSection__ImageContainer{
+    position: absolute;
+    z-index: 900;
+    margin-top: -60rem;
+    margin-left: 400px;
+}
+.carousel-control-prev-icon{
+    display: none;
+    background-image: url(../../assets/services-arrow.svg);    
+}
+.carousel-control-next-icon{
+    background-image: url(../../assets/services-arrow.svg);    
+    rotate: 180deg;    
+}
+@media (max-width: 1440px) {
+    .designersSection__MainContainer{
+        background-position: right;
+        height: 80vh;
+    }
+    .designersSection__ContentContainer{
+        width: 80%;        
+    }
+    .designersSection__ImageContainer{        
+        margin-left: 0;
+        margin-top: -55rem;
+    }      
+
+}
+@media (max-width: 1200px) {
+    .designersSection__ImageContainer{        
+        margin-left: 250px;
+        margin-top: -45rem;                
+    }
+    .designersSection__Image{
+        width: 50%;
+    }
+}
+@media (max-width: 1024px) {
+    .designersSection__MainContainer{
+        background-position: center;        
+    }
+    .designersSection__ImageContainer{        
+        margin-left: 220px;
+        margin-top: -40rem;                
+    }      
+    
+}
+@media (max-width: 768px) {
+    .designersSection__MainContainer{
+        background-position: center;
+        height: 80vh;
+    }
+    .designersSection__RightColumn{
+        height: 80vh;       
+    }
+    .designersSection__ImageContainer{        
+        margin-left: 100px;
+        margin-top: -55rem;
+    }   
+    .designersSection__Image{
+        width: 70%;
+    }
+    
+}
+@media (max-width: 576px) {
+    .designersSection__MainContainer{
+        background-position: right;        
+    }
+    
+    
+}

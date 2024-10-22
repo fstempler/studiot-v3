@@ -1,0 +1,198 @@
+.footer__MainContainer{
+    background-color: #242424;
+}
+.footer__Container{
+    padding: 80px 150px;
+}
+.footer__QuickLinks{
+    list-style: none;
+    font-family: "Archivo", sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+    color: #FFFEF6;
+}
+.footer__LeftColumn{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.footer__SocialIcons-Container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;    
+}
+.footer__RightColumn{    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 40px;
+}
+.footer__TextContainer{
+    width: 61%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.footer__Text{
+    color: #FFFEF6;
+    font-family: "Archivo", sans-serif;
+    font-size: 43px;
+    line-height: 47px;
+    font-weight: 400;
+}
+.yellow-text{
+    color: #DAFF01;
+}
+.footer__FormContainer{
+    width: 67%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.subscribe__Form{
+    width: 100%;
+    text-align: right;
+}
+.subscribeInput{    
+    border-radius: 50px;
+    padding: 7.7px 10px;
+    border:solid 1px #DAFF01;
+    background-color: transparent;
+    width: 80%;
+}
+.subscribeInput::placeholder{        
+    color: #DAFF01;  
+    font-family: "Archivo", sans-serif;
+    font-size: 22px;
+    line-height: 25px;
+}
+.subscribeButton{
+    border-radius: 50px;
+    padding: 7px 10px;
+    border:solid 1px #DAFF01;
+    background-color: #DAFF01;
+    margin-left: -45px;
+    font-family: "Archivo", sans-serif;
+    font-size: 22px;
+    line-height: 25px;
+}
+.footer__Terms-Container{
+    margin-top: 75px;
+    width: 100%;
+}
+.footer__Terms-LinksContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 1440px) {
+    .footer__Container{
+        padding: 30px;
+    }  
+    .footer__TextContainer{
+        width: 64%;        
+        align-items: flex-end;
+    }
+    .footer__ImageContainer{
+        text-align: right;
+    }
+    .footer__Image{
+        width: 80%;        
+    } 
+}
+@media (max-width: 1200px) {
+    .footer__Container{
+        padding: 30px;
+    }        
+    .footer__Image{
+        width: 70%;        
+    } 
+}
+@media (max-width: 1024px) {
+    .footer__Container{
+        padding: 20px;
+    }
+    .footer__TextContainer{
+        width: 85%;                
+    }
+    .footer__FormContainer{
+        width: 85%;    
+        align-items: flex-start;    
+    }
+    .subscribe__Form{        
+        text-align: left;
+    }
+    .subscribeInput{            
+        width: 100%;
+    }
+    .subscribeInput::placeholder{                
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .subscribeButton{        
+        margin-left: -104px;        
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .footer__ImageContainer{
+        text-align: right;
+    }
+    .footer__Image{
+        width: 70%;        
+    }
+}
+@media (max-width: 768px) {
+    .footer__Container{
+        padding: 20px;
+    }
+    .footer__LeftColumn{     
+        gap: 20px;
+    }
+    .footer__QuickLinks{        
+        font-size: 16px;
+        line-height: 26px;        
+    }
+    .footer__SocialIcon{
+        width: 60%;
+    }
+    .footer__RightColumn{            
+        padding-top: 30px;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    .footer__TextContainer{
+        width: 100%;        
+        align-items: flex-end;
+    }
+    .footer__Text{        
+        font-size: 24px;
+        line-height: 30px;        
+    }
+    /* .footer__FormContainer{
+        width: 85%;    
+        align-items: flex-start;    
+    }
+    .subscribe__Form{        
+        text-align: left;
+    }
+    .subscribeInput{            
+        width: 100%;
+    }
+    .subscribeInput::placeholder{                
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .subscribeButton{        
+        margin-left: -104px;        
+        font-size: 18px;
+        line-height: 25px;
+    } */
+    .footer__Image{
+        width: 80%;
+    }
+    .footer__Terms-LinksContainer{
+        font-size: 10px;
+    }
+}

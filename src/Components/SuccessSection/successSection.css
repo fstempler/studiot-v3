@@ -1,0 +1,88 @@
+.successSection__MainContainer{
+    background-image: url(../../assets/success-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px;
+}
+.successSection__Content-Title{
+    font-family: "DM Serif Text", serif;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 110px;
+    text-align: center;
+}
+.successSection__Content-CardsContainer{
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.successSection__FireEmoji-Container{
+    position: absolute;
+    z-index: 900;
+    left: 12%;
+    top: 995vh;
+}
+/* Tablet */
+@media (max-width: 1440px) {
+    .successSection__FireEmoji-Container{        
+        left: -2%;
+        top: 980vh;
+    } 
+}
+@media (max-width: 1200px) {
+    .successSection__Content-Container{
+        width: 100%;
+    }
+    .successSection__Content-CardsContainer{
+        margin: 0;
+        margin-top: 50px;
+    }
+}
+@media (max-width: 1024px) {
+    .successSection__MainContainer{        
+        padding: 10px;        
+    }
+    .successSection__Content-Container{
+        width: 100%;
+    }
+    .successSection__Content-Title{        
+        font-size: 40px;        
+        line-height: 60px;
+    }
+    .successSection__Content-CardsContainer{
+        margin: 10px;
+        flex-direction: row;        
+        gap: 20px;
+        padding: 10px;
+    }    
+    .successSection__FireEmoji-Container{
+        display: none;
+    }
+}
+/* Mobile */
+@media (max-width: 768px) {
+    .successSection__MainContainer{        
+        padding: 20px;        
+    }
+    .successSection__Content-Container{
+        width: 100%;
+    }
+    .successSection__Content-Title{        
+        font-size: 40px;        
+        line-height: 60px;
+    }
+    .successSection__Content-CardsContainer{
+        margin: 20px;
+        flex-direction: column;        
+        gap: 10px;
+        padding: 20px;
+    }
+    .successSection__Content-TitleContainer{
+        width: 100%;
+    }
+    .successSection__FireEmoji-Container{
+        display: none;
+    }
+}

@@ -1,5 +1,5 @@
 body{
-    background-color: black;    
+    background-color: #FFFEF6;    
     width: 100%;
 }
 *{
@@ -9,4 +9,11 @@ body{
 }
 p{
     margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #FFFEF6;
+}
+ul{
+    padding: 0;
 }

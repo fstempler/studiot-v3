@@ -54,13 +54,13 @@
     font-weight: 400;   
     line-height: 22px;    
 }
-.accordion{
+.accordion__MainContainer{
     --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(13, 109, 253, 0);
     width: 50%;
     border-radius: 25px;
     margin-bottom: 150px;
 }
-.accordion-button{
+.creativity__accordion-button{
     background-color: #DAFF01;
     border-style: none;
     box-shadow: none;
@@ -68,18 +68,18 @@
     font-size: 32px;
     font-weight: 400;
 }
-.accordion-button:not(.collapsed) {
+.creativity__accordion-button:not(.collapsed) {
     background-color: #DAFF01;
     border-style: none;
     box-shadow: none;
 }
-.accordion-item{
+.creativity__accordion-item{
     background-color: #DAFF01;
 }
 .creativity__Accordion-Btn{
     background-color: #242424;
     border-radius: 16px;
-    width: 262px;
+    width: 100%;
     height: 57px;
     display: flex;
     justify-content: center;
@@ -92,4 +92,75 @@
     font-weight: 700;
     line-height: 19px;
     color: #DAFF01;
+}
+@media (max-width: 1200px) {
+    .accordion__MainContainer{
+        width: 65%;
+    }
+}
+@media (max-width: 1024px) {
+    .creativity__Title{        
+        font-size: 60px;          
+        line-height: 60px;
+    }    
+    .creativity__Text{     
+        font-size: 24px;          
+        line-height: 25px;
+    }
+    .accordion__MainContainer{
+        width: 80%;
+    }
+}
+@media (max-width: 768px) {
+
+    .creativity__MainContainer{
+        padding: 10px;
+        width: 100%;
+    }
+    .creativity__Title{
+        font-size: 50px;  
+        line-height: 50px;
+    }  
+    .creativity__Text{        
+        font-size: 18px;          
+        line-height: 20px;
+    }
+    .creativity__LeftContainer{
+        flex: 0;        
+    }
+
+    /* Accordion */
+    .creativity__RightContainer{
+        width: 100%;                    
+        justify-content: flex-start;
+    }    
+    .serviceBadge__Text{
+        padding: 6px;        
+        width: 136px;
+        height: 29px;
+        font-family: "Archivo", sans-serif;
+        text-align: center;
+        font-size: 15px; 
+        font-weight: 400;   
+        line-height: 18px;    
+    }
+    .creativity__accordion-button{        
+        font-size: 22px;
+        font-weight: 400;
+    }
+    .creativity__Accordion-Btn{
+        background-color: #242424;
+        border-radius: 8px;           
+        height: 28px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;        
+    }
+    .creativity__Accordion-Btn-Text{        
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 16px;        
+    }
+
 }

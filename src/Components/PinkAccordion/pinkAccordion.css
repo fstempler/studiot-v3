@@ -1,0 +1,62 @@
+
+.pinkAccordion__MainContainer{
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(13, 109, 253, 0);
+    width: 60%;    
+    border-style: none;
+    border-radius: 25px;
+    margin: 20px 0;        
+}
+
+.pinkAccordion__accordion-button{
+    background-color: #FF90E8;
+    border-style: none;
+    box-shadow: none;
+    font-family: "Archivo", sans-serif;
+    font-size: 17px;
+    line-height: 18px;
+    font-weight: 700;    
+    height: 68px;
+}
+.pinkAccordion__accordion-button:not(.collapsed) {
+    color: #242424;
+    background-color: #FF90E8;
+    border-style: none;
+    box-shadow: none;       
+}
+.pinkAccordion__accordion-button::after{
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-plus-circle-fill' viewBox='0 0 16 16'%3E%3Cpath d='M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3z'/%3E%3C/svg%3E");
+}
+.pinkAccordion__accordion-button:not(.collapsed)::after{
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-dash-circle-fill' viewBox='0 0 16 16'%3E%3Cpath d='M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1z'/%3E%3C/svg%3E");
+}
+.pink__accordion-item{
+    background-color: #FF90E8;
+    border-style: none;
+}
+.pink__accordion-item, .pinkAccordion__accordion-button{
+    border-radius: 15px !important;
+}
+
+.pinkAccordion__Content{
+    color: #242424;    
+}
+@media (max-width: 1200px) {
+    .pinkAccordion__MainContainer{        
+        width: 80%;               
+    }
+    
+}
+@media (max-width: 1024px) {
+    .pinkAccordion__MainContainer{        
+        width: 100%;    
+            
+    }
+    
+}
+@media (max-width: 768px) {
+    .pinkAccordion__MainContainer{        
+        width: 50%;    
+            
+    }
+    
+}

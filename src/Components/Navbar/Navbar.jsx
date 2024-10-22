@@ -4,7 +4,8 @@ import logo from '../../assets/studiot-logo.svg'
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar__MainContainer fixed-top">
+        <div className='navbar__MainContainer'>
+        <nav className="navbar navbar-expand-lg navbar__Container fixed-top">
             <div className="container-fluid">
                 <a className="navbar-brand" href="#"><img src={logo} className='navbar__Logo' alt='Studio T Logo'/></a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,6 +36,7 @@ const Navbar = () => {
                 </div>
             </div>
         </nav>
+        </div>
     )
 }
 

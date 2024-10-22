@@ -1,6 +1,6 @@
 import './algorithmSection.css'
 //Images
-import dance from '../../assets/algorithm-dance.png'
+import dance from '../../assets/breakdance.gif'
 import computer from '../../assets/computer-1.png'
 
 const AlgorithmSection = () => {

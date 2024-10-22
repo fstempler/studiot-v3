@@ -1,0 +1,153 @@
+.servicesSection__MainContainer{
+    background-color: #282627;
+    width: 100%;
+    padding: 50px 100px;
+}
+.servicesSection__TitleContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.servicesSection__Title{
+    font-family: "DM Serif Text", serif;
+    font-size: 75px;
+    line-height: 102px;
+    color: #DAFF01;
+    margin-right: 50px;
+}
+.servicesSection__MiddleColumn-Content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-image: url(../../assets/spark-Big.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    height: 100%;    
+}
+.servicesSection__MiddleColumn-Title{
+    font-family: "Archivo", sans-serif;
+    font-size: 25px;
+    line-height: 27px;
+    font-weight: 700;
+    margin: 0 350px;
+}
+.servicesSection__ArrowRight{
+    rotate: 180deg;
+}
+.servicesSection__Logo-StudioT{
+    width: 100%;
+}
+.serviceSection__LogoContainer{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.servicesSection__RightList{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 100%;
+}
+.servicesSection__Logo-Taktical{
+    margin-top: 20px;
+    width: 100%;    
+}
+.rightList__Item{
+    display: flex;
+    justify-content: flex-end;
+}
+@media (max-width: 1440px) {
+    .servicesSection__MiddleColumn-Title{        
+        margin: 0 150px;
+    }
+    
+}
+@media (max-width: 1200px) {
+    .servicesSection__MiddleColumn-Title{        
+        margin: 0 110px;
+    }
+    
+}
+@media (max-width: 1024px) {
+    .servicesSection__MiddleColumn-Title{        
+        margin: 0 50px;
+    }
+    .servicesSection__MainContainer{
+        padding: 50px 50px;
+    }
+}
+@media (max-width: 768px) {
+    .servicesSection__MainContainer{        
+        padding: 50px 10px;
+    }
+    .servicesSection__TitleContainer{
+        margin-bottom: 50px;
+    }
+    .servicesSection__Title{     
+        font-size: 45px;
+        line-height: 55px;
+        margin: 0;        
+    }    
+    .servicesSection__MiddleColumn-Content{
+     background-size: contain;
+    }
+
+    /* Left Column */
+    .servicesSection__LeftList{
+        width: 100%;
+    }
+    .servicesSection__Logo-StudioT{
+        width: 50%;
+    }
+    .servicesSection__LeftColumn{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .leftList__Item{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    /* Middle Column */
+    .servicesSection__MiddleColumn{
+        width: 100%;
+    }
+    .servicesSection__MiddleColumn-Content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;        
+    }
+    .servicesSection__MiddleColumn-Title{        
+        font-size: 25px;
+        line-height: 27px;
+        font-weight: 700;
+        margin: 200px 0;
+    }
+    .servicesSection__ArrowLeft{
+        rotate: 90deg;
+    }
+    .servicesSection__ArrowRight{
+        rotate: 270deg;
+    }
+
+    /* Right Column */
+    .servicesSection__RightColumn{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .servicesSection__Logo-Taktical{
+        width: 60%;
+    }
+    .rightList__Item{
+        width: 100%;
+        justify-content: center;
+    }
+}
