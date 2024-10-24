@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 
 const Footer = () => {
     return (
-        <footer className='footer__MainContainer'>
+        <footer className='footer__MainContainer' id='footer'>
             <div className='footer__Container'>
                 <div className='row'>
                     <div className='col-12 col-sm-4 footer__LeftColumn'>

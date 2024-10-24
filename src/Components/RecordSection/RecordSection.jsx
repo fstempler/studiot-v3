@@ -7,7 +7,7 @@ import YellowCTA from '../yellowCTA/YellowCTA'
 
 const RecordSection = () => {
     return (
-        <section className='recordSection__MainContainer'>
+        <section className='recordSection__MainContainer' id='recordSection'>
             <div className='row recordSection__Row'>
                 <div className='col recordSecation__LeftColumn'>
                     <h2 className='recordSecation__Title'>

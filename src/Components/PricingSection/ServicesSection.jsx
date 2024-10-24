@@ -11,7 +11,7 @@ import PinkAccordion from '../PinkAccordion/PinkAccordion'
 const ServicesSection = () => {
     return (
         
-            <div className='servicesSection__MainContainer'>
+            <div className='servicesSection__MainContainer' id='pricingSection'>
                 <div className='servicesSection__TitleContainer'>
                     <h2 className='servicesSection__Title'>Our Services</h2>
                     <Link to={"pricing"}><YellowCTA text={"Contact For Pricing"} /></Link>

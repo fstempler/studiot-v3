@@ -19,7 +19,7 @@ import express from '../../assets/brands/express.png'
 
 const BrandSection = () => {
     return (
-        <div className='brandSection__MainContainer'>
+        <div className='brandSection__MainContainer active-background' id='brandSection'>
             <div className='brandSection__Title-Container container'>
                 <h2 className='brandSection__Title'>Top Brands, Bold Designs. We Deliver for the Best</h2>
             </div>

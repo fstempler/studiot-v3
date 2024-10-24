@@ -47,32 +47,32 @@
 /* Positioning Elements */
 .review-1 {
     top: 25%;
-    left: 35%;
+    left: 25%;
 }
 
 .review-2 {
     top: 40%;
-    left: 19%;
+    left: 12%;
 }
 
 .review-3 {
     bottom: 35%;
-    left: 16%;
+    left: 11%;
 }
 
 .review-4 {
     bottom: 18%;
-    left: 28%;
+    left: 20%;
 }
 
 .review-5 {
-    top: 32%;
-    right: 25%;
+    top: 28%;
+    right: 18%;
 }
 
 .review-6 {
     bottom: 35%;
-    right: 18%;
+    right: 12%;
 }
 
 .review-7 {
@@ -80,12 +80,12 @@
     right: 30%;
 }
 .emoji-1{
-    top: 13%;
-    left: 18%;
+    top: 5%;
+    left: 8%;
 }
 .emoji-2{
-    top: 15%;
-    right: 15%;
+    top: 8%;
+    right: 5%;
 }
 
 @media (max-width: 1440px) {

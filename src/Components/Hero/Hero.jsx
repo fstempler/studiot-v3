@@ -6,7 +6,7 @@ import ContactCTA from '../yellowCTA/YellowCTA.jsx'
 
 const Hero = () => {
     return (
-        <section className='hero__MainContainer'>
+        <section className='hero__MainContainer' id='heroSection'>
             <div className='container m-0'>
                 
                     <div className='hero__Title-Container'>

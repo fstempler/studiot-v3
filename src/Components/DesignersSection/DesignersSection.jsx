@@ -6,7 +6,7 @@ import Card from './DesignerSectionCard/DesignerSectionCard'
 
 const DesignersSection = () => {
     return (
-        <section className='designersSection__MainContainer'>
+        <section className='designersSection__MainContainer' id='designersSection'>
             <div className='designersSection__Container'>
                 <div className='row designersSection__Row'>
                     <div className='col-12 col-md-6 designersSection__LeftColumn'>
@@ -24,10 +24,10 @@ const DesignersSection = () => {
                                         <Card title={"Expert Designers at Your Fingertips"} text={"Work with top-tier talent experienced in advertising and marketing design. Our team knows what it takes to create visuals that captivate and convert."} />
                                     </div>
                                     <div className="carousel-item">
-                                        <Card title={"Expert Designers at Your Fingertips"} text={"Work with top-tier talent experienced in advertising and marketing design. Our team knows what it takes to create visuals that captivate and convert."} />
+                                        <Card title={"Lightning-Fast Turnaround"} text={"Get exceptional designs in record time. We work as fast as your business moves, without sacrificing quality or creativity."} />
                                     </div>
                                     <div className="carousel-item">
-                                        <Card title={"Expert Designers at Your Fingertips"} text={"Work with top-tier talent experienced in advertising and marketing design. Our team knows what it takes to create visuals that captivate and convert."} />
+                                        <Card title={"Flexible Subscriptions, Tailored to You"} text={"No long-term contracts, no surprises. Our flexible subscription plans let you scale your creative needs up or down to match your goals."} />
                                     </div>
                                   </div>
                                   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">

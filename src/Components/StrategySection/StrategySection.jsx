@@ -39,7 +39,7 @@ const responsive = {
 
 const StrategySection = () => {
   return (
-    <div className='strastegySection__MainContainer'>
+    <div className='strastegySection__MainContainer' id='strategySection'>
       <div className='strategySection__Content-Container'>
         <div className='strategySection__Title-Container'>
           <h2 className='strategySection__Title'>Your Strategy, Our Creativity</h2>
@@ -67,11 +67,10 @@ const StrategySection = () => {
           slidesToSlide={1} 
           infinite={true}
         >
-          <CarouselCard imgSrc={fahlo} Title={"Fahlo"} alt={"Fahlo Case Study"} />
-          <CarouselCard imgSrc={links} Title={"Links"} alt={"Links Case Study"} />
-          <CarouselCard imgSrc={joy} Title={"Joy Days"} alt={"Joy Days Case Study"} />
-          <CarouselCard imgSrc={fahlo2} Title={"Test"} alt={"Fahlo Case Study"} />
-          <CarouselCard imgSrc={amaran} Title={"Test"} alt={"Test Case Study"} />
+          <CarouselCard imgSrc={fahlo} Title={"Fahlo"} alt={"Fahlo Case Study"} isLarge={false}/>
+          <CarouselCard imgSrc={links} Title={"Links"} alt={"Links Case Study"} isLarge={true}/>
+          <CarouselCard imgSrc={joy} Title={"Joy Days"} alt={"Joy Days Case Study"} isLarge={false}/>
+          <CarouselCard imgSrc={fahlo2} Title={"Fahlo"} alt={"Fahlo Case Study"} isLarge={true}/>          
         </Carousel>
       </div>
       <div className='strategySection__Carousel-Container2'>
@@ -84,10 +83,11 @@ const StrategySection = () => {
           slidesToSlide={1} // Moves 1 item at a time
           infinite={true}
         >
-          <CarouselCard imgSrc={amaran} Title={"Amaran"} alt={"Amaran Case Study"} />
+          <CarouselCard imgSrc={fahlo4} Title={"Fahlo"} alt={"Test Case Study"} />
+          
           <CarouselCard imgSrc={lane} Title={"Lane-Eight"} alt={"Lane-Eight Case Study"} />
           <CarouselCard imgSrc={vella} Title={"Vella"} alt={"Vella Case Study"} />
-          <CarouselCard imgSrc={fahlo4} Title={"Fahlo"} alt={"Test Case Study"} />
+          <CarouselCard imgSrc={amaran} Title={"Amaran"} alt={"Amaran Case Study"} />
           <CarouselCard imgSrc={joy} Title={"Test"} alt={"Test Case Study"} />
         </Carousel>
       </div>

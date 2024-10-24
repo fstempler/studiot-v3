@@ -49,13 +49,22 @@
 }
 .algorithm__LeftImage{
     width: 100%;
+    margin-bottom: 50px;
+}
+.algorithm__RightColumn{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: right;
+    margin-bottom: -5px;
 }
 .algorithm__RightImageContainer{
     display: flex;
     justify-content: right;
+    align-items: flex-end;
 }
 .algorithm__RightImage{
-    width: 100%;
+    width: 100%;        
 }
 @media (max-width: 1440px) {        
     .algorithm__RightColumn{

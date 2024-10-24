@@ -28,6 +28,9 @@
     padding: 50px 100px;
     margin-top: 50px;
 }
+.active-background{
+    width: 100%;
+}
 @media (max-width: 1440px) {
     .brandSection__Title{                
         text-align: center;

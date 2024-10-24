@@ -53,11 +53,11 @@ div.highway-slider {
 
 @keyframes translateinfinite {
     0% { transform: translateX(0); }
-    100% { transform: translateX(calc(-200px * 24)); } 
+    100% { transform: translateX(calc(-50px * 48)); } 
 }
 #infinite-left div.highway-barrier ul.highway-lane {
     display: flex;
-    width: 100%; 
+    width: 300%; 
 }
 
 #infinite-left div.highway-barrier ul.highway-lane li.highway-car {

@@ -3,6 +3,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     padding: 100px;
+    position: relative;
 }
 .successSection__Content-Title{
     font-family: "DM Serif Text", serif;
@@ -20,9 +21,16 @@
 }
 .successSection__FireEmoji-Container{
     position: absolute;
-    z-index: 900;
-    left: 12%;
-    top: 995vh;
+    max-width: 366px;    
+    z-index: 800; 
+}
+.successSection__FireEmoji-Container img {
+    width: 100%;
+    height: auto;
+}
+.successSection__FireEmoji-1{
+    bottom:15%;
+    left: 1%;
 }
 /* Tablet */
 @media (max-width: 1440px) {

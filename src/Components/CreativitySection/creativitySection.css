@@ -93,6 +93,13 @@
     line-height: 19px;
     color: #DAFF01;
 }
+.accordion-button:not(.collapsed) {
+    color: #242424;
+}
+.creativity__accordion-button, .creativity__accordion-item{
+    border-radius: 24px !important;
+}
+
 @media (max-width: 1200px) {
     .accordion__MainContainer{
         width: 65%;

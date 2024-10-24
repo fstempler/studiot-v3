@@ -5,7 +5,7 @@ import computer from '../../assets/computer-1.png'
 
 const AlgorithmSection = () => {
     return (
-        <div className='algorithm__MainContainer'>
+        <div className='algorithm__MainContainer' id='algorithmSection'>
             <div className='row m-0'>
                 <div className='col-12 col-md-5 algorithm__LeftColumn'>
                     <h2 className='algorithm__Title'>LET'S BREAK</h2>

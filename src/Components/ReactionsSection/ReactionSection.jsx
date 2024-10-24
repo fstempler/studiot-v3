@@ -12,7 +12,7 @@ import review7 from '../../assets/review7.png'
 
 const ReactionSection = () => {
     return (
-        <section className='reactionSection__MainContainer'>
+        <section className='reactionSection__MainContainer' id='reactionSection'>
             <div className='reactionSection__TitleContainer'>
                 <h2 className='reactionSection__Title'>Real-time <br />Reaction</h2>                
             </div>

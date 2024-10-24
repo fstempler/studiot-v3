@@ -2,7 +2,7 @@ import './creativitySection.css'
 
 const CreativitySection = () => {
     return(
-        <section className='creativity__MainContainer'>
+        <section className='creativity__MainContainer' id='creativitySection'>
             <div className="container p-0 m-0">
                 <div className="row">
                     <div className='col creativity__LeftContainer'>
