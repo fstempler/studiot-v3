@@ -2,15 +2,68 @@ import './servicesSection.css'
 //Images
 import studioTLogo from '../../assets/studiot-logo.svg'
 import takticalLogo from '../../assets/Taktical-Logo-White.png'
-import servicesArrow from '../../assets/services-arrow.svg'
+import studioTLogoBlack from '../../assets/studioT-logo-black.png'
+import takticalLogoBlack from '../../assets/taktical-logo-black.png'
+
 //components
 import YellowCTA from '../yellowCTA/YellowCTA'
 import { Link } from 'react-router-dom'
 import PinkAccordion from '../PinkAccordion/PinkAccordion'
+import PinkBtn from '../PinkBtn/PinkBtn'
+import Popup from '../ServicePopup/ServicePopup'
+import { useState } from 'react'
+import ServicePopup from '../ServicePopup/ServicePopup'
 
-const ServicesSection = () => {
+
+   
+const ServicesSection = () => {    
+    const [isPopupOpen, setIsPopupOpen] = useState(false)
+    const [popupContent, setPopupContent] = useState({ title: '', img: {}, alt: '' })
+
+    const handleOpenPopup = (content) => {
+        setPopupContent(content);
+        setIsPopupOpen(true);
+    };
+
+    const handleClosePopup = () => {
+        setIsPopupOpen(false);
+    };
+
+    const [isPopupOpen2, setIsPopupOpen2] = useState(false)
+    const [popupContent2, setPopupContent2] = useState({ title: '', img: {}, alt: '' })
+
+    const handleOpenPopup2 = (content) => {
+        setPopupContent2(content);
+        setIsPopupOpen2(true);
+    };
+
+    const handleClosePopup2 = () => {
+        setIsPopupOpen2(false);
+    };
+
+    const accordionData1 = [
+        { id:1, title:'On-Demand Design', content:'Lorem' },
+        { id:2, title:'Blog Content', content:'Lorem' },
+        { id:3, title:'Ad Creative Copy', content:'Lorem' },
+        { id:4, title:'Landing Pages', content:'Lorem' },
+        { id:5, title:'AI imagery', content:'Lorem' },
+        { id:6, title:'Presentation Design', content:'Lorem' },
+        { id:7, title:'Photo / Video Production', content:'Lorem' },
+        { id:8, title:'Email Design', content:'Lorem' }
+    ];
+
+    const accordionData2 = [
+        { id:1, title:'Paid Social Media', content:'Lorem' },
+        { id:2, title:'Search Engine Marketing', content:'Lorem' },
+        { id:3, title:'SEO', content:'Lorem' },
+        { id:4, title:'Organic Social', content:'Lorem' },
+        { id:5, title:'Conversion Rate Optimization', content:'Lorem' },
+        { id:6, title:'Marketplaces', content:'Lorem' },
+        { id:7, title:'Marketplaces', content:'Lorem' }        
+    ]
+
     return (
-        
+        <>
             <div className='servicesSection__MainContainer' id='pricingSection'>
                 <div className='servicesSection__TitleContainer'>
                     <h2 className='servicesSection__Title'>Our Services</h2>
@@ -33,12 +86,12 @@ const ServicesSection = () => {
                             </div>
 
                         </div>
-                        <div className='col-12 col-md-6 servicesSection__MiddleColumn'>
-                            <div className='servicesSection__MiddleColumn-Content'>
-                                <img className='servicesSection__ArrowLeft' src={servicesArrow} alt='Arrow' />
-                                <h2 className='servicesSection__MiddleColumn-Title'>Brandformance</h2>
-                                <img className='servicesSection__ArrowRight' src={servicesArrow} alt='Arrow' />
+                        <div className='col-12 col-md-6 servicesSection__MiddleColumn'>                         
+
+                            <div className='image-swap-container'>
+                                <div className='image-swap'></div>
                             </div>
+                            
                         </div>
                         <div className='col-12 col-md-3 servicesSection__RightColumn' id="accordionGroup2">                            
                             <div className='servicesSection__RightList'>
@@ -56,6 +109,54 @@ const ServicesSection = () => {
                 </div>
                 
             </div>
+
+            {/* // CELPHONE */}
+            <div className='services__Section-Cel'>
+                <div className='services__SectionCel-Title-Container'>
+                    <h2 className='services__SectionCel-Title'>Our Services</h2>
+                </div>
+                
+                <div className='services__SectionCel-Btn-Container'>
+                    <YellowCTA text={"Contact For Pricing"} />
+                </div>
+
+                <div className='services__SectionCel-PinkBtn-Container' onClick={ () => handleOpenPopup({ title: 'Services', img: studioTLogo, alt: 'Studio T Logo' })}>
+                    <PinkBtn img={studioTLogoBlack} alt={"Studio T Logo"}/>
+                </div>
+                
+                {isPopupOpen  && (
+                    <ServicePopup
+                        title={popupContent.title}
+                        img={popupContent.img}
+                        alt={popupContent.alt}
+                        accordionData={accordionData1}
+                        onClose={handleClosePopup}
+                    />
+                )}
+
+                
+                <div className='image-swap-container-cel'>
+                    <div className='image-swap-cel'></div>
+                </div>
+
+                
+
+                <div className='services__SectionCel-PinkBtn-Container' onClick={ () => handleOpenPopup2({ title: 'Services', img: takticalLogo, alt: 'Studio T Logo' })}>
+                    <PinkBtn img={takticalLogoBlack} alt={"Studio T Logo"}/>
+                </div>
+
+                {isPopupOpen2  && (
+                    <ServicePopup
+                        title={popupContent2.title}
+                        img={popupContent2.img}
+                        alt={popupContent2.alt}
+                        accordionData={accordionData2}
+                        onClose={handleClosePopup2}
+                    />
+                )}
+                
+            </div>
+        </>
         
     )
 }

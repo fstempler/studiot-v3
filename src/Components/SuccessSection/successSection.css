@@ -13,11 +13,34 @@
     text-align: center;
 }
 .successSection__Content-CardsContainer{
-    margin: 100px;
+    margin: 80px;
     display: flex;
     justify-content: center;
+    align-items: center;    
+    flex-direction: column;
+}
+
+.successSection__Carousel-Container{
+    position: relative;
+    display: flex;
     align-items: center;
-    gap: 20px;
+    width: 100%;
+}
+.successSection__Carousel-Track{
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
+.carousel__BtnContainer{
+    display: flex;
+    gap: 80px;
+}
+.carousel__Btn{
+    background-color: #93A2FD;
+    border: none;
+} 
+.carousel__Btn--Right{
+    rotate: 180deg;
 }
 .successSection__FireEmoji-Container{
     position: absolute;
@@ -60,8 +83,7 @@
         line-height: 60px;
     }
     .successSection__Content-CardsContainer{
-        margin: 10px;
-        flex-direction: row;        
+        margin: 10px;                
         gap: 20px;
         padding: 10px;
     }    
@@ -92,5 +114,15 @@
     }
     .successSection__FireEmoji-Container{
         display: none;
+    }
+}
+@media (max-width: 576px) {
+    .successSection__Carousel-Track {
+        display: flex;
+        overflow: hidden;
+        width: 100%; /* Ajusta el ancho del contenedor */
+    }
+    .successCard__Container {
+        width: 100%; /* Ocupa el ancho completo en pantallas pequeñas */
     }
 }

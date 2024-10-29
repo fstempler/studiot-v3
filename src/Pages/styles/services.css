@@ -1,0 +1,15 @@
+.services__MainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DAFF01;
+    height: 100vh;
+    
+}
+
+.services__Title{
+    font-family: "DM Serif Text", serif;
+    color: #242424;
+    font-size: 90px;
+    font-weight: 900;
+}

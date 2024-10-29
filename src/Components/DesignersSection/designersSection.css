@@ -75,25 +75,24 @@
 }
 @media (max-width: 768px) {
     .designersSection__MainContainer{
-        background-position: center;
+        background-position: right;
         height: 80vh;
-    }
+        padding: 0;        
+    }    
     .designersSection__RightColumn{
         height: 80vh;       
     }
     .designersSection__ImageContainer{        
-        margin-left: 100px;
-        margin-top: -55rem;
+        display: none;
     }   
     .designersSection__Image{
         width: 70%;
     }
-    
-}
-@media (max-width: 576px) {
-    .designersSection__MainContainer{
-        background-position: right;        
+    .carousel-control-prev-icon{
+        display: flex;
+        background-image: url(../../assets/services-arrow.svg);    
     }
-    
-    
+    .designersSection__ContentContainer{
+        width: 100%;        
+    }
 }

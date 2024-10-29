@@ -11,9 +11,6 @@ nav{
     background-color: #2424244d;
     backdrop-filter: blur(5px);
 }
-.active-background{
-    width: 100%;
-}
 .navbar__Container{
     padding: 15px 45px;    
 }
@@ -31,7 +28,7 @@ nav{
     font-weight: 400;
     font-size: 25px;
     align-self: center;
-    transition: all 0.35s ease-out;
+    transition: all 0.35s ease-out;    
 }
 .contactusbtn:hover{
     background-color: #242424;    
@@ -39,15 +36,19 @@ nav{
     border: 1px solid #DAFF01;
 }
 
+
 @media (max-width: 768px) {
     nav{
-        margin: 5px;        
+        margin: 15px;        
+    }
+    .navbar__Container{
+        padding: 15px;
     }
     .navbar__Logo{
-        width: 50%;
+        width: 100%;
     }
     .navbar__MainContainer {
-        padding: 10px 5px;
+        padding: 0;
     }
     
     .nav-link {

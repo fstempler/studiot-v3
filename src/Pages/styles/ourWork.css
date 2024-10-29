@@ -1,0 +1,14 @@
+.ourWork__MainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF90EB;
+    height: 100vh;
+    color: #242424;
+}
+.ourWork__Title{
+    font-family: "DM Serif Text", serif;
+    color: #242424;
+    font-size: 90px;
+    font-weight: 900;
+}

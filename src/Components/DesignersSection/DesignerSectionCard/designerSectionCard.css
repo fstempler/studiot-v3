@@ -27,13 +27,18 @@
 }
 @media (max-width: 768px) {    
     .designersSectionCard__Container{
-        padding: 40px;    
+        padding: 0px; 
+        width: 100%;   
     }
     .designersSectionCard__Title{        
-        font-size: 45px;
-        line-height: 45px;
+        font-size: 40px;
+        line-height: 38px;
+        text-align: center;
+        padding: 0 45px;
+        margin-top: 100px;
     }
     .designersSectionCard__Text{
         font-size: 18px;
+        text-align: center;
     }
 }

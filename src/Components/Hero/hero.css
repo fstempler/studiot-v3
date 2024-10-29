@@ -6,6 +6,10 @@
     height: 110vh;
     margin-top: -90px;
 }
+
+.active-background{
+    background-color: #ffffff00;
+}
 .hero__Title-Container{    
     margin-top: 50px;
     padding-right: 500px;
@@ -35,12 +39,27 @@
     }
 }
 @media (max-width: 768px) {
+    .hero__MainContainer{
+        padding: 0;
+    }
     .hero__Title-Container{    
         margin-top: 50px;
-        padding-right: 0;
+        padding-right: 0;       
+        padding: 0 15px; 
+        width: 100%;
     }
     .hero__Title{        
-        font-size: 45px;        
+        font-size: 50px;        
         margin-top: 300px;
+        text-align: center;
+        font-weight: 400;
+        line-height: 48px;
+        padding: 0 20px;
+    }
+    .hero__Btn-Container{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        padding: 0 20%;
     }
 }

@@ -2,17 +2,27 @@
     width: auto;    
     border-radius: 22px;
     border: 1px solid #000;        
+    transition: all 0.5s ease-in-out;
+}
+.carouselCard__MainContainer:hover{
+    filter: drop-shadow(5px 5px 5px #0000003a);  
+    -webkit-transform: scale(1.05);  
+    transform: scale(1.05);
 }
 .carouselCard__ImgContainer{
     width: 100%;
     height: 400px;
-    overflow: hidden;    
+    overflow: hidden;   
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    border-radius: 22px;
 }
 .carouselCard__Img{
     width: 100%;   
-    height: 439px; 
-    border-radius: 22px 22px 0 0;
-    border-bottom: solid 1px #000;       
+    height: 100%;
+    border-radius: 22px 22px 0 0;    
+    object-fit: fill;       
 }
 .small .carouselCard__MainContainer {
     width: 370px;
@@ -27,9 +37,18 @@
     line-height: 27px;
 }
 
-/* @media (max-width: 1200px) {
-    .carouselCard__Img{        
-        height: 267px;
-        width: auto;        
+
+@media (max-width: 768px) {
+    .carouselCard__ImgContainer{
+        height: 100%;
     }
-} */
+    .carouselCard__Img{        
+        height: 239px; 
+    }
+    .small .carouselCard__MainContainer {
+        width: 170px;
+    }
+    .large .carouselCard__MainContainer {
+        width: 344px;    
+    }
+}

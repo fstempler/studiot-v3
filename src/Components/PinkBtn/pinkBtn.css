@@ -1,0 +1,12 @@
+.pinkBtn__Container{
+    background-color: #FF90E8;
+    width: 100%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;    
+}
+.pinkBtn__Icon{
+    font-size: 24px;
+}

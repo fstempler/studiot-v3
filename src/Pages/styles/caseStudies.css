@@ -1,0 +1,14 @@
+.caseStudies__MainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #93A2FD;
+    height: 100vh;
+    color: #242424;
+}
+.caseStudies__Title{
+    font-family: "DM Serif Text", serif;
+    color: #242424;
+    font-size: 90px;
+    font-weight: 900;
+}

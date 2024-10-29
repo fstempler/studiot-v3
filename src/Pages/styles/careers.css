@@ -1,0 +1,14 @@
+.careers__MainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282627;
+    height: 100vh;
+    color: #242424;
+}
+.careers__Title{
+    font-family: "DM Serif Text", serif;
+    color: #DAFF01;
+    font-size: 90px;
+    font-weight: 900;
+}

@@ -3,7 +3,8 @@
     width: 372px;
     height: 400px;
     border-radius: 22px;
-    transition: ease .3s;
+    transition: transform .3s ease-in-out;
+    margin: 10px;
 }
 .successCard__Container:hover{
     background-color: #DAFF01;        
@@ -71,5 +72,10 @@
     }
     .succesCard__Image{
         width: 50%;
+    }
+}
+@media (max-width: 576px) {
+    .successCard__Container {
+        min-width: 31%; /* Mostrar una tarjeta en pantallas pequeñas */
     }
 }

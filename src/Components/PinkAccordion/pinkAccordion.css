@@ -55,8 +55,8 @@
 }
 @media (max-width: 768px) {
     .pinkAccordion__MainContainer{        
-        width: 50%;    
-            
-    }
+        width: 90%; 
+        margin: 10px;             
+    }    
     
 }

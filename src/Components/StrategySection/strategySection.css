@@ -1,6 +1,7 @@
-.strastegySection__MainContainer{
+.strategySection__MainContainer{
     background-color: #FFFEF6;    
-    width: 100%;
+    width: 100%;        
+    height: auto;
 }
 .strategySection__Content-Container{
     background-image: url(../../assets/gradientBg.png);
@@ -32,17 +33,46 @@
     line-height: 33px;
     text-align: center;    
 }
-.strategySection__Carousel-Container{
-    padding: 50px 0;    
+
+/* Carousel */
+.strategySection__CarouselContainer{
+    height: 600px;
+    position: relative;
 }
-.react-multi-carousel-item{
+.carousel-container{
+    overflow: hidden;
+    position: relative;
+    height: 600px;
+    width: 100%;
+}
+.carousel-track{
     display: flex;
+    position: absolute;
+    left: 0;
     justify-content: center;
+    align-items: center;
+    height: 80px;
+    gap: 30px;
+    width: 600%;
+    height: 500px;
+    animation: slide 20s linear infinite;
+    &:hover {
+        animation-play-state: paused;
+    }
 }
-.strategySection__Carousel-Container2{    
-    padding: 50px 0;
-    padding-bottom: 150px;
+.carousel-reverse{    
+    animation: slide 20s linear infinite reverse;    
 }
+
+@keyframes slide {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: -100%;
+    }
+}
+
 
 @media (max-width: 1440px) {
     .strategySection__Title{
@@ -51,15 +81,14 @@
     .strategySection__Text-Container{         
         padding: 20px 250px;        
     }
-    .react-multi-carousel-track{
-        gap: 20px;
+    .carousel-track{        
+        width: 1100%;        
     }
-    .strategySection__Carousel-Container{
-        padding: 0;    
-    }
-    .strategySection__Carousel-Container2{
-        padding: 40px 0;    
-        
+}
+
+@media (max-width: 1200px) {    
+    .carousel-track{        
+        width: 1200%;        
     }
 }
 
@@ -70,11 +99,15 @@
     .strategySection__Text-Container{         
         padding: 20px 250px;        
     }
+    .carousel-track{        
+        width: 1400%;        
+    }
 }
 @media (max-width: 768px) {
     .strastegySection__MainContainer{
-        background: radial-gradient(circle at center top, #EBFF7D, #FFFEF6);       
-    }
+        background: radial-gradient(circle at center top, #EBFF7D, #FFFEF6);    
+        height: 100%;
+    }    
     .strategySection__Title{        
         font-size: 40px;        
         line-height: 40px;        
@@ -91,4 +124,23 @@
         padding: 20px 20px;
         margin-left: 0px;
     }
+    .strategySection__CarouselContainer{
+        height: 300px;        
+    }
+    .carousel-container{
+        height: 300px;
+    }    
+    .carousel-track{    
+        height: 100%;    
+        width: 1000%;  
+        gap: 5px;      
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-track{    
+        height: 100%;    
+        width: 1500%;  
+        gap: 5px;      
+    }   
 }

@@ -1,0 +1,43 @@
+.contact__MainContainer{
+    background-color: #FFFEF6;    
+    background-image: url(../../assets/gradientBg.png);
+    background-position: center;
+    background-repeat: no-repeat; 
+    width: 100%;
+    padding: 50px 100px;
+}
+.contact__Title-Container{    
+    width: 100%;
+    height: auto;    
+}
+.contact__Title{
+    font-family: "DM Serif Text", serif;
+    font-size: 48px;
+    line-height: 56px;
+    color: #242424;
+    text-align: center;
+}
+.contact__Text-Container{
+    width: 100%;
+    height: auto;    
+}
+.contact__Text{
+    font-family: "Archivo", sans-serif;
+    color: #242424;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+}
+.contact__Form-Container{
+    width: 100%;
+    padding: 50px;
+}
+.active-background{
+    background-color: #ffffff00;
+}
+.hs-form-required{
+    color: #242424;
+}
+.expand-container{
+    height: 100px;
+}

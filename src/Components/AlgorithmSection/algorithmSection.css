@@ -9,48 +9,36 @@
 .algorithm__Title{
     font-family: "Archivo", sans-serif;
     color: #93A2FD;
-    font-size: 122px;
-    line-height: 100px;
-    font-weight: 900;
+    font-size: 82px;
+    line-height: 78px;
+    font-weight: 800;
 }
-.share__BadgeContainer, .love__BadgeContainer{
-    display: flex;
-    justify-content: end;
+.algorithm__Title-Cel{
+    display: none;
 }
-.share__Badge{
-    background-color: #FF45C7;
-    width: 157px;
-    border-radius: 25px;
-    text-align: center;
-    font-family: "Archivo", sans-serif;
-    font-size: 25px;
-    font-weight: 700;
-    transform: rotate(10deg); 
-    display: inline-block; 
+.algorithm__SubTitleContainer-cel{
+    display: none;
 }
-.algorithm__SubTitle{
-    font-family: "Archivo", sans-serif;
+.algorithm__SubTitle-cel{
+    display: none;
+}
+.algorithm__Title-Color{
     color: #FF45C7;
-    font-size: 50px;
-    line-height: 55px;
-    font-weight: 900;
 }
 
-.love__Badge{
-    background-color: #DAFF01;
-    width: 157px;
-    border-radius: 25px;
-    text-align: center;
+.algorithm__SubTitle{
     font-family: "Archivo", sans-serif;
-    font-size: 25px;
-    font-weight: 700;
-    transform: rotate(-10deg); 
-    display: inline-block; 
+    color: #93A2FD;
+    font-size: 82px;
+    line-height: 78px;
+    font-weight: 800;
 }
-.algorithm__LeftImage{
-    width: 100%;
-    margin-bottom: 50px;
+
+.algorithm__LeftImageContainer{
+    margin-top: 40px;
+    padding-right: 70px;
 }
+
 .algorithm__RightColumn{
     display: flex;
     margin: 0;
@@ -93,30 +81,53 @@
     }   
 }
 @media (max-width: 768px) {    
+
     .algorithm__LeftColumn{                
         display: flex;
         justify-content: center;
         flex-direction: column; 
-        padding: 20px;       
+        padding: 10px;       
+    }
+    .algorithm__RightColumn{                
+        display: flex;
+        justify-content: center;
+        flex-direction: column; 
+        padding: 10px;       
     }
     .algorithm__Title{        
-        font-size: 52px;
-        line-height: 52px;
-        font-weight: 900;
+        font-size: 50px;
+        line-height: 48px;
+        font-weight: 800;
+        text-align: center;
+        display: none;
+    }    
+        
     }
-    .algorithm__SubTitle{     
-        font-size: 25px;
-        line-height: 30px;        
+    .algorithm__Cel-Title{        
+        font-family: "Archivo", sans-serif;
+        color: #93A2FD;
+        font-size: 40px;
+        line-height: 48px;
+        font-weight: 800;
+        text-align: center;
+    }
+    .algorithm__SubTitleContainer-cel{
+        display: flex;
+    }    
+    .algorithm__SubTitle{             
+        display: none;
     }  
-    .share__Badge{        
-        width: 100px;        
-        font-size: 18px;
-    }
-    .love__Badge{        
-        width: 100px;        
-        font-size: 18px;        
+    .algorithm__LeftImageContainer{
+        margin-top: 40px;
+        padding-right: 0;
+        
     }
     .algorithm__RightColumn{
-        padding: 0;
+        padding: 0;        
     }
-}
+    .algorithm__RightImageContainer{     
+        justify-content: center;
+        align-items: center; 
+        flex-direction: column;               
+    }
+    

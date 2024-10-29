@@ -1,5 +1,6 @@
 .creativity__MainContainer{
     background-color: #FFFEF6;
+    padding: 0 100px;    
 }
 .creativity__TitleContainer{
     padding-top: 100px;    
@@ -24,14 +25,28 @@
     background-image: url(../../assets/spark-bg.png);
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: right;
     display: flex;
     justify-content: end;
     align-items: flex-end;
+    height: auto;
+}
+.creativity__Row{
+    height: 100%;
+}
+.creativity__AccordionContainer-CelMain{
+    display: none;
+}
+.creativity__AccordionContainer-cel{
+    display: none;
+}
+.creativity__TextContainer-cel{
+    display: none;
 }
 
 /* Accordion */
 .creativity__AccordionContainer{
-    width: 100%;
+    width: 70%;
     display: flex;
     justify-content: flex-end;
 }
@@ -99,7 +114,12 @@
 .creativity__accordion-button, .creativity__accordion-item{
     border-radius: 24px !important;
 }
-
+@media (min-width: 1980px) {
+    .creativity__MainContainer{
+        width: auto;
+        height: 80vh;
+    }
+}
 @media (max-width: 1200px) {
     .accordion__MainContainer{
         width: 65%;
@@ -121,25 +141,56 @@
 @media (max-width: 768px) {
 
     .creativity__MainContainer{
-        padding: 10px;
+        padding: 0;
+        width: 100%;
+    }
+    .creativity__Row{
         width: 100%;
     }
     .creativity__Title{
-        font-size: 50px;  
-        line-height: 50px;
+        font-size: 40px;  
+        line-height: 39px;
+        text-align: center;
     }  
     .creativity__Text{        
         font-size: 18px;          
-        line-height: 20px;
+        line-height: 20px;        
     }
     .creativity__LeftContainer{
-        flex: 0;        
+        width: 100%;  
+        padding: 0;      
+    }
+
+    .creativity__TextContainer{
+        display: none;
+    }
+    .creativity__AccordionContainer{
+        display: none;
+    }
+    .creativity__AccordionContainer-CelMain{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        background-image: url(../../assets/spark-bg.png);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 600px;
+    }
+    .creativity__AccordionContainer-cel{
+        display: flex;     
+        margin-top: 350px;   
+    }
+    .creativity__TextContainer-cel{
+        display: flex;
+        padding-bottom: 90px;
     }
 
     /* Accordion */
     .creativity__RightContainer{
         width: 100%;                    
         justify-content: flex-start;
+        background-image: none;
     }    
     .serviceBadge__Text{
         padding: 6px;        

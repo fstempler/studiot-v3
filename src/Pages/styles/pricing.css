@@ -1,0 +1,14 @@
+.pricing__MainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #242424;
+    height: 100vh;
+    color: #242424;
+}
+.pricing__Title{
+    font-family: "DM Serif Text", serif;
+    color: #93A2FD;
+    font-size: 90px;
+    font-weight: 900;
+}

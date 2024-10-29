@@ -9,14 +9,14 @@ const RecordSection = () => {
     return (
         <section className='recordSection__MainContainer' id='recordSection'>
             <div className='row recordSection__Row'>
-                <div className='col recordSecation__LeftColumn'>
+                <div className='col-12 col-md-6 recordSecation__LeftColumn'>
                     <h2 className='recordSecation__Title'>
                         Record highs of our hook rate  average  
                     </h2>
                 </div>
-                <div className='col recordSecation__RightColumn'>
+                <div className='col-12 col-md-6 recordSecation__RightColumn'>
                     <div className='rightColumn__BtnContainer'>
-                       <YellowCTA text={"Talk To Us"}/>
+                       {/* <YellowCTA text={"Talk To Us"}/> */}
                     </div>
                     <h2 className='recordSecation__Number'>
                         80%  

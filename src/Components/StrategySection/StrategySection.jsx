@@ -14,32 +14,12 @@ import lane from '../../assets/cs-lane.gif';
 
 //Components
 import CarouselCard from './CarouselCard/CarouselCard';
-import Carousel from 'react-multi-carousel';
-import 'react-multi-carousel/lib/styles.css';
 
-const responsive = {
-  superLargeDesktop: {
-    // For screens larger than 4000px
-    breakpoint: { max: 4000, min: 3000 },
-    items: 3,
-  },
-  desktop: {
-    breakpoint: { max: 3000, min: 1024 },
-    items: 3, // Number of visible items
-  },
-  tablet: {
-    breakpoint: { max: 1024, min: 464 },
-    items: 2,
-  },
-  mobile: {
-    breakpoint: { max: 464, min: 0 },
-    items: 1,
-  },
-};
+
 
 const StrategySection = () => {
   return (
-    <div className='strastegySection__MainContainer' id='strategySection'>
+    <div className='strategySection__MainContainer' id='strategySection'>
       <div className='strategySection__Content-Container'>
         <div className='strategySection__Title-Container'>
           <h2 className='strategySection__Title'>Your Strategy, Our Creativity</h2>
@@ -57,40 +37,97 @@ const StrategySection = () => {
           </h2>
         </div>
       </div>
-      <div className='strategySection__Carousel-Container'>
-        <Carousel
-          responsive={responsive}
-          swipeable={true}
-          draggable={true}
-          showDots={false}
-          arrows={true}
-          slidesToSlide={1} 
-          infinite={true}
-        >
-          <CarouselCard imgSrc={fahlo} Title={"Fahlo"} alt={"Fahlo Case Study"} isLarge={false}/>
-          <CarouselCard imgSrc={links} Title={"Links"} alt={"Links Case Study"} isLarge={true}/>
-          <CarouselCard imgSrc={joy} Title={"Joy Days"} alt={"Joy Days Case Study"} isLarge={false}/>
-          <CarouselCard imgSrc={fahlo2} Title={"Fahlo"} alt={"Fahlo Case Study"} isLarge={true}/>          
-        </Carousel>
-      </div>
-      <div className='strategySection__Carousel-Container2'>
-        <Carousel
-          responsive={responsive}
-          swipeable={true}
-          draggable={true}
-          showDots={false}
-          arrows={true}
-          slidesToSlide={1} // Moves 1 item at a time
-          infinite={true}
-        >
-          <CarouselCard imgSrc={fahlo4} Title={"Fahlo"} alt={"Test Case Study"} />
-          
-          <CarouselCard imgSrc={lane} Title={"Lane-Eight"} alt={"Lane-Eight Case Study"} />
-          <CarouselCard imgSrc={vella} Title={"Vella"} alt={"Vella Case Study"} />
-          <CarouselCard imgSrc={amaran} Title={"Amaran"} alt={"Amaran Case Study"} />
-          <CarouselCard imgSrc={joy} Title={"Test"} alt={"Test Case Study"} />
-        </Carousel>
-      </div>
+
+      <div className='strategySection__CarouselContainer'>
+          <div className='carousel-container'>
+            <div className='carousel-track'>
+              <CarouselCard imgSrc={fahlo}  alt={"Fahlo Case Study"} />
+              <CarouselCard imgSrc={links}  alt={"Links Case Study"} />
+              <CarouselCard imgSrc={joy} alt={"Joy Days Case Study"} />
+              <CarouselCard imgSrc={fahlo2}  alt={"Fahlo Case Study"} />
+
+              <CarouselCard imgSrc={fahlo}  alt={"Fahlo Case Study"} />
+              <CarouselCard imgSrc={links}  alt={"Links Case Study"} />
+              <CarouselCard imgSrc={joy} alt={"Joy Days Case Study"} />
+              <CarouselCard imgSrc={fahlo2}  alt={"Fahlo Case Study"} />
+
+              <CarouselCard imgSrc={fahlo}  alt={"Fahlo Case Study"} />
+              <CarouselCard imgSrc={links}  alt={"Links Case Study"} />
+              <CarouselCard imgSrc={joy} alt={"Joy Days Case Study"} />
+              <CarouselCard imgSrc={fahlo2}  alt={"Fahlo Case Study"} />
+
+              <CarouselCard imgSrc={fahlo}  alt={"Fahlo Case Study"} />
+              <CarouselCard imgSrc={links}  alt={"Links Case Study"} />
+              <CarouselCard imgSrc={joy} alt={"Joy Days Case Study"} />
+              <CarouselCard imgSrc={fahlo2}  alt={"Fahlo Case Study"} />
+
+              <CarouselCard imgSrc={fahlo}  alt={"Fahlo Case Study"} />
+              <CarouselCard imgSrc={links}  alt={"Links Case Study"} />
+              <CarouselCard imgSrc={joy} alt={"Joy Days Case Study"} />
+              <CarouselCard imgSrc={fahlo2}  alt={"Fahlo Case Study"} />
+
+              <CarouselCard imgSrc={fahlo}  alt={"Fahlo Case Study"} />
+              <CarouselCard imgSrc={links}  alt={"Links Case Study"} />
+              <CarouselCard imgSrc={joy} alt={"Joy Days Case Study"} />
+              <CarouselCard imgSrc={fahlo2}  alt={"Fahlo Case Study"} />
+
+              <CarouselCard imgSrc={fahlo}  alt={"Fahlo Case Study"} />
+              <CarouselCard imgSrc={links}  alt={"Links Case Study"} />
+              <CarouselCard imgSrc={joy} alt={"Joy Days Case Study"} />
+              <CarouselCard imgSrc={fahlo2}  alt={"Fahlo Case Study"} />
+
+            </div>
+          </div>
+      </div> 
+      <div className='strategySection__CarouselContainer'>
+          <div className='carousel-container'>
+            <div className='carousel-track carousel-reverse'>
+              
+              <CarouselCard imgSrc={vella} alt={"Links Case Study"} />
+              <CarouselCard imgSrc={amaran} alt={"Joy Days Case Study"} />
+              <CarouselCard imgSrc={fahlo4} alt={"Fahlo Case Study"} />
+              <CarouselCard imgSrc={lane} alt={"Lane Case Study"} />
+
+              
+              <CarouselCard imgSrc={vella} alt={"Links Case Study"} />
+              <CarouselCard imgSrc={amaran} alt={"Joy Days Case Study"} />
+              <CarouselCard imgSrc={fahlo4} alt={"Fahlo Case Study"} />
+              <CarouselCard imgSrc={lane} alt={"Lane Case Study"} />
+
+              
+              <CarouselCard imgSrc={vella} alt={"Links Case Study"} />
+              <CarouselCard imgSrc={amaran} alt={"Joy Days Case Study"} />
+              <CarouselCard imgSrc={fahlo4} alt={"Fahlo Case Study"} />
+              <CarouselCard imgSrc={lane} alt={"Lane Case Study"} />
+
+              
+              <CarouselCard imgSrc={vella} alt={"Links Case Study"} />
+              <CarouselCard imgSrc={amaran} alt={"Joy Days Case Study"} />
+              <CarouselCard imgSrc={fahlo4} alt={"Fahlo Case Study"} />
+              <CarouselCard imgSrc={lane} alt={"Lane Case Study"} />
+
+              
+              <CarouselCard imgSrc={vella} alt={"Links Case Study"} />
+              <CarouselCard imgSrc={amaran} alt={"Joy Days Case Study"} />
+              <CarouselCard imgSrc={fahlo4} alt={"Fahlo Case Study"} />
+              <CarouselCard imgSrc={lane} alt={"Lane Case Study"} />
+
+              
+              <CarouselCard imgSrc={vella} alt={"Links Case Study"} />
+              <CarouselCard imgSrc={amaran} alt={"Joy Days Case Study"} />
+              <CarouselCard imgSrc={fahlo4} alt={"Fahlo Case Study"} />
+              <CarouselCard imgSrc={lane} alt={"Lane Case Study"} />
+
+              
+              <CarouselCard imgSrc={vella} alt={"Links Case Study"} />
+              <CarouselCard imgSrc={amaran} alt={"Joy Days Case Study"} />
+              <CarouselCard imgSrc={fahlo4} alt={"Fahlo Case Study"} />
+              <CarouselCard imgSrc={lane} alt={"Lane Case Study"} />
+            </div>
+          </div>
+      </div>              
+      
+
     </div>
   );
 };

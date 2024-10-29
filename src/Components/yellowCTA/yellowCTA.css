@@ -23,7 +23,9 @@
 @media (max-width: 768px) {
     .cta__Container{        
         border: 1.6px solid #242424;       
-        width: 180px;
-        font-size: 18px;        
+        width: 100%;
+        font-size: 28px;   
+        font-weight: 400;   
+        padding:  8px 28px 8px 28px;  
     }
 }

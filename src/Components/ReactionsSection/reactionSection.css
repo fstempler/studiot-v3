@@ -20,8 +20,7 @@
     display: flex;
     justify-content: center;
     align-items: center;   
-    position: relative; 
-    /* z-index: 900; */
+    position: relative;     
 }
 
 .reactionSection__Title {
@@ -275,6 +274,7 @@
 
 /* Mobile */
 @media (max-width: 768px) {
+    
     .reactionSection__Title {
         font-size: 40px;
         line-height: 45px;
@@ -336,63 +336,77 @@
 
 /* Small mobile */
 @media (max-width: 480px) {
+    .reactionSection__MainContainer {    
+        padding: 0;
+        background-image: url(../../assets/circle-bg-black.png);
+        background-size: 150%;
+        background-position: -100px -300px;
+    }
+    
+    .reactionSection__TitleContainer {
+        background-image: url(../../assets/gradientBg.png);
+        background-position: 50px -100px;
+        background-repeat: no-repeat;  
+        background-size: 80%; 
+        justify-content: center;
+        align-items: flex-start;
+        padding-top: 50px;
+    }
+    
     .reactionSection__Title {
         font-size: 50px;
-        line-height: 45px;
+        line-height: 48px;
     }
 
     .review {
         max-width: 200px;
-    }
-    
-    .reactionSection__MainContainer {
-        background-size: 65%;
-    }
+    }    
+   
     
     .review-1 {
-        top: 12%;
-        left: 15%;
-    }
-    
-    .review-2 {
         top: 30%;
         left: 10%;
     }
     
+    .review-2 {
+        top: 45%;
+        left: 10%;
+    }
+    
     .review-3 {
-        bottom: 22%;
-        left: 8%;
+        bottom: 25%;
+        left: 10%;
     }
     
     .review-4 {
         bottom: 5%;
-        left: 15%;
+        left: 10%;
     }
     
     .review-5 {
-        top: 22%;
-        right: 15%;
+        top: 38%;
+        right: 10%;
     }
     
     .review-6 {
-        bottom: 30%;
+        bottom: 34%;
         right: 10%;
     }
     
     .review-7 {
-        bottom: 15%;
-        right: 18%;
+        bottom: 18%;
+        right: 10%;
     }
 
     .emoji-1 {
-        top: -8%;
-        left: -1%;
+        top: 15%;
+        left: 1%;
         width: 35%;
     }
 
     .emoji-2 {
-        top: 28%;
-        right: -1%;
+        top: 80%;
+        right: 5%;
         width: 40%;
     }
 }
