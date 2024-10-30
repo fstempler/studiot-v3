@@ -1,0 +1,13 @@
+.ourWorkCard__Container{
+    border-radius: 18px;
+}
+.ourWorkCard__Img{
+    width: 100%;
+    border: none;
+    border-radius: 18px;
+    transition: all 0.3s ease-in-out;
+}
+.ourWorkCard__Img:hover{
+    -webkit-transform: scale(1.05);  
+    transform: scale(1.05);
+}

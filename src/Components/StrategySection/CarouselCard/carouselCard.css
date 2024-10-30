@@ -4,8 +4,7 @@
     border: 1px solid #000;        
     transition: all 0.5s ease-in-out;
 }
-.carouselCard__MainContainer:hover{
-    filter: drop-shadow(5px 5px 5px #0000003a);  
+.carouselCard__MainContainer:hover{    
     -webkit-transform: scale(1.05);  
     transform: scale(1.05);
 }

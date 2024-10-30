@@ -1,7 +1,7 @@
 import './algorithmSection.css'
 //Images
-import dance from '../../assets/breakdance.gif'
-import computer from '../../assets/computer-1.png'
+import danceLaptop from '../../assets/breakdance.gif'
+import computer from '../../assets/laptop-breakdance.gif'
 import { useEffect } from 'react'
 
 const AlgorithmSection = () => {

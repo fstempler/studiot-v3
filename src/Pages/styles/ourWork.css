@@ -2,13 +2,38 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #FF90EB;
-    height: 100vh;
+    flex-direction: column;
+    background-color: #242424;
+    height: 100%;
     color: #242424;
 }
 .ourWork__Title{
     font-family: "DM Serif Text", serif;
-    color: #242424;
+    color: #DAFF01;
     font-size: 90px;
     font-weight: 900;
+    margin-top: 100px;
 }
+.ourWork__Text-Container{
+    padding: 50px;
+}
+.ourWork__Text{
+    font-family: "Archivo", sans-serif;   
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFEF6;
+    text-align: center;
+}
+.ourWork__Grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 16px;
+    padding: 20px;
+}
+.ourWorkCard__Container:nth-child(1n) {
+    margin-top: 20px;
+  }
+  
+  .ourWorkCard__Container:nth-child(2n) {
+    margin-top: 40px;
+  }

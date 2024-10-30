@@ -41,6 +41,7 @@
 @media (max-width: 768px) {
     .hero__MainContainer{
         padding: 0;
+        background-image: url(../../assets/homepage-heroimg-mobile.jpg);
     }
     .hero__Title-Container{    
         margin-top: 50px;
