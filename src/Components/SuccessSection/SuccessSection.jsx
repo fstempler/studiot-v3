@@ -3,51 +3,33 @@ import './successSection.css'
 import SuccessCard from './SuccessCard/SuccessCard'
 import { useState } from 'react'
 //Images
-import BlueLabelLogo from '../../assets/blueLabel-logo.png'
-import TaosLogo from '../../assets/taos-logo.png'
-import MomsLogo from '../../assets/4moms-logo.png'
+import Graceful from '../../assets/graceful-logo-black.png'
+import Alibaba from '../../assets/alibaba-logo-black.png'
+import Openfortune from '../../assets/openfortune-logo-black.png'
 import FireEmoji from '../../assets/Fire-Emoji.png'
 import Arrow from '../../assets/services-arrow.svg'
 import { useEffect } from 'react'
 
 
 
-const carouselData = [
+const carouselData = [    
     {
         id: 1,
-        image: BlueLabelLogo,
-        text: '1 They’re keen on ensuring the best practices they implement specifically align with our brand.',
-        alt: 'BlueLabel Logo'
+        image: Graceful,
+        text: ' They actually care about what we are trying to build.',
+        alt: '4 Moms Logo'
     },
     {
         id: 2,
-        image: MomsLogo,
-        text: '2 They’re keen on ensuring the best practices they implement specifically align with our brand.',
-        alt: '4 Moms Logo'
+        image: Alibaba,
+        text: 'Fast and timely communication, very results oriented and clear. Always delivered on needs even with last-minute changes.',
+        alt: 'Taos Logo'
     },
     {
         id: 3,
-        image: TaosLogo,
-        text: '3 They provide a range of great services. Everything they do is consistent and meets the same high standard.',
-        alt: 'Taos Logo'
-    },
-    {
-        id: 4,
-        image: BlueLabelLogo,
-        text: '4 They’re keen on ensuring the best practices they implement specifically align with our brand.',
-        alt: 'BlueLabel Logo'
-    },
-    {
-        id: 5,
-        image: MomsLogo,
-        text: '5 They’re keen on ensuring the best practices they implement specifically align with our brand.',
-        alt: '4 Moms Logo'
-    },
-    {
-        id: 6,
-        image: TaosLogo,
-        text: '6 They provide a range of great services. Everything they do is consistent and meets the same high standard.',
-        alt: 'Taos Logo'
+        image: Openfortune,
+        text: 'Their organization, communication, and responsiveness have been amazing.',
+        alt: 'Open Fortune Logo'
     }
 ];
 

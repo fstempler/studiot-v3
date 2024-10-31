@@ -154,7 +154,9 @@
     }  
     .creativity__Text{        
         font-size: 18px;          
-        line-height: 20px;        
+        line-height: 20px; 
+        text-align: center;
+        padding: 0 25px ;       
     }
     .creativity__LeftContainer{
         width: 100%;  
@@ -169,21 +171,22 @@
     }
     .creativity__AccordionContainer-CelMain{
         display: flex;
-        justify-content: end;
+        justify-content: center;
         align-items: center;
         background-image: url(../../assets/spark-bg.png);
         background-position: top;
         background-repeat: no-repeat;
         background-size: contain;
-        height: 600px;
+        height: 550px;
     }
     .creativity__AccordionContainer-cel{
-        display: flex;     
+        display: flex;  
+        justify-content: center;   
         margin-top: 350px;   
     }
     .creativity__TextContainer-cel{
         display: flex;
-        padding-bottom: 90px;
+        padding-bottom: 30px;
     }
 
     /* Accordion */

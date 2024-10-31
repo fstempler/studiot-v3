@@ -2,13 +2,80 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #242424;
-    height: 100vh;
+    flex-direction: column;
+    background-color: #242424;    
     color: #242424;
+    padding-top: 150px;
 }
-.pricing__Title{
+
+.pricing__Data-Container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.pricing__MainTitle{
     font-family: "DM Serif Text", serif;
     color: #93A2FD;
     font-size: 90px;
     font-weight: 900;
+}
+.pricing__Content-Container{
+    border: solid 1px #DAFF01;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 18px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+.pricing__Title{
+    font-family: "Archivo", sans-serif;
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 400;
+}
+.pricing__Text{
+    font-family: "Archivo", sans-serif;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+}
+.pricing__Prices{
+    font-family: "Archivo", sans-serif;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+.pricing__Level{
+    background-color: #DAFF01;
+    border-radius: 5px;
+    color: #242424;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+.pricing__Level-Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+.pricing__Row{
+    border: solid 1px #DAFF01;
+    padding: 15px;    
+    margin:  10px 0;
+    border-radius: 18px;
+    width: 100%;
+}
+.pricing__Row-Content{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+.pricing__Content-Container-Left{
+    padding-bottom: 200px;
 }
