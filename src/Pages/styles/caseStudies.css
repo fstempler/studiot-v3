@@ -2,13 +2,59 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #93A2FD;
-    height: 100vh;
+    background-color: #282627;    
     color: #242424;
+}
+.caseStudies__Hero-Container{
+    width: 100%;
+}
+.caseStudies__Hero-LeftColumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 145px;
 }
 .caseStudies__Title{
     font-family: "DM Serif Text", serif;
-    color: #242424;
+    color: #fff;
     font-size: 90px;
     font-weight: 900;
+}
+.caseStudies__Hero-RightColumn{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 0;
+}
+.caseStudies__PinkSparkle{
+    object-fit: cover;    
+    height: 100%;    
+    width: auto;
+}
+
+@media (max-width: 1024px) {
+    .caseStudies__Hero-LeftColumn{
+        padding-left: 15px;
+        position: relative;
+        z-index: 900;
+    } 
+}
+@media (max-width: 768px) {
+    .caseStudies__Hero-LeftColumn{
+        padding-left: 15px;
+        position: relative;
+        z-index: 900;
+    }
+    .caseStudies__Hero-RightColumn{             
+        align-items: center;        
+    } 
+    .caseStudies__PinkSparkle{
+        object-fit: cover;    
+        height: 30%;    
+        width: auto;
+    }
+    .caseStudies__Title{        
+        font-size: 50px;        
+    }
 }

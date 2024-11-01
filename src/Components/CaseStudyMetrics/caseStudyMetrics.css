@@ -1,0 +1,62 @@
+.caseStudyMetrics__Main-Container{
+    background-color: #282627;
+    padding: 0 100px;
+}
+.caseStudyMetrics__Text{
+    font-family: "Archivo", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #FFFEF6;
+}
+.caseStudyMetrics__Number{
+    font-family: "DM Serif Text", serif;
+    font-size: 112px;
+    line-height: 121px;
+    font-weight: 400;
+    color: #FFFEF6;    
+}
+.caseStudyMetrics__Number:hover{
+    color: #DAFF01;
+}
+.caseStudyMetrics__Column-Left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding-left: 100px;
+}
+.caseStudyMetrics__Column-Right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+@media (max-width: 1024px) {
+    .caseStudyMetrics__Main-Container{        
+        padding: 0;
+    }
+    .caseStudyMetrics__Column-Left{        
+        padding: 20px;
+    }
+    .pinkSpark{        
+        width: 100%;
+    }
+}
+@media (max-width: 768px) {
+    
+    .caseStudyMetrics__Column-Left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 20px;
+        padding: 20px;
+    }
+    .caseStudyMetrics__Column-Right{        
+        align-items: center;
+    }
+    
+}

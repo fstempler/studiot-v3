@@ -1,0 +1,65 @@
+.caseStudyImgSection {
+    background-color: #DAFF01;    
+    padding: 50px;
+}
+.column__Left,
+.column__Middle,
+.column__Right {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.column__Middle{
+    padding-top: 150px;
+}
+.column__Text{
+    font-family: "Archivo", sans-serif;
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 700;
+    text-align: center;
+}
+.column__Text-Title{
+    font-family: "DM Serif Text", serif;
+    font-size: 112px;
+    line-height: 121px;
+    font-weight: 400;
+    text-align: center;
+    color: #282627;
+}
+.tablet__Img{
+    padding-top: 25px;
+}
+
+@media (max-width: 1200px) {
+    .tablet__Img{
+        width: 100%;
+    }
+    .bottomImage{
+        width: 100%;
+    }
+    .column__Text-Title{        
+        font-size: 90px;
+        line-height: 90px;
+    }
+}
+@media (max-width: 1024px) {
+    
+    .column__Text-Title{        
+        font-size: 70px;
+        line-height: 70px;
+    }
+    .bottomImage{
+        width: 75%;
+    }    
+}
+@media (max-width: 768px) {
+    .column__Text-Title{        
+        font-size: 70px;
+        line-height: 70px;
+    }
+    .bottomImage{
+        width: 75%;
+    }
+}

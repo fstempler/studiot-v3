@@ -92,10 +92,7 @@ const ServicesSection = ({ pricingSectionRef }) => {
                             <div className='spark-container'>
                                 <img src={spark} />
                             </div>
-
-                            {/* <div className='image-swap-container'>
-                                <div className='image-swap'></div>
-                            </div> */}
+                            
                             
                         </div>
                         <div className='col-12 col-md-3 servicesSection__RightColumn' id="accordionGroup2">                            
