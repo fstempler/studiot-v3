@@ -16,7 +16,7 @@ import ServicePopup from '../ServicePopup/ServicePopup'
 
 
    
-const ServicesSection = () => {    
+const ServicesSection = ({ pricingSectionRef }) => {    
     const [isPopupOpen, setIsPopupOpen] = useState(false)
     const [popupContent, setPopupContent] = useState({ title: '', img: {}, alt: '' })
 
@@ -64,7 +64,7 @@ const ServicesSection = () => {
 
     return (
         <>
-            <div className='servicesSection__MainContainer' id='pricingSection'>
+            <div className='servicesSection__MainContainer' ref={pricingSectionRef} id='pricingSection'>
                 <div className='servicesSection__TitleContainer'>
                     <h2 className='servicesSection__Title'>Our Services</h2>
                     <Link to={"pricing"}><YellowCTA text={"Contact For Pricing"} /></Link>

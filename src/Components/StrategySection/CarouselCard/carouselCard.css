@@ -2,8 +2,8 @@
     width: auto;    
     border-radius: 22px;
     border: 1px solid #000;        
-    transition: all 0.5s ease-in-out;
-    max-width: 100%; /* Limita el ancho máximo al 100% del contenedor padre */
+    transition: all 0.2s ease-in-out;
+    max-width: 100%; 
 }
 
 .carouselCard__MainContainer:hover {    
@@ -13,7 +13,7 @@
 
 .carouselCard__ImgContainer {
     width: auto; /* Ancho dinámico según el ancho de la imagen */
-    max-height: 400px; /* Limita la altura máxima */
+    max-height: 500px; /* Limita la altura máxima */
     overflow: hidden;   
     display: flex; 
     justify-content: center;
@@ -24,25 +24,11 @@
 .carouselCard__Img {
     width: 100%;   
     height: 100%; /* Ajusta la altura automáticamente */
-    max-height: 400px; /* Altura máxima de 400px */
+    max-height: 500px; /* Altura máxima de 400px */
     border-radius: 22px 22px 0 0;    
     object-fit: cover; /* Mantiene proporciones sin deformarse */
 }
 
-/* Tamaños específicos */
-.small .carouselCard__MainContainer {
-    max-width: 370px;
-}
-.large .carouselCard__MainContainer {
-    max-width: 644px;    
-}
-
-.carouselCard__Title {
-    font-family: "Archivo", sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 27px;
-}
 
 /* Media queries */
 @media (max-width: 768px) {

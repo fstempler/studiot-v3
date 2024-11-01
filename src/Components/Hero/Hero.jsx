@@ -1,6 +1,7 @@
 import './hero.css'
 //components
 import ContactCTA from '../yellowCTA/YellowCTA.jsx'
+import { Link } from 'react-router-dom'
 //images
 
 
@@ -12,7 +13,7 @@ const Hero = () => {
                     <div className='hero__Title-Container active-background'>
                         <h1 className='hero__Title'>Brilliant Design. Fast, Fresh, And Always On Time.</h1>
                         <div className='hero__Btn-Container'>
-                            <ContactCTA text={"Talk To Us"}/>
+                            <Link to="/contact"><ContactCTA text={"Talk To Us"}/></Link>
                         </div>
                         
                     </div>                    

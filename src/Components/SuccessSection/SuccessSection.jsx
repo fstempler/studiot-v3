@@ -16,19 +16,37 @@ const carouselData = [
     {
         id: 1,
         image: Graceful,
-        text: ' They actually care about what we are trying to build.',
+        text: 'We love the work Studio T does. They actually care about what we are trying to build and consistently go above and beyond.',
         alt: '4 Moms Logo'
     },
     {
         id: 2,
         image: Alibaba,
-        text: 'Fast and timely communication, very results oriented and clear. Always delivered on needs even with last-minute changes.',
+        text: 'Very strong creative thinking with a social-first mindset. They were a natural fit for our business.',
         alt: 'Taos Logo'
     },
     {
         id: 3,
         image: Openfortune,
-        text: 'Their organization, communication, and responsiveness have been amazing.',
+        text: 'When it comes to organic social, creativity matters. Studio t has some of the most creative content marketers that I have ever seen.',
+        alt: 'Open Fortune Logo'
+    },
+    {
+        id: 4,
+        image: Graceful,
+        text: 'We love the work Studio T does. They actually care about what we are trying to build and consistently go above and beyond.',
+        alt: '4 Moms Logo'
+    },
+    {
+        id: 5,
+        image: Alibaba,
+        text: 'Very strong creative thinking with a social-first mindset. They were a natural fit for our business.',
+        alt: 'Taos Logo'
+    },
+    {
+        id: 6,
+        image: Openfortune,
+        text: 'When it comes to organic social, creativity matters. Studio t has some of the most creative content marketers that I have ever seen.',
         alt: 'Open Fortune Logo'
     }
 ];

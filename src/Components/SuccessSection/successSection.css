@@ -30,6 +30,7 @@
     display: flex;
     overflow: hidden;
     width: 100%;
+    justify-content: center;
 }
 .carousel__BtnContainer{
     display: flex;

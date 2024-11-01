@@ -1,15 +1,13 @@
 import './navbar.css';
 //images
 import logo from '../../assets/studiot-logo.svg';
-import { useRef, useState, useEffect } from 'react';
-import { Link, useNavigate, useLocation } from 'react-router-dom';
+import { useRef, useEffect } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
     const navbarRef = useRef(null);
     const collapseButtonRef = useRef(null);
-    const navigate = useNavigate();
-    const location = useLocation();
-    const [scrollToPricing, setScrollToPricing] = useState(false);
+    const navigate = useNavigate();    
 
     useEffect(() => {
         const navbar = navbarRef.current;        
@@ -35,29 +33,11 @@ const Navbar = () => {
         });
         return () => observer.disconnect();
     }, []);
+    
 
-    const scrollToPricingSection = () => {
-        
-        if (collapseButtonRef.current && collapseButtonRef.current.classList.contains('show')) {
-            collapseButtonRef.current.classList.remove('show');
-        }
-
-        
-        setScrollToPricing(true);
-        navigate('/');
-    };
-
-    useEffect(() => {
-        
-        if (location.pathname === '/' && scrollToPricing) {
-            const section = document.getElementById('pricingSection');
-            if (section) {
-                section.scrollIntoView({ behavior: 'smooth' });
-            }
-            
-            setScrollToPricing(false);
-        }
-    }, [location, scrollToPricing]);
+    const handleNavigateToPricing = () => {
+        navigate('/#pricingSection');
+    }
 
     return (
         <div className='navbar__MainContainer'>
@@ -76,7 +56,7 @@ const Navbar = () => {
                         aria-controls="navbarSupportedContent" 
                         aria-expanded="false" 
                         aria-label="Toggle navigation"
-                        ref={collapseButtonRef} 
+                        ref={collapseButtonRef} // Añade la referencia aquí
                     >
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -84,7 +64,7 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <span className="nav-link" aria-current="page" role="button" onClick={scrollToPricingSection}>Services</span>
+                                <span className="nav-link" aria-current="page" role="button" onClick={handleNavigateToPricing}>Services</span>
                             </li> 
                             <li className="nav-item">
                                 <Link className="nav-link" aria-current="page" to="/ourWork">Our Work</Link>

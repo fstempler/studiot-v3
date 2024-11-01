@@ -12,8 +12,21 @@ import StrategySection from '../Components/StrategySection/StrategySection'
 import DesignersSection from '../Components/DesignersSection/DesignersSection'
 import ReactionSection from '../Components/ReactionsSection/ReactionSection'
 import SuccessSection from '../Components/SuccessSection/SuccessSection'
+import { useLocation } from 'react-router-dom'
+import { useEffect, useRef } from 'react'
 
 const Home = () => {
+    const location = useLocation();
+    const pricingSectionRef = useRef(null);
+
+    useEffect(() => {
+        if (location.hash === "#pricingSection" && pricingSectionRef.current) {
+            setTimeout(() => {
+                pricingSectionRef.current.scrollIntoView({ behavior: "smooth" });
+            }, 100);
+        }
+    }, [location]);
+
     return (
         <>        
         <Hero />
@@ -23,7 +36,7 @@ const Home = () => {
         <AlgorithmSection />
         <Slider />
         <CreativitySection />
-        <ServicesSection />
+        <ServicesSection pricingSectionRef={pricingSectionRef}/>
         <StrategySection />
         <DesignersSection />
         <ReactionSection />

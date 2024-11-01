@@ -4,9 +4,16 @@ import facebookLogo from '../../assets/facebook-icon.png'
 import instagramLogo from '../../assets/instagram-icon.png'
 import youtubeLogo from '../../assets/youtube-icon.png'
 import studioTLogo from '../../assets/studioT-logo-yellow.png'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom';
 
 const Footer = () => {
+
+    const navigate = useNavigate();    
+
+    const handleNavigateToPricing = () => {
+        navigate('/#pricingSection');
+    }
+
     return (
         <footer className='footer__MainContainer' id='footer'>
             <div className='footer__Container'>
@@ -15,15 +22,15 @@ const Footer = () => {
                         <div className='row'>
                             <div className='col-6 col-sm-4 footer__QuickLinks'>
                                 <ul className='footer__QuickLinks'>
-                                    <li><Link to={"#"}>Services</Link></li>
-                                    <li><Link to={"#"}>Insights</Link></li>
-                                    <li><Link to={"#"}>Case Studies</Link></li>
+                                    <li onClick={handleNavigateToPricing}>Services</li>                                    
+                                    <li><Link to="/ourWork">Our Work</Link></li>
+                                    <li><Link to="/caseStudies">Case Studies</Link></li>
                                 </ul>    
                             </div>
                             <div className='col-6 col-sm-4'>
                                 <ul className='footer__QuickLinks'>
-                                    <li><Link to={"#"}>Growth Hacks</Link></li>
-                                    <li><Link to={"#"}>Careers</Link></li>                                    
+                                    <li><Link to="/careers">Careers</Link></li>                                    
+                                    <li><Link to="/pricing">Pricing</Link></li>                                    
                                 </ul>    
                             </div>
                         </div>

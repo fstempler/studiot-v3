@@ -2,6 +2,7 @@
     background-color: #FFFEF6;    
     width: 100%;        
     height: auto;
+    padding-bottom: 150px;
 }
 .strategySection__Content-Container{
     background-image: url(../../assets/gradientBg.png);
@@ -42,7 +43,7 @@
     max-height: 300px; /* Ajusta según tu diseño */
 }
 .strategySection__CarouselContainer{
-    height: 500px;
+    height: 400px;
     position: relative;
 }
 .carousel-container{
@@ -60,7 +61,7 @@
     height: 100%;
     gap: 30px;
     width: 600%;
-    height: 500px;
+    height: 400px;
     animation: slide 20s linear infinite;
     &:hover {
         animation-play-state: paused;
@@ -89,6 +90,9 @@
     }
     .carousel-track{        
         width: 1100%;        
+    }
+    .strategySection__CarouselContainer{
+        height: 350px;        
     }
 }
 
@@ -131,7 +135,7 @@
         margin-left: 0px;
     }
     .strategySection__CarouselContainer{
-        height: 300px;        
+        height: 200px;        
     }
     .carousel-container{
         height: 300px;
