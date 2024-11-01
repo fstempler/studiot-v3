@@ -4,6 +4,7 @@ import studioTLogo from '../../assets/studiot-logo.svg'
 import takticalLogo from '../../assets/Taktical-Logo-White.png'
 import studioTLogoBlack from '../../assets/studioT-logo-black.png'
 import takticalLogoBlack from '../../assets/taktical-logo-black.png'
+import spark from '../../assets/spark.gif'
 
 //components
 import YellowCTA from '../yellowCTA/YellowCTA'
@@ -86,11 +87,15 @@ const ServicesSection = ({ pricingSectionRef }) => {
                             </div>
 
                         </div>
-                        <div className='col-12 col-md-6 servicesSection__MiddleColumn'>                         
+                        <div className='col-12 col-md-6 servicesSection__MiddleColumn'>   
 
-                            <div className='image-swap-container'>
-                                <div className='image-swap'></div>
+                            <div className='spark-container'>
+                                <img src={spark} />
                             </div>
+
+                            {/* <div className='image-swap-container'>
+                                <div className='image-swap'></div>
+                            </div> */}
                             
                         </div>
                         <div className='col-12 col-md-3 servicesSection__RightColumn' id="accordionGroup2">                            

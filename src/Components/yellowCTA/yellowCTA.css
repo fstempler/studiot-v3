@@ -18,6 +18,8 @@
     background-color: #242424;    
     color: #DAFF01;
     border: 1.6px solid #DAFF01;
+    -webkit-transform: scale(0.9);  
+    transform: scale(0.9);
 }
 
 @media (max-width: 768px) {

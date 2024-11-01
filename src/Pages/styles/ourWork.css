@@ -5,35 +5,136 @@
     flex-direction: column;
     background-color: #242424;
     height: 100%;
+    width: 100%;
     color: #242424;
+}
+.ourWork__Hero-Container{
+    background-color: #93A2FD;
+    padding: 146px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
 }
 .ourWork__Title{
     font-family: "DM Serif Text", serif;
-    color: #DAFF01;
-    font-size: 90px;
-    font-weight: 900;
-    margin-top: 100px;
-}
-.ourWork__Text-Container{
-    padding: 50px;
-}
-.ourWork__Text{
-    font-family: "Archivo", sans-serif;   
-    font-size: 24px;
-    line-height: 28px;
     color: #FFFEF6;
-    text-align: center;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 86px;
+    margin-top: 100px;
+    text-align: center;    
 }
-.ourWork__Grid{
+
+.ourWork__Slider-Container{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+.ourWork__Works-Container{
+    padding: 100px;
+}
+.ourWork__Grid-Title-Container{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    padding-left: 100px;
+}
+.ourWork__GridTitle{
+    font-family: "DM Serif Text", serif;
+    color: #FFFEF6;
+    font-size: 80px;
+    font-weight: 400;    
+}
+.ourWork__Grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 16px;
-    padding: 20px;
-}
-.ourWorkCard__Container:nth-child(1n) {
-    margin-top: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px; /* Ajusta el espacio entre las columnas si lo necesitas */
+    padding: 16px 100px;
   }
   
-  .ourWorkCard__Container:nth-child(2n) {
-    margin-top: 40px;
+  .ourWork__Column {
+    display: flex;
+    flex-direction: column;
+    gap: 16px; /* Ajusta el espacio entre los elementos de cada columna */
   }
+
+/* Estilos para tarjetas rectangulares (anchas)*/
+.card--rectangle {
+    grid-column: span 1;
+    height: 516px;
+    width: 290px;
+}
+
+/* Estilos para tarjetas cuadradas (más pequeñas) */
+.card--square {
+    grid-column: span 1;
+    height: 290px;
+    width: 290px;
+} 
+
+@media (max-width: 1440px) {
+    .ourWork__Works-Container{
+        padding: 0px;
+    }
+    .ourWork__Grid {        
+        padding: 20px 0;   
+    }
+    .ourWork__Grid-Title-Container{
+        width: 100%;
+        padding-left: 30px;
+    }
+}
+@media (max-width: 1024px) {
+    .ourWork__Grid {
+        grid-template-columns: repeat(2, 1fr);
+        display: grid;
+        justify-items: center;     
+        padding: 20px 0;   
+    }    
+    .ourWork__Works-Container {
+        padding: 20px;
+    }
+    .ourwork__FireEmoji{
+        object-fit: contain;        
+    }
+    .ourWork__Hero-Container{
+        padding: 50px;
+    }
+}
+@media (max-width: 768px) {
+    .ourWork__MainContainer{
+        width: 100%;
+    }
+    .ourWork__Hero-Container {
+        padding: 0;
+    }
+    .ourWork_CtaContainer{
+        padding-bottom: 20px;
+    }
+    .ourWork__Works-Container {
+        padding: 0;
+    }
+    .ourWork__Grid {
+        grid-template-columns: 1fr;
+        display: grid;
+        justify-items: center;     
+        padding: 20px 0;   
+    }
+    .ourwork__FireEmoji{
+        display: none;        
+    }
+    .ourWork__Grid-Title-Container{
+        width: 100%;
+        padding: 20px;
+    }
+    .ourWork__Title{     
+        font-size: 50px;     
+        line-height: 50px;
+    }
+    .ourWork__GridTitle{        
+        font-size: 50px;
+        line-height: 50px;
+    }
+}

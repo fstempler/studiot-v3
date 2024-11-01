@@ -8,7 +8,7 @@
 }
 .algorithm__Title{
     font-family: "Archivo", sans-serif;
-    color: #93A2FD;
+    color: #FFF;
     font-size: 82px;
     line-height: 78px;
     font-weight: 800;
@@ -17,12 +17,12 @@
     display: none;
 }
 .algorithm__Title-Color{
-    color: #FF45C7;
+    color: #DAFF01;  
 }
 
 .algorithm__SubTitle{
     font-family: "Archivo", sans-serif;
-    color: #93A2FD;
+    color: #FFF;
     font-size: 82px;
     line-height: 78px;
     font-weight: 800;
@@ -46,6 +46,10 @@
 }
 .algorithm__RightImage{
     width: 100%;        
+}
+.video-frame{
+    border: .5px solid #DAFF01;
+    border-radius: 18px;
 }
 @media (max-width: 1440px) {        
     .algorithm__RightColumn{
