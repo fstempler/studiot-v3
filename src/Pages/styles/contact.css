@@ -1,9 +1,5 @@
 .contact__MainContainer{
-    background-color: #93A2FD;    
-    /* background-image: url(../../assets/gradientBg.png);
-    background-position: center;
-    background-size: 60%;
-    background-repeat: no-repeat;  */
+    background-color: #93A2FD;        
     width: 100%;
     padding: 50px 100px;
 }
@@ -31,7 +27,7 @@
 }
 .contact__Form-Container{
     width: 100%;
-    padding: 50px;
+    padding: 50px 200px;
 }
 .active-background{
     background-color: #ffffff00;
@@ -42,9 +38,40 @@
 .expand-container{
     height: 100px;
 }
-
+.contact__Form{
+    font-family: "Archivo", sans-serif;
+    font-size: 22px;
+    color: #242424;
+}
+.form__Input{
+    border-radius: 50px;
+}
+.contactForm__CTA{
+    background-color: #E6FF58;
+    border: solid 1px #242424;
+    border-radius: 50px;
+    font-weight: 600;
+    padding: 10px 40px;
+    text-align: center;
+    color: #242424;
+    transition: all 0.3s ease-in-out;
+}
+.contactForm__CTA:hover{
+    background-color: #242424;
+    border: solid 1px #E6FF58;    
+    color: #E6FF58;
+}
+@media (max-width: 1024px) {    
+    .contact__Form-Container{        
+        padding: 50px 30px;
+    }
+}
 @media (max-width: 768px) {
     .contact__MainContainer{        
         padding: 50px 10px;
+    }
+    .contact__Form-Container{
+        width: 100%;
+        padding: 50px 20px;
     }
 }
