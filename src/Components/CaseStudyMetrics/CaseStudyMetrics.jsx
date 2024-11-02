@@ -1,6 +1,6 @@
 import './caseStudyMetrics.css'
 //Images
-import pinkSparkMockUp from '../../assets/PinkSparkMockUp.png'
+import PinkSparkMockUp from '../../assets/pinkSparkMockUp.png'
 
 const CaseStudyMetrics = () => {
     return (
@@ -16,7 +16,7 @@ const CaseStudyMetrics = () => {
                     <p className='caseStudyMetrics__Text'>organic views</p>
                 </div>
                 <div className='col-12 col-sm-7 caseStudyMetrics__Column-Right'>
-                    <img src={pinkSparkMockUp} alt="Pink Spark" className='pinkSpark' />
+                    <img src={PinkSparkMockUp} alt="Pink Spark" className='pinkSpark' />
                 </div>
             </div>
         </div>

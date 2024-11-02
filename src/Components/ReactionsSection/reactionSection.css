@@ -3,7 +3,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     display: block; 
     position: relative; 
     background-image: url(../../assets/circle-bg-black.png);
@@ -31,6 +31,7 @@
     padding: 0; 
     text-align: center;
 }
+
 
 .review {
     position: absolute;

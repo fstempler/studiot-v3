@@ -9,8 +9,19 @@ import review4 from '../../assets/review4.png'
 import review5 from '../../assets/review5.png'
 import review6 from '../../assets/review6.png'
 import review7 from '../../assets/review7.png'
+//components
+
+import { useScroll, useTransform, motion } from 'framer-motion'
+import { useRef } from 'react'
 
 const ReactionSection = () => {
+    const container = useRef(null)
+    const { scrollYProgress } = useScroll({
+            target: container,
+            offset: ['start end', 'end start'] 
+        })
+
+        const sm = useTransform(scrollYProgress, [0, 1], [0, -220]);
     return (
         <section className='reactionSection__MainContainer' id='reactionSection'>
             <div className='reactionSection__TitleContainer'>
@@ -19,29 +30,29 @@ const ReactionSection = () => {
             <div className='review emoji-1'>
                <img src={sunglassesEmoji} alt='Sunglasses Emoji' />
             </div>
-            <div className='review review-1'>
-               <img src={review1} alt='Review 1' />
+            <div className='review review-1' ref={container}>
+               <motion.img style={{y: sm}} src={review1} alt='Review 1'></motion.img>
             </div>
-            <div className='review review-2'>
-                <img src={review2} alt='Review 1' />
+            <div className='review review-2' ref={container}>
+                <motion.img style={{y: sm}} src={review2} alt='Review 1'></motion.img>
             </div>
-            <div className='review review-3'>
-                <img src={review3} alt='Review 1' />
+            <div className='review review-3' ref={container}>
+                <motion.img style={{y: sm}} src={review3} alt='Review 1'></motion.img>
             </div>
-            <div className='review review-4'>
-                <img src={review4} alt='Review 1' />
+            <div className='review review-4' ref={container}>
+                <motion.img style={{y: sm}} src={review4} alt='Review 1'></motion.img>
             </div>
-            <div className='review emoji-2'>
-               <img src={hornsEmoji} alt='Horns Emoji' />
+            <div className='review emoji-2' ref={container}>
+               <motion.img style={{y: sm}} src={hornsEmoji} alt='Horns Emoji'></motion.img>
             </div>
-            <div className='review review-5'>
-                <img src={review5} alt='Review 1' />
+            <div className='review review-5' ref={container}>
+                <motion.img style={{y: sm}} src={review5} alt='Review 1'></motion.img>
             </div>
-            <div className='review review-6'>
-                <img src={review6} alt='Review 1' />
+            <div className='review review-6' ref={container}>
+                <motion.img style={{y: sm}} src={review6} alt='Review 1'></motion.img>
             </div>
-            <div className='review review-7'>
-                <img src={review7} alt='Review 1' />
+            <div className='review review-7' ref={container}>
+                <motion.img style={{y: sm}} src={review7} alt='Review 1'></motion.img>
             </div>
         </section>
     )
