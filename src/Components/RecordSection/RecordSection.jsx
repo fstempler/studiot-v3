@@ -27,7 +27,7 @@ const RecordSection = () => {
                 </div>
 
             </div>
-            <div className='wave'></div>
+            <div className='wave-blue'></div>
         </section>
     )
 }

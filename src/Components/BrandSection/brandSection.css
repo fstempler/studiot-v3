@@ -35,7 +35,7 @@
     height: 200px;
     background-image: url(../../assets/wave-white.png);
     z-index: 900;
-    margin-bottom: -100px;
+    margin-bottom: -170px;
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -44,7 +44,17 @@
     .brandSection__Title{                
         text-align: center;
     }
+    .wave-background{
+        margin-bottom: -195px;
+    }
 }
+
+@media (max-width: 1200px) {
+    .wave-background{
+        margin-bottom: -195px;
+    }
+}
+
 @media (max-width: 1024px) {    
     .brandSection__BrandsContainer{
         display: flex;
@@ -55,7 +65,7 @@
         column-gap: 80px;
         padding: 50px 100px;
         margin-top: 50px;
-    }
+    }    
 }
 @media (max-width: 768px) {
     .brandSection__Title{        
@@ -69,7 +79,7 @@
     }
     .brandSection__Logo{
         width: 15%;
-    }
+    }    
     
 }
 @media (max-width: 440px) {
@@ -78,5 +88,5 @@
     }
     .brandSection__Logo{
         width: 25%;
-    }
+    }    
 }

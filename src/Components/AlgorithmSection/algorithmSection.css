@@ -1,6 +1,7 @@
 .algorithm__MainContainer{
     background-color: #282627;
     width: 100%;
+    padding-top: 50px;
 }
 .algorithm__LeftColumn{
     padding-top: 75px;

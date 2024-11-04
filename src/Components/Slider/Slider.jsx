@@ -10,7 +10,7 @@ const Slider = () => {
                         <ul className="highway-lane">
                             <li className="highway-car">
                                 <span className="fab">
-                                    <p className='sliderText'>DIGITAL MARKETING</p>
+                                    <p className='sliderText'>ON-DEMAND DESIGN</p>
                                  </span>
                             </li>
                             <li className="highway-car">
@@ -20,7 +20,7 @@ const Slider = () => {
                             </li>
                             <li className="highway-car">
                                 <span className="fab">
-                                    <p className='sliderText'>STRATEGY</p>
+                                    <p className='sliderText'>BLOG CONTENT</p>
                                 </span>
                             </li>
                             <li className="highway-car">
@@ -30,7 +30,7 @@ const Slider = () => {
                             </li>
                             <li className="highway-car">
                                 <span className="fab">
-                                    <p className='sliderText'>SOLUTIONS</p>
+                                    <p className='sliderText'>AD CREATIVE COPY</p>
                                 </span>        
                             </li>
                             <li className="highway-car">
@@ -40,7 +40,7 @@ const Slider = () => {
                             </li>     
                             <li className="highway-car">
                                 <span className="fab">
-                                    <p className='sliderText'>DIGITAL MARKETING</p>
+                                    <p className='sliderText'>LANDING PAGES</p>
                                  </span>
                             </li>
                             <li className="highway-car">
@@ -50,7 +50,7 @@ const Slider = () => {
                             </li>
                             <li className="highway-car">
                                 <span className="fab">
-                                    <p className='sliderText'>STRATEGY</p>
+                                    <p className='sliderText'>AI IMAGERY</p>
                                 </span>
                             </li>
                             <li className="highway-car">
@@ -60,7 +60,7 @@ const Slider = () => {
                             </li>
                             <li className="highway-car">
                                 <span className="fab">
-                                    <p className='sliderText'>SOLUTIONS</p>
+                                    <p className='sliderText'>PRESENTATION DESIGN</p>
                                 </span>        
                             </li>
                             <li className="highway-car">
@@ -72,7 +72,7 @@ const Slider = () => {
 
                             <li className="highway-car">
                                 <span className="fab">
-                                    <p className='sliderText'>DIGITAL MARKETING</p>
+                                    <p className='sliderText'>PHOTO / VIDEO PRODUCTION</p>
                                  </span>
                             </li>
                             <li className="highway-car">
@@ -82,7 +82,17 @@ const Slider = () => {
                             </li>
                             <li className="highway-car">
                                 <span className="fab">
-                                    <p className='sliderText'>STRATEGY</p>
+                                    <p className='sliderText'>EMAIL DESIGN</p>
+                                </span>
+                            </li>
+                            <li className="highway-car">
+                                <span className="fab">
+                                    <img src={sun} alt="Image 4" className="clientlogosSlider"/>
+                                </span>
+                            </li>                            
+                            <li className="highway-car">
+                                <span className="fab">
+                                    <p className='sliderText'>BLOG CONTENT</p>
                                 </span>
                             </li>
                             <li className="highway-car">
@@ -92,7 +102,7 @@ const Slider = () => {
                             </li>
                             <li className="highway-car">
                                 <span className="fab">
-                                    <p className='sliderText'>SOLUTIONS</p>
+                                    <p className='sliderText'>AD CREATIVE COPY</p>
                                 </span>        
                             </li>
                             <li className="highway-car">
@@ -102,7 +112,7 @@ const Slider = () => {
                             </li>     
                             <li className="highway-car">
                                 <span className="fab">
-                                    <p className='sliderText'>DIGITAL MARKETING</p>
+                                    <p className='sliderText'>LANDING PAGES</p>
                                  </span>
                             </li>
                             <li className="highway-car">
@@ -112,7 +122,7 @@ const Slider = () => {
                             </li>
                             <li className="highway-car">
                                 <span className="fab">
-                                    <p className='sliderText'>STRATEGY</p>
+                                    <p className='sliderText'>AI IMAGERY</p>
                                 </span>
                             </li>
                             <li className="highway-car">
@@ -122,7 +132,7 @@ const Slider = () => {
                             </li>
                             <li className="highway-car">
                                 <span className="fab">
-                                    <p className='sliderText'>SOLUTIONS</p>
+                                    <p className='sliderText'>PRESENTATION DESIGN</p>
                                 </span>        
                             </li>
                             <li className="highway-car">
@@ -130,9 +140,11 @@ const Slider = () => {
                                     <img src={sun} alt="Image 6" className="clientlogosSlider"/>
                                 </span>
                             </li>
+
+
                             <li className="highway-car">
                                 <span className="fab">
-                                    <p className='sliderText'>DIGITAL MARKETING</p>
+                                    <p className='sliderText'>PHOTO / VIDEO PRODUCTION</p>
                                  </span>
                             </li>
                             <li className="highway-car">
@@ -142,52 +154,12 @@ const Slider = () => {
                             </li>
                             <li className="highway-car">
                                 <span className="fab">
-                                    <p className='sliderText'>STRATEGY</p>
+                                    <p className='sliderText'>EMAIL DESIGN</p>
                                 </span>
                             </li>
                             <li className="highway-car">
                                 <span className="fab">
                                     <img src={sun} alt="Image 4" className="clientlogosSlider"/>
-                                </span>
-                            </li>
-                            <li className="highway-car">
-                                <span className="fab">
-                                    <p className='sliderText'>SOLUTIONS</p>
-                                </span>        
-                            </li>
-                            <li className="highway-car">
-                                <span className="fab">
-                                    <img src={sun} alt="Image 6" className="clientlogosSlider"/>
-                                </span>
-                            </li>
-                            <li className="highway-car">
-                                <span className="fab">
-                                    <p className='sliderText'>DIGITAL MARKETING</p>
-                                 </span>
-                            </li>
-                            <li className="highway-car">
-                                <span className="fab">
-                                    <img src={sun} alt="Image 2" className="clientlogosSlider "/>
-                                </span>
-                            </li>
-                            <li className="highway-car">
-                                <span className="fab">
-                                    <p className='sliderText'>STRATEGY</p>
-                                </span>
-                            </li>
-                            <li className="highway-car">
-                                <span className="fab">
-                                    <img src={sun} alt="Image 4" className="clientlogosSlider"/>
-                                </span>
-                            </li>
-                            <li className="highway-car">
-                                <span className="fab">
-                                    <p className='sliderText'>SOLUTIONS</p>
-                                </span>        
-                            </li>
-                            <li className="highway-car">
-                                <span className="fab">
-                                    <img src={sun} alt="Image 6" className="clientlogosSlider"/>
                                 </span>
                             </li>
                                                                         

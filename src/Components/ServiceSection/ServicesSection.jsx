@@ -137,8 +137,8 @@ const ServicesSection = ({ pricingSectionRef }) => {
                 )}
 
                 
-                <div className='image-swap-container-cel'>
-                    <div className='image-swap-cel'></div>
+                <div className='spark-container'>
+                    <img src={spark} className='spark-image'/>
                 </div>
 
                 

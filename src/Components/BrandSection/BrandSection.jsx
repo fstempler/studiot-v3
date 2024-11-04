@@ -45,7 +45,7 @@ const BrandSection = () => {
             </div>
             
         </div>
-        {/* <div className='wave-background'>  </div> */}
+        <div className='wave-background'>  </div>
         </>
     )
 }

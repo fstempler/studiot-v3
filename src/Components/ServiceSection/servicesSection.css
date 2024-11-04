@@ -116,5 +116,15 @@
     .services__SectionCel-PinkBtn-Container{
         width: 100%;
         padding: 10px 50px;
-    }        
+    }     
+    .spark-container{
+        height: 50%;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }  
+    .spark-image{
+        width: 100%;
+    } 
 }

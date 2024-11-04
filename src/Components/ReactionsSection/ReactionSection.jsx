@@ -23,7 +23,7 @@ const ReactionSection = () => {
 
         const sm = useTransform(scrollYProgress, [0, 1], [0, -50]);
         const md = useTransform(scrollYProgress, [0, 1], [0, -150]);
-        const lg = useTransform(scrollYProgress, [0, 1], [0, -220]);
+        const lg = useTransform(scrollYProgress, [0, 1], [0, -300]);
 
     return (
         <section className='reactionSection__MainContainer' id='reactionSection'>

@@ -36,7 +36,13 @@ const Navbar = () => {
     
 
     const handleNavigateToPricing = () => {
-        navigate('/#pricingSection');
+        navigate('/');
+        setTimeout(() => {
+            const section = document.getElementById('pricingSection');
+            if (section) {
+                section.scrollIntoView({ behavior: 'smooth' });
+            }
+        }, 0)
     }
 
     return (
@@ -64,7 +70,7 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <span className="nav-link" aria-current="page" role="button" onClick={handleNavigateToPricing}>Services</span>
+                                <span className="nav-link" aria-current="page" role="button" onClick={handleNavigateToPricing}>Services</span>                                
                             </li> 
                             <li className="nav-item">
                                 <Link className="nav-link" aria-current="page" to="/ourWork">Our Work</Link>

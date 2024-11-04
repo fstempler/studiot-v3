@@ -7,6 +7,7 @@ import Slider from '../Components/Slider/Slider'
 import YellowCTA from '../Components/yellowCTA/YellowCTA'
 //Images
 import fireEmoji from '../assets/Fire-Emoji.png'
+import { Link } from 'react-router-dom';
 
 const OurWork = () => {
     // Divide los datos en columnas
@@ -19,19 +20,7 @@ const OurWork = () => {
 
     return (
         <div className='ourWork__MainContainer'>
-            <div className='ourWork__Hero-Container'>
-                <h2 className='ourWork__Title'>We Take Pride In Our Ability To Transform Our Client's Visions Into Reality</h2>
-                
-                <div className='ourWork_CtaContainer'>
-                    <YellowCTA text={"Talk To Us"} />
-                </div>
-                
-            </div>
             
-            
-            <div className='ourWork__Slider-Container'>
-                <Slider />
-            </div>
             
             <div className='ourWork__Works-Container'>
                 <div className='ourWork__Grid-Title-Container'>
@@ -132,6 +121,20 @@ const OurWork = () => {
                     </div>
                 </div>
             </div>
+            <div className='ourWork__Slider-Container'>
+                <Slider />
+            </div>
+            <div className='ourWork__Hero-Container'>
+                <h2 className='ourWork__Title'>We Take Pride In Our Ability To Transform Our Client's Visions Into Reality</h2>
+                
+                <div className='ourWork_CtaContainer'>
+                    <Link to='/contact'><YellowCTA text={"Talk To Us"} /></Link>
+                </div>
+                
+            </div>
+            
+            
+            
         </div>
     );
 }
