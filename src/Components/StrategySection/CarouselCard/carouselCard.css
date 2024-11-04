@@ -1,7 +1,7 @@
 .carouselCard__MainContainer {
     width: auto;    
     border-radius: 22px;
-    border: 1px solid #000;        
+    
     transition: all 0.2s ease-in-out;
     max-width: 100%; 
 }
@@ -14,11 +14,12 @@
 .carouselCard__ImgContainer {
     width: auto; /* Ancho dinámico según el ancho de la imagen */
     max-height: 700px; /* Limita la altura máxima */
+    background-color: #000;
     overflow: hidden;   
     display: flex; 
     justify-content: center;
     align-items: center;
-    border-radius: 22px;
+    border-radius: 22px;   
 }
 
 .carouselCard__Img {
@@ -27,6 +28,7 @@
     max-height: 700px; /* Altura máxima de 400px */
     border-radius: 22px;    
     object-fit: cover; /* Mantiene proporciones sin deformarse */
+    border: 1px solid #000;        
 }
 
 
