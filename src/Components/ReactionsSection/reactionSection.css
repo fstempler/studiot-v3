@@ -174,12 +174,12 @@
     }
     
     .review-3 {
-        bottom: 40%;
+        bottom: 30%;
         left: 5%;
     }
     
     .review-4 {
-        bottom: 25%;
+        bottom: 15%;
         left: 20%;
     }
     
@@ -189,12 +189,12 @@
     }
     
     .review-6 {
-        bottom: 40%;
+        bottom: 30%;
         right: 8%;
     }
     
     .review-7 {
-        bottom: 22%;
+        bottom: 12%;
         right: 25%;
     }
 
@@ -236,12 +236,12 @@
     }
     
     .review-3 {
-        bottom: 35%;
+        bottom: 31%;
         left: 2%;
     }
     
     .review-4 {
-        bottom: 25%;
+        bottom: 20%;
         left: 15%;
     }
     
@@ -251,7 +251,7 @@
     }
     
     .review-6 {
-        bottom: 30%;
+        bottom: 20%;
         right: 5%;
     }
     
@@ -292,18 +292,18 @@
     }
     
     .review-1 {
-        top: 18%;
+        top: 25%;
         left: 20%;
     }
     
     .review-2 {
-        top: 30%;
+        top: 35%;
         left: 12%;
     }
     
     .review-3 {
-        bottom: 30%;
-        left: 10%;
+        bottom: 38%;
+        left: 5%;
     }
     
     .review-4 {
@@ -312,13 +312,13 @@
     }
     
     .review-5 {
-        top: 25%;
-        right: 18%;
+        top: 30%;
+        right: 13%;
     }
     
     .review-6 {
-        bottom: 28%;
-        right: 12%;
+        bottom: 38%;
+        right: 5%;
     }
     
     .review-7 {
@@ -353,12 +353,12 @@
         background-size: 80%; 
         justify-content: center;
         align-items: flex-start;
-        padding-top: 50px;
+        padding-top: 30px;
     }
     
     .reactionSection__Title {
-        font-size: 50px;
-        line-height: 48px;
+        font-size: 40px;
+        line-height: 42px;
     }
 
     .review {
@@ -367,48 +367,48 @@
    
     
     .review-1 {
-        top: 30%;
+        top: 37%;
         left: 10%;
     }
     
     .review-2 {
-        top: 45%;
+        top: 47%;
         left: 10%;
     }
     
     .review-3 {
-        bottom: 25%;
+        bottom: 18%;
         left: 10%;
     }
     
     .review-4 {
-        bottom: 5%;
+        bottom: 1%;
         left: 10%;
     }
     
     .review-5 {
-        top: 38%;
+        top: 29%;
         right: 10%;
     }
     
     .review-6 {
-        bottom: 34%;
+        bottom: 28%;
         right: 10%;
     }
     
     .review-7 {
-        bottom: 18%;
+        bottom: 10%;
         right: 10%;
     }
 
     .emoji-1 {
         top: 15%;
-        left: 1%;
+        left: -9%;
         width: 35%;
     }
 
     .emoji-2 {
-        top: 80%;
+        top: 90%;
         right: 5%;
         width: 40%;
     }

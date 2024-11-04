@@ -40,22 +40,22 @@ const ReactionSection = () => {
                 <motion.img style={{y: lg}} src={review2} alt='Review 1'></motion.img>
             </div>
             <div className='review review-3' ref={container}>
-                <motion.img style={{y: sm}} src={review3} alt='Review 1'></motion.img>
+                <motion.img style={{y: lg}} src={review3} alt='Review 1'></motion.img>
             </div>
             <div className='review review-4' ref={container}>
-                <motion.img style={{y: md}} src={review4} alt='Review 1'></motion.img>
+                <motion.img style={{y: lg}} src={review4} alt='Review 1'></motion.img>
             </div>
             <div className='review emoji-2' ref={container}>
                <motion.img style={{y: lg}} src={hornsEmoji} alt='Horns Emoji'></motion.img>
             </div>
             <div className='review review-5' ref={container}>
-                <motion.img style={{y: md}} src={review5} alt='Review 1'></motion.img>
+                <motion.img style={{y: lg}} src={review5} alt='Review 1'></motion.img>
             </div>
             <div className='review review-6' ref={container}>
-                <motion.img style={{y: sm}} src={review6} alt='Review 1'></motion.img>
+                <motion.img style={{y: lg}} src={review6} alt='Review 1'></motion.img>
             </div>
             <div className='review review-7' ref={container}>
-                <motion.img style={{y: md}} src={review7} alt='Review 1'></motion.img>
+                <motion.img style={{y: lg}} src={review7} alt='Review 1'></motion.img>
             </div>
         </section>
     )

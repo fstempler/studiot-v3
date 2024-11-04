@@ -19,6 +19,7 @@ import express from '../../assets/brands/express.png'
 
 const BrandSection = () => {
     return (
+        <>
         <div className='brandSection__MainContainer' id='brandSection'>
             <div className='brandSection__Title-Container container'>
                 <h2 className='brandSection__Title'>Top Brands, Bold Designs. We Deliver for the Best</h2>
@@ -44,6 +45,8 @@ const BrandSection = () => {
             </div>
             
         </div>
+        {/* <div className='wave-background'>  </div> */}
+        </>
     )
 }
 
