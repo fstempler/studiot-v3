@@ -10,8 +10,8 @@ import review5 from '../../assets/review5.png'
 import review6 from '../../assets/review6.png'
 import review7 from '../../assets/review7.png'
 //components
-
-import { useScroll, useTransform, motion } from 'framer-motion'
+import FloatingComponent from './FloatingComponent/FloatingComponent'
+import { useScroll, useTransform, motion, easeInOut } from 'framer-motion'
 import { useRef } from 'react'
 
 const ReactionSection = () => {
@@ -23,40 +23,63 @@ const ReactionSection = () => {
 
         const sm = useTransform(scrollYProgress, [0, 1], [0, -50]);
         const md = useTransform(scrollYProgress, [0, 1], [0, -150]);
-        const lg = useTransform(scrollYProgress, [0, 1], [0, -300]);
+        const lg = useTransform(scrollYProgress, [0, 1], [0, -100]);
 
     return (
         <section className='reactionSection__MainContainer' id='reactionSection'>
             <div className='reactionSection__TitleContainer'>
                 <h2 className='reactionSection__Title'>Real-time <br />Reaction</h2>                
             </div>
-            <div className='review emoji-1' ref={container}>
+
+            <FloatingComponent className={`review emoji-1`}>
                 <motion.img style={{y: lg}} src={sunglassesEmoji} alt='Sunglasses Emoji'></motion.img>
-            </div>
-            <div className='review review-1' ref={container}>
+            </FloatingComponent>
+            {/* <motion.div className='review emoji-1' ref={container}
+                initial={{
+                    transform: "translateZ(8px) translateY(-2px)"
+                }}
+                animate={{
+                    transform: "translateZ(32px) translateY(-8px)"
+                }}
+                transition={{
+                    repeat: Infinity,
+                    repeatType: "mirror",
+                    duration: 2,
+                    ease: "easeInOut",
+                }}
+            > */}
+                
+            <FloatingComponent className={`review review-1`}>
+            
                <motion.img style={{y: lg}} src={review1} alt='Review 1'></motion.img>
-            </div>
-            <div className='review review-2' ref={container}>
+            </FloatingComponent>
+
+            <FloatingComponent className={`review review-2`}>
                 <motion.img style={{y: lg}} src={review2} alt='Review 1'></motion.img>
-            </div>
-            <div className='review review-3' ref={container}>
+            </FloatingComponent>
+            
+            <FloatingComponent className={`review review-3`}>
                 <motion.img style={{y: lg}} src={review3} alt='Review 1'></motion.img>
-            </div>
-            <div className='review review-4' ref={container}>
+            </FloatingComponent>
+            
+            <FloatingComponent className={`review review-4`}>
                 <motion.img style={{y: lg}} src={review4} alt='Review 1'></motion.img>
-            </div>
-            <div className='review emoji-2' ref={container}>
-               <motion.img style={{y: lg}} src={hornsEmoji} alt='Horns Emoji'></motion.img>
-            </div>
-            <div className='review review-5' ref={container}>
+            </FloatingComponent>
+            
+            <FloatingComponent className={`review emoji-2`}>
+                <motion.img style={{y: lg}} src={hornsEmoji} alt='Horns Emoji'></motion.img>
+            </FloatingComponent>
+            
+            <FloatingComponent className={`review review-5`}>
                 <motion.img style={{y: lg}} src={review5} alt='Review 1'></motion.img>
-            </div>
-            <div className='review review-6' ref={container}>
+            </FloatingComponent>
+            
+            <FloatingComponent className={`review review-6`}>
                 <motion.img style={{y: lg}} src={review6} alt='Review 1'></motion.img>
-            </div>
-            <div className='review review-7' ref={container}>
+            </FloatingComponent>
+            <FloatingComponent className={`review review-7`}>            
                 <motion.img style={{y: lg}} src={review7} alt='Review 1'></motion.img>
-            </div>
+            </FloatingComponent>
         </section>
     )
 }
