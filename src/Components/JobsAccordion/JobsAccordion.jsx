@@ -1,4 +1,4 @@
-import './JobsAccordion.css'
+import './jobsAccordion.css'
 
 const JobsAccordion = ({title, subtitle, time, location, text, id, parentId}) => {
     return (
