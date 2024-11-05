@@ -72,7 +72,7 @@ const Slider = () => {
 
                             <li className="highway-car">
                                 <span className="fab">
-                                    <p className='sliderText'>PHOTO / VIDEO PRODUCTION</p>
+                                    <p className='sliderText'>PHOTO PRODUCTION</p>
                                  </span>
                             </li>
                             <li className="highway-car">
@@ -144,7 +144,7 @@ const Slider = () => {
 
                             <li className="highway-car">
                                 <span className="fab">
-                                    <p className='sliderText'>PHOTO / VIDEO PRODUCTION</p>
+                                    <p className='sliderText'>PHOTO PRODUCTION</p>
                                  </span>
                             </li>
                             <li className="highway-car">
@@ -160,6 +160,11 @@ const Slider = () => {
                             <li className="highway-car">
                                 <span className="fab">
                                     <img src={sun} alt="Image 4" className="clientlogosSlider"/>
+                                </span>
+                            </li>
+                            <li className="highway-car">
+                                <span className="fab">
+                                    <p className='sliderText'>VIDEO PRODUCTION</p>
                                 </span>
                             </li>
                                                                         

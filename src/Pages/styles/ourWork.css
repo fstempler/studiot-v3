@@ -27,8 +27,7 @@
     text-align: center;    
 }
 
-.ourWork__Slider-Container{
-    display: flex;
+.ourWork__Slider-Container{    
     width: 100%;
     overflow: hidden;
 }

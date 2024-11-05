@@ -52,7 +52,7 @@
     height: 200px;
     background-image: url(../../assets/wave-blue.png);
     z-index: 900;
-    margin-bottom: -170px;
+    margin-bottom: -190px;
     background-repeat: no-repeat;
     background-size: contain;
 }

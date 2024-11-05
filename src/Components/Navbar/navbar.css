@@ -3,7 +3,8 @@ nav{
     margin: 18px 45px 0;
     border: 1px solid #FFFEF6;
     border-radius: 50px;
-    background-color: transparent;    
+    background-color: #2424244d;
+    backdrop-filter: blur(5px);
     z-index: 900;    
     transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out, border-color 0.5s ease-in-out;
 }

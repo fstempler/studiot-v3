@@ -1,4 +1,5 @@
 .cta__Container{
+    background-image: url(../../assets/yellowCTA__Background.png);
     background-color: #DAFF01;
     border: 1.6px solid #242424;
     border-radius: 50px;
@@ -13,6 +14,7 @@
     font-size: 30px;    
     transition: all 0.35s ease-out;
     cursor: pointer;
+    
 }
 .cta__Container:hover{
     background-color: #242424;    
@@ -30,4 +32,49 @@
         font-weight: 400;   
         padding:  8px 28px 8px 28px;  
     }
+}
+
+.container-1{
+    background-color: #DAFF01;
+    background-image: url(../../assets/lines-background.png);
+    border-radius: 50px;
+    border: solid 1px #000;
+    width: 285px;
+    height: 62px;    
+}
+.container-2{
+    background-color: #DAFF01;  
+    background-image: url(../../assets/lines-background.png);  
+    margin-left: -4px;
+    margin-top: -4px;
+    border-radius: 50px;
+    border: solid 1px #000;
+    width: 285px;
+    height: 62px;    
+}
+.container-3{
+    background-color: #DAFF01;      
+    margin-left: -4px;
+    margin-top: -4px;
+    border-radius: 50px;
+    border: solid 1px #000;
+    width: 285px;
+    height: 62px;    
+    /* Text */
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    color: #242424;
+    font-size: 30px; 
+    text-align: center;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.mainContainer{
+    transition: all 0.35s ease-out;
+}
+.mainContainer:hover{
+    -webkit-transform: scale(0.97);      
 }
