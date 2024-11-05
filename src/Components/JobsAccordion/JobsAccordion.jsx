@@ -3,7 +3,7 @@ import './jobsAccordion.css'
 const JobsAccordion = ({title, subtitle, time, location, text, id, parentId}) => {
     return (
         
-    <div className="accordion" id={id}>
+    <div className="accordion jobsAccordion-Accordion" id={id}>
         <div className="accordion-item jobsAccordion-item">
             <h2 className="accordion-header">
                 <button 

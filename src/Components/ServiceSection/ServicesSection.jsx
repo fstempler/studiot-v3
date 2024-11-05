@@ -76,14 +76,14 @@ const ServicesSection = ({ pricingSectionRef }) => {
 
                             <div className='servicesSection__LeftList'>
                                 <img className='servicesSection__Logo-StudioT' src={studioTLogo} alt='Studio T Logo' />
-                                <PinkAccordion title={"(On-Demand Design)"} content={"Lorem"} id={"1"} parentId={"accordionGroup"}/>
-                                <PinkAccordion title={"Blog Content"} content={"Lorem"} id={"2"} parentId={"accordionGroup"}/>
-                                <PinkAccordion title={"Ad Creative Copy"} content={"Lorem"} id={"3"} parentId={"accordionGroup"}/>
-                                <PinkAccordion title={"Landing Pages"} content={"Lorem"} id={"4"} parentId={"accordionGroup"}/>
+                                <PinkAccordion title={"(On-Demand Design)"} content={"Fast, fresh and no BS"} id={"1"} parentId={"accordionGroup"}/>
+                                <PinkAccordion title={"Blog Content"} content={"Keep 'em coming back for more."} id={"2"} parentId={"accordionGroup"}/>
+                                <PinkAccordion title={"Ad Creative Copy"} content={"Turn your messages/words into money-making machines."} id={"3"} parentId={"accordionGroup"}/>
+                                <PinkAccordion title={"Landing Pages"} content={"Bring your story to life!"} id={"4"} parentId={"accordionGroup"}/>
                                 <PinkAccordion title={"AI imagery"} content={"Lorem"} id={"5"} parentId={"accordionGroup"}/>
                                 <PinkAccordion title={"Presentation Design"} content={"Lorem"} id={"6"} parentId={"accordionGroup"}/>
-                                <PinkAccordion title={"Photo / Video Production"} content={"Lorem"} id={"7"} parentId={"accordionGroup"}/>
-                                <PinkAccordion title={"Email Design"} content={"Lorem"} id={"8"} parentId={"accordionGroup"}/>
+                                <PinkAccordion title={"Photo / Video Production"} content={"Bring your story to life!"} id={"7"} parentId={"accordionGroup"}/>
+                                <PinkAccordion title={"Email Design"} content={"Email designs that make your audience say, “Hell yes!”"} id={"8"} parentId={"accordionGroup"}/>
                             </div>
 
                         </div>
@@ -98,13 +98,13 @@ const ServicesSection = ({ pricingSectionRef }) => {
                         <div className='col-12 col-md-3 servicesSection__RightColumn' id="accordionGroup2">                            
                             <div className='servicesSection__RightList'>
                                 <img className='servicesSection__Logo-Taktical' src={takticalLogo} alt='Taktical Logo'/>
-                                <PinkAccordion title={"Paid Social Media"} content={"Lorem"} id={"9"} parentId={"accordionGroup2"} />
-                                <PinkAccordion title={"Search Engine Marketing"} content={"Lorem"} id={"10"} parentId={"accordionGroup2"} />
-                                <PinkAccordion title={"SEO"} content={"Lorem"} id={"11"} parentId={"accordionGroup2"} />
-                                <PinkAccordion title={"Organic Social"} content={"Lorem"} id={"12"} parentId={"accordionGroup2"} />
-                                <PinkAccordion title={"Conversion Rate Optimization"} content={"Lorem"} id={"13"} parentId={"accordionGroup2"} />
-                                <PinkAccordion title={"Marketplaces"} content={"Lorem"} id={"14"} parentId={"accordionGroup2"} />
-                                <PinkAccordion title={"Email Marketing"} content={"Lorem"} id={"15"} parentId={"accordionGroup2"} />
+                                <PinkAccordion title={"Paid Social Media"} content={"Cash in with killer ads!"} id={"9"} parentId={"accordionGroup2"} />
+                                <PinkAccordion title={"Search Engine Marketing"} content={"Make your brand the main event. Let’s get lit online!"} id={"10"} parentId={"accordionGroup2"} />
+                                <PinkAccordion title={"SEO"} content={"Game plans that deliver the goods!"} id={"11"} parentId={"accordionGroup2"} />
+                                <PinkAccordion title={"Organic Social"} content={"Cool moves that create a loyal squad!"} id={"12"} parentId={"accordionGroup2"} />
+                                <PinkAccordion title={"Conversion Rate Optimization"} content={"From casual clicks to serious cash!"} id={"13"} parentId={"accordionGroup2"} />
+                                <PinkAccordion title={"Marketplaces"} content={"E-commerce is a thing of the past. You deserve a money-making powerhouse"} id={"14"} parentId={"accordionGroup2"} />
+                                <PinkAccordion title={"Email Marketing"} content={"Don't just find your customers, connect with them. Dolla dolla bill y'all!"} id={"15"} parentId={"accordionGroup2"} />
                             </div>
                         </div>
                     </div>
