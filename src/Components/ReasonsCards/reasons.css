@@ -1,0 +1,25 @@
+.reasonsCard__Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 356px;
+    height: 178px;
+}
+.reasonsCard__Title{
+    font-family: "Archivo", sans-serif;
+    color: #fff;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 600;
+}
+.reasonsCard__Img{
+     
+}
+.reasonsCard__Text{
+    font-family: "Archivo", sans-serif;
+    color: #B6B6B6;
+    font-size: 16px;
+    line-height: 18px;   
+    padding: 0 50px;
+}

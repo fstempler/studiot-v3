@@ -3,12 +3,258 @@
     justify-content: center;
     align-items: center;
     background-color: #282627;
-    height: 100vh;
+    height: 88vh;
     color: #242424;
 }
+
+.careers__Hero-Container{
+    background-image: url(../../assets/careers__Hero.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 100%;
+    height: 100vh;
+}
+.careers__Hero-Container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 50px;
+}
 .careers__Title{
+    color: #fff;
     font-family: "DM Serif Text", serif;
+    font-size: 112px;
+    line-height: 110px;
+}
+.careers__Security-Container{
+    background-color: #282627;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+}
+.carrers__Disclosure{
+    font-family: "Archivo", sans-serif;
+    color: #fff;
+    font-size: 22px;
+    line-height: 35px;
+    text-align: center;
+}
+.careers__Disclosure-Subtitle{
+    font-family: "Archivo", sans-serif;
+    color: #fff;
+    font-size: 33px;
+    line-height: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+.careers__Disclosure-Container{
+    background-color: #DAFF01;
+    width: 50%;
+    border-radius: 128px;
+    padding: 30px 60px;
+}
+.careers__Disclosure-Text{
+    font-family: "Archivo", sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    text-align: center;
+}
+.openings__Container{
+    background-color: #282627;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.careers__Openings-Title{
     color: #DAFF01;
-    font-size: 90px;
-    font-weight: 900;
+    font-family: "DM Serif Text", serif;   
+    font-size: 73px;
+    line-height: 74px;
+    text-align: center;
+    margin: 0;
+}
+.openings__Accordion-Container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.careers__Reasons-Container{
+    padding-top: 100px;
+    background-color: #282627;
+    display: flex;    
+    justify-content: center;
+    flex-direction: column;
+    gap: 100px;
+}
+.careers__Reasons-CardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.careers__Life-Row {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.careers__Life-Container {
+    background-color: #93A2FD;
+    position: relative; /* Necesario para que el cactus se posicione relativo a este contenedor */
+    overflow: hidden; /* Opcional, evita que el cactus se salga del contenedor */
+}
+.careers-columnLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    gap: 30px;
+}
+.careers__Life-Title {
+    font-family: "Archivo", sans-serif;
+    font-size: 66px;
+    font-weight: 800;
+    line-height: 66px;
+}
+.careers-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 10px;
+    height: 100vh;
+}
+.careers-left {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    display: flex;
+    flex-wrap: wrap;
+}
+.careers-image1 {
+    object-fit: contain;
+}
+.careers-right-top {
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 10px;
+}
+.careers-image2, .careers-image3 {
+    object-fit: contain;
+}
+.careers-right-bottom {
+    grid-column: 2;
+    grid-row: 2;
+}
+.cactusEmoji {
+    position: absolute;
+    bottom: -10%;
+    left: 15%;
+    width: 500px;
+    z-index: 1;
+}
+
+@media (max-width: 1200px) {
+    
+    .careers__Hero-Container{     
+        background-size: 80%;                
+        background-position: right;
+        height: 100%;        
+        margin-bottom: -100px;
+    }
+}
+@media (max-width: 1024px) {
+    
+    .careers__Hero-Container{     
+        background-size: 100%;                
+        background-position: bottom;
+        height: 100%;        
+        margin-bottom: 0px;        
+    }
+    
+    .careers__Life-Title {
+        font-size: 42px;
+        line-height: 48px;
+    }
+    .careers-columnLeft {
+        padding: 20px;
+    }
+    .careers-grid-container {
+        height: auto; /* Ajusta la altura para que no ocupe toda la pantalla en tabletas */
+    }
+    .cactusEmoji {
+        width: 300px;
+        bottom: -5%;
+        left: 10%;
+    }
+    .careers-image4{
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    .careers__Hero-Container{
+        background-image: url(../../assets/careers__Hero.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: contain;
+        width: 100%;
+        height: 100%;
+    }
+    .careers__Hero-Container{     
+        gap: 20px;
+        padding-left: 20px;
+        justify-content: flex-start;
+        padding-top: 200px;
+    }
+    .careers__Title{     
+        font-size: 80px;
+        line-height: 72px;
+    }
+    .openings__Accordion-Container{
+        width: 100%;     
+        padding: 10px;
+    }
+    .careers__Disclosure-Container{        
+        width: 100%;
+        border-radius: 128px;
+        padding: 30px 60px;
+    }
+    .title-image{
+        width: 50%;
+    }
+    .careers__Life-Title {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .careers-columnLeft {
+        padding: 20px;
+    }
+    .careers-grid-container {
+        grid-template-columns: 1fr; /* Cambia a una sola columna en dispositivos móviles */
+        grid-template-rows: auto;
+        padding: 10px;
+    }
+    .careers-left, 
+    .careers-right-top, 
+    .careers-right-bottom {
+        grid-column: 1;        
+    }
+    .cactusEmoji {
+        width: 150px;
+        bottom: -2%;
+        left: 15%;
+    }
+    .careers-image1{
+        display: none;
+    }
+    
 }

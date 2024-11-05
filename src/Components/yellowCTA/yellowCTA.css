@@ -78,3 +78,19 @@
 .mainContainer:hover{
     -webkit-transform: scale(0.97);      
 }
+@media (max-width: 1024px) {
+    .container-1{        
+        width: 136px;
+        height: 42px;    
+    }
+    .container-2{
+        width: 136px;
+        height: 42px;    
+    }
+    .container-3{        
+        width: 136px;
+        height: 42px;    
+        /* Text */        
+        font-size: 18px;         
+    }
+}

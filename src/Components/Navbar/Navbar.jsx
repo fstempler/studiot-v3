@@ -3,6 +3,7 @@ import './navbar.css';
 import logo from '../../assets/studiot-logo.svg';
 import { useRef, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import YellowCTA from '../yellowCTANav/YellowCTANav';
 
 const Navbar = () => {
     const navbarRef = useRef(null);
@@ -84,12 +85,16 @@ const Navbar = () => {
                         </ul>
                     
                         <div className="d-lg-none mt-3">
-                            <Link to="/contact"><button className="contactusbtn w-50" type="button">Contact Us</button></Link>
+                            <Link to="/contact">                                
+                                <YellowCTA text={"Contact Us"}/>
+                            </Link>
                         </div>
                     </div>
                 
-                    <div className="d-none d-lg-block">
-                        <Link to="/contact"><button className="contactusbtn" type="button">Contact Us</button></Link>
+                    <div className="d-none d-lg-block button-desktop">
+                        <Link to="/contact">                            
+                            <YellowCTA text={"Contact Us"}/>
+                        </Link>
                     </div>
                 </div>
             </nav>
