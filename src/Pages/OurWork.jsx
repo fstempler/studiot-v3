@@ -15,7 +15,17 @@ const OurWork = () => {
     const column2 = cardData.filter(card => card.id === 2 || card.id === 6);
     const column3 = cardData.filter(card => card.id === 3 || card.id === 7);
     const column4 = cardData.filter(card => card.id === 4 || card.id === 8);
-
+    //Line 2
+    const column5 = cardData.filter(card => card.id === 9 || card.id === 12);
+    const column6 = cardData.filter(card => card.id === 10 || card.id === 13);
+    const column7 = cardData.filter(card => card.id === 11 || card.id === 14);
+    const column8 = cardData.filter(card => card.id === 12 || card.id === 15);
+    //Line3
+    const column9 = cardData.filter(card => card.id === 16 || card.id === 20);
+    const column10 = cardData.filter(card => card.id === 17 || card.id === 21);
+    const column11 = cardData.filter(card => card.id === 18 || card.id === 22);
+    const column12 = cardData.filter(card => card.id === 19 || card.id === 25);
+    //Line4
     
 
     return (
@@ -77,7 +87,7 @@ const OurWork = () => {
                 <div className='ourWork__Grid'>
                     
                     <div className='ourWork__Column'>
-                        {column1.map(card => (
+                        {column5.map(card => (
                             <Card
                                 key={card.id}
                                 img={card.image}
@@ -88,7 +98,7 @@ const OurWork = () => {
                     </div>
                     
                     <div className='ourWork__Column'>
-                        {column2.map(card => (
+                        {column6.map(card => (
                             <Card
                                 key={card.id}
                                 img={card.image}
@@ -99,7 +109,7 @@ const OurWork = () => {
                     </div>
                     
                     <div className='ourWork__Column'>
-                        {column3.map(card => (
+                        {column7.map(card => (
                             <Card
                                 key={card.id}
                                 img={card.image}
@@ -110,7 +120,7 @@ const OurWork = () => {
                     </div>
                     
                     <div className='ourWork__Column'>
-                        {column4.map(card => (
+                        {column8.map(card => (
                             <Card
                                 key={card.id}
                                 img={card.image}
@@ -120,6 +130,55 @@ const OurWork = () => {
                         ))}
                     </div>
                 </div>
+
+                <div className='ourWork__Grid'>
+                    
+                    <div className='ourWork__Column'>
+                        {column9.map(card => (
+                            <Card
+                                key={card.id}
+                                img={card.image}
+                                shape={card.shape}
+                                alt={card.alt}
+                            />
+                        ))}
+                    </div>
+                    
+                    <div className='ourWork__Column'>
+                        {column10.map(card => (
+                            <Card
+                                key={card.id}
+                                img={card.image}
+                                shape={card.shape}
+                                alt={card.alt}
+                            />
+                        ))}
+                    </div>
+                    
+                    <div className='ourWork__Column'>
+                        {column11.map(card => (
+                            <Card
+                                key={card.id}
+                                img={card.image}
+                                shape={card.shape}
+                                alt={card.alt}
+                            />
+                        ))}
+                    </div>
+                    
+                    <div className='ourWork__Column'>
+                        {column12.map(card => (
+                            <Card
+                                key={card.id}
+                                img={card.image}
+                                shape={card.shape}
+                                alt={card.alt}
+                            />
+                        ))}
+                    </div>
+                </div>
+
+
             </div>
             <div className='ourWork__Slider-Container'>
                 <Slider />
