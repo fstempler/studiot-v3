@@ -141,4 +141,13 @@
         width: 75%;
         margin-left: 120px;
     }
+    .title-1{
+        font-family: "DM Serif Text", serif;
+        font-weight: 600;
+        font-size: 60px;
+        line-height: 62px;
+        color: #000;
+        text-align: left;
+        margin-top: 120px;
+    }
 }

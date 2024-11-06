@@ -88,8 +88,17 @@
     }
 }
 @media (max-width: 576px) {
+    .caseStudies__Hero-Container-Main{
+        height: 50vh;
+        background-size: contain;        
+        background-position: bottom right;
+        padding-top: 50px;
+    }
     .caseStudies__StudioTSkate{         
-        height: 20%;    
+        height: 30%;    
         width: auto;
+    }
+    .caseStudies__Hero-RightColumn{        
+        height: 50vh;
     }
 }

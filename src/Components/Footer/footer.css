@@ -196,3 +196,8 @@
         font-size: 10px;
     }
 }
+@media (max-width: 576px) {
+    .footer__FormContainer{
+        width: 70%;
+    }
+}
