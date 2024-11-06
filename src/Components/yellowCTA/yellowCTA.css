@@ -94,3 +94,19 @@
         font-size: 18px;         
     }
 }
+@media (max-width: 576px) {
+    .container-3{        
+        width: 156px;
+        height: 42px;    
+        /* Text */        
+        font-size: 15px;         
+    }
+    .container-1{        
+        width: 156px;
+        height: 42px;    
+    }
+    .container-2{
+        width: 156px;
+        height: 42px;    
+    }
+}

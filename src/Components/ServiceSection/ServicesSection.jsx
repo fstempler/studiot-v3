@@ -80,8 +80,8 @@ const ServicesSection = ({ pricingSectionRef }) => {
                                 <PinkAccordion title={"Blog Content"} content={"Keep 'em coming back for more."} id={"2"} parentId={"accordionGroup"}/>
                                 <PinkAccordion title={"Ad Creative Copy"} content={"Turn your messages/words into money-making machines."} id={"3"} parentId={"accordionGroup"}/>
                                 <PinkAccordion title={"Landing Pages"} content={"Bring your story to life!"} id={"4"} parentId={"accordionGroup"}/>
-                                <PinkAccordion title={"AI imagery"} content={"Lorem"} id={"5"} parentId={"accordionGroup"}/>
-                                <PinkAccordion title={"Presentation Design"} content={"Lorem"} id={"6"} parentId={"accordionGroup"}/>
+                                <PinkAccordion title={"AI imagery"} content={"Visuals on steroids, boosted by rad AI tech!"} id={"5"} parentId={"accordionGroup"}/>
+                                <PinkAccordion title={"Presentation Design"} content={"Option 1: From everyday pitch into a full-blown experience! Option 2: Killer slides that make you say, Whoa!"} id={"6"} parentId={"accordionGroup"}/>
                                 <PinkAccordion title={"Photo / Video Production"} content={"Bring your story to life!"} id={"7"} parentId={"accordionGroup"}/>
                                 <PinkAccordion title={"Email Design"} content={"Email designs that make your audience say, “Hell yes!”"} id={"8"} parentId={"accordionGroup"}/>
                             </div>

@@ -90,8 +90,19 @@ const Careers = () => {
         </div>
         <div className='careers__Reasons-Container'>
             <div className='careers__Reasons-Title-Container'>
-                <img src={resorte} className='title-image'/>
-                <h2 className='careers__Openings-Title'>Reason To Join<br></br>Our Agency</h2>
+                <div className='row p-0 m-0'>
+                    <div className='col-12 col-sm-4 careers__Reason-LeftColumn'>
+                        <img src={resorte} className='title-image'/>
+                    </div>
+                    <div className='col-12 col-sm-4 careers__Reason-MiddleColumn'>
+                        <h2 className='careers__Openings-Title'>Reason To Join<br></br>Our Agency</h2>        
+                    </div>
+                    <div className='col-12 col-sm-4 careers__Reason-RightColumn'>
+                        
+                    </div>
+                </div>
+                
+                
             </div>
             
 

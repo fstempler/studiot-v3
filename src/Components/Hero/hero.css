@@ -47,7 +47,7 @@
 .title-1{
     font-family: "DM Serif Text", serif;
     font-weight: 600;
-    font-size: 86px;
+    font-size: 80px;
     color: #000;
     text-align: left;
 }
@@ -117,7 +117,7 @@
 }
 @media (max-width: 1024px) {
     .hero__MainContainer{        
-        height: 80vh;    
+        height: 95vh;    
         padding: 0;        
     }
     .hero__PinkSpark{
@@ -126,12 +126,19 @@
         margin-left: -70px;
     }
 }
-@media (max-width: 768px) {      
+@media (max-width: 768px) {          
+    
+    .hero__HornsEmoji{
+        width: 100%;        
+    }
+}
+@media (max-width: 576px) {      
     
     .hero__PinkSpark{
         display: none;
     }
     .hero__HornsEmoji{
-        display: none;
+        width: 75%;
+        margin-left: 120px;
     }
 }
