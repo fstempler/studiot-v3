@@ -27,9 +27,9 @@ const AlgorithmSection = () => {
                     <div className='algorithm__LeftImageContainer'>
                         <div style={{ padding: '56.25% 0 0 0', position: 'relative' }} >
                             <iframe
-                                src="https://player.vimeo.com/video/851719558?h=448878eb5e&badge=0&autopause=0&player_id=0&app_id=58479"
+                                src="https://player.vimeo.com/video/1027379063?"
                                 frameBorder="0"
-                                allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+                                allow="autoplay; fullscreen; picture-in-picture; clipboard-write; loop"
                                 className='video-frame'
                                 style={{
                                     position: 'absolute',
