@@ -198,18 +198,42 @@
 }
 @media (max-width: 576px) {
     .footer__FormContainer{
-        width: 70%;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .subscribe__Form{
+        width: 100%;
+        text-align: right;
+    }
+    .subscribeInput{    
+        border-radius: 50px;
+        padding: 7.7px 10px;
+        border:solid 1px #DAFF01;
+        background-color: transparent;
+        width: 100%;
+    }
+    .subscribeInput::placeholder{        
+        color: #DAFF01;  
+        font-family: "Archivo", sans-serif;
+        font-size: 22px;
+        line-height: 25px;
     }
     .subscribeButton{
-        
-            border-radius: 50px;                        
-            background-color: #01ff2b;
-            margin-left: 0;
-            font-family: "Archivo", sans-serif;
-            font-size: 15px;
-            
-        
-        
-        
+        border-radius: 50px;
+        padding: 7px 10px;
+        border:solid 1px #DAFF01;
+        background-color: #DAFF01;
+        margin-left: -122px;
+        font-family: "Archivo", sans-serif;
+        font-size: 22px;
+        line-height: 25px;
     }
+    .footer__ImageContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    } 
 }
