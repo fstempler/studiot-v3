@@ -94,8 +94,12 @@
         background-position: bottom right;
         padding-top: 50px;
     }
+    .caseStudies__Hero-LeftColumn{
+        padding-left: 20px;     
+        padding-right: 0;
+    }
     .caseStudies__StudioTSkate{         
-        height: 30%;    
+        height: 35%;    
         width: auto;
     }
     .caseStudies__Hero-RightColumn{        
