@@ -62,7 +62,7 @@
     overflow: hidden;   
 }
 .hero__HornsEmoji{
-    width: auto;
+    width: 251px;
     transform: rotateZ(25deg);
 }
 
