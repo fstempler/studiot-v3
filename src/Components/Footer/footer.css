@@ -200,4 +200,9 @@
     .footer__FormContainer{
         width: 90%;
     }
+    .subscribeButton{
+        
+        background-color: #01ff62;
+        
+    }
 }

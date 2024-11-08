@@ -61,7 +61,7 @@ const Footer = () => {
                     <div className='col-12 footer__Terms-LinksContainer'>
                         <Link to={"#"}>Privacy Policy</Link>  
                         <Link to={"#"}>Terms of Service</Link>
-                        <Link to={"#"}>© 2024, Studio T</Link>
+                        <Link to={"#"}>© 2024, Studio t</Link>
                     </div>                    
                 </div>
             </div>
