@@ -62,8 +62,8 @@
     overflow: hidden;   
 }
 .hero__HornsEmoji{
-    width: 351px;
-    transform: rotate(15deg);
+    width: auto;
+    transform: rotateZ(25deg);
 }
 
 /* @media (max-width: 1200px) {
@@ -114,6 +114,10 @@
     .hero__PinkSpark{        
         margin-left: -90px;
     }
+    .hero__HornsEmoji{
+        width: 200px;
+        transform: rotateZ(25deg);
+    }
 }
 @media (max-width: 1024px) {
     .hero__MainContainer{        
@@ -138,7 +142,7 @@
         display: none;
     }
     .hero__HornsEmoji{
-        width: 75%;
+        width: 45%;
         margin-left: 120px;
     }
     .title-1{

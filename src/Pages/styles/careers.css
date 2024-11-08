@@ -264,3 +264,12 @@
     }
     
 }
+@media (max-width: 576px) {
+    .careers__Hero-Container{
+        padding-top: 100px;
+    }
+    .careers__Disclosure-Container{                
+        border-radius: 50px;
+        padding: 30px;
+    }
+}
