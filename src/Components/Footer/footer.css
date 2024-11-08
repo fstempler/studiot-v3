@@ -234,6 +234,7 @@
         line-height: 25px;
         width: 80%;
         text-align: center;
+        color: #242424;
     }
     .footer__ImageContainer{
         display: flex;
