@@ -1,0 +1,11 @@
+.calendly__Container{
+    background-color: #242424;
+    padding-top: 150px;
+}
+.calendly__Title{
+    font-family: "DM Serif Text", serif;
+    color: #DAFF01;
+    font-size: 83px;
+    font-weight: 800;
+    text-align: center;
+}

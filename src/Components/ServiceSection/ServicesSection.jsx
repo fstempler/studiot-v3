@@ -113,7 +113,7 @@ const ServicesSection = ({ pricingSectionRef }) => {
             </div>
 
             {/* // CELPHONE */}
-            <div className='services__Section-Cel' id='pricingSection'>
+            <div className='services__Section-Cel' id='pricingSectionMobile'>
                 <div className='services__SectionCel-Title-Container'>
                     <h2 className='services__SectionCel-Title'>Our Services</h2>
                 </div>

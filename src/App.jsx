@@ -2,7 +2,7 @@ import './App.css'
 //components
 import Navbar from './Components/Navbar/Navbar'
 import Footer from './Components/Footer/Footer'
-
+import { useEffect } from 'react'
 import { createBrowserRouter, createRoutesFromElements, Outlet, RouterProvider, Route, useLocation } from 'react-router-dom'
 //Pages
 import Home from '../src/Pages/Home'
@@ -11,7 +11,8 @@ import CaseStudies from './Pages/CaseStudies'
 import Careers from './Pages/Careers'
 import Pricing from './Pages/Pricing'
 import Contact from './Pages/Contact'
-import { useEffect } from 'react'
+import Calendly from './Pages/Calendly'
+
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -42,6 +43,7 @@ const routes = createBrowserRouter(
       <Route path="/careers" element={<Careers />} />
       <Route path="/pricing" element={<Pricing />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/calendly" element={<Calendly />} />
     </Route>
   )
 );
