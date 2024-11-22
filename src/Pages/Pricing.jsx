@@ -17,7 +17,7 @@ const Pricing = () => {
                         
                         <div className='pricing__Level-Container'>
                             <div className='pricing__Level'>Level 1</div>
-                            <h3 className='pricing__Prices'>20 Hours <br/> $0,000</h3>
+                            <h3 className='pricing__Prices'>20 Hours <br/> $1,600</h3>
                         </div>
                         
                     </div>                    
@@ -31,11 +31,11 @@ const Pricing = () => {
                         
                         <div className='pricing__Level-Container'>
                             <div className='pricing__Level'>Level 2</div>
-                            <h3 className='pricing__Prices'>30 Hours <br/> $0,000</h3>
+                            <h3 className='pricing__Prices'>30 Hours <br/> $2,400</h3>
                         </div>
                         <div className='pricing__Level-Container'>
                             <div className='pricing__Level'>Level 3</div>
-                            <h3 className='pricing__Prices'>50 Hours <br/> $0,000</h3>
+                            <h3 className='pricing__Prices'>50 Hours <br/> $3,900</h3>
                         </div>
                     </div>                    
                 </div>
@@ -48,11 +48,11 @@ const Pricing = () => {
                         
                         <div className='pricing__Level-Container'>
                             <div className='pricing__Level'>Level 4</div>
-                            <h3 className='pricing__Prices'>70 Hours <br/> $0,000</h3>
+                            <h3 className='pricing__Prices'>70 Hours <br/> $5,320</h3>
                         </div>
                         <div className='pricing__Level-Container'>
                             <div className='pricing__Level'>Level 5</div>
-                            <h3 className='pricing__Prices'>90 Hours <br/> $0,000</h3>
+                            <h3 className='pricing__Prices'>90 Hours <br/> $6,570</h3>
                         </div>
                     </div>                    
                 </div>
