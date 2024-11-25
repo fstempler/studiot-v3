@@ -19,16 +19,35 @@
     font-size: 90px;
     font-weight: 900;
 }
-.pricing__Content-Container{
+
+.pricing__Content-Container, .credit__Content-Container-Content{
     border: solid 1px #DAFF01;
     padding: 15px;
     margin: 10px;
     border-radius: 18px;
-    height: 500px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
  }
+ .credit__Content-Container-Content{
+    border: solid 1px #FF90EB;
+}
+.credit__Title{
+    background-color: #FF90EB;
+    border-radius: 5px;
+    font-family: "Archivo", sans-serif;
+    color: #242424;
+    text-align: center;
+    font-size: 20px;
+}
+.credit__Content{
+    font-family: "Archivo", sans-serif;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
 .pricing__Title{
     font-family: "Archivo", sans-serif;
     color: #FFF;
@@ -76,6 +95,6 @@
     font-weight: 400;
     text-align: center;
 }
-.pricing__Content-Container-Left{
+/* .pricing__Content-Container-Left{
     padding-bottom: 200px;
-}
+} */
