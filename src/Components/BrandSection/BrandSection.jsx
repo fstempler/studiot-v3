@@ -2,7 +2,7 @@ import './brandSection.css'
 //images
 import fourMoms from '../../assets/brands/4moms.png'
 import absolut from '../../assets/brands/absolut.png'
-import alibaba from '../../assets/brands/alibaba.png'
+import alibaba from '../../assets/brands/Alibaba.png'
 import amaran from '../../assets/brands/amaran.png'
 import amazon from '../../assets/brands/amazon.png'
 import aplos from '../../assets/brands/aplos.png'
