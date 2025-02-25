@@ -1,24 +1,30 @@
 import { motion } from 'framer-motion';
 
-const FloatingComponent = ({ children, className }) => {
+const FloatingComponent = ({ children,
+    className, 
+    floatInitialZ,
+    floatInitialY,
+    floatAnimateZ,
+    floatAnimateY,
+    floatDuration  }) => {
     return (
         <motion.div
-            className={`review ${className}`}
-            initial={{
-                transform: "translateZ(8px) translateY(-2px)"
-            }}
-            animate={{
-                transform: "translateZ(32px) translateY(-8px)"
-            }}
-            transition={{
-                repeat: Infinity,
-                repeatType: "mirror",
-                duration: 2,
-                ease: "easeInOut",
-            }}
-        >
-            {children}
-        </motion.div>
+      className={`review ${className}`}
+      initial={{
+        transform: `translateZ(${floatInitialZ}) translateY(${floatInitialY})`
+      }}
+      animate={{
+        transform: `translateZ(${floatAnimateZ}) translateY(${floatAnimateY})`
+      }}
+      transition={{
+        repeat: Infinity,
+        repeatType: "mirror",
+        duration: floatDuration,
+        ease: "easeInOut",
+      }}
+    >
+      {children}
+    </motion.div>
     );
 };
 

@@ -1,0 +1,108 @@
+.planSection__Title-ColContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.planSection__Title{
+    font-size: 80px;
+    font-family: "DM Serif Text", serif;
+    font-style: italic;
+}
+.planSection__AltTitle{
+    font-family: "Archivo", sans-serif;
+}
+.planSection__Title2{
+    font-size: 55px;
+    font-family: "DM Serif Text", serif;
+    font-style: italic;
+}
+.planSection__AltTitle2{
+    font-family: "Archivo", sans-serif;
+}
+.planSection__RowContainer{
+    width: 80%;
+}
+.planSection__ColContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+.planSection__Plan-Container{
+    background-color: #DAFF01;
+    border-radius: 20px;
+    padding: 40px 60px;   
+    width: 90%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    gap: 10px;
+}
+.planSection__Plan-Container ul{
+    list-style: none;
+}
+.planSection__Plan-Title{
+    font-size: 32px;
+}
+.planSection__Plan-Subtitle{
+    font-size: 26px;
+}
+.planSection__Text{
+    font-size: 22px;
+}
+.planSection__CTA-Container{
+    position: relative;
+    z-index: 1000;
+}
+.planSection__Image-Container{   
+    position: relative;
+    width: 100%;    
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    z-index: 900;   
+    margin-top: -300px; 
+}
+
+@media (max-width: 1024px) {
+    .planSection__RowContainer{
+        width: 90%;
+    }
+    .planSection__Title-ColContainer{        
+        padding-bottom: 20px;
+    }
+    .planSection__Title, .planSection__Title2{
+        font-size: 40px;
+    }
+    .planSection__Plan-Title{
+        font-size: 26px;
+    }
+    .planSection__Plan-Subtitle{
+        font-size: 20px;
+    }
+    .planSection__Text{
+        font-size: 18px;
+    }
+    .planSection__Image-Container{           
+        margin-top: -150px; 
+    }
+    .planSection__Plan-Container{        
+        padding: 20px 30px;   
+        width: 90%; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;    
+        gap: 10px;
+    }
+}
+@media (max-width: 768px) {
+    .planSection__ColContainer{
+        padding: 10px;
+    }
+    .planSection__Image-Container{   
+        display: none;        
+    }    
+}

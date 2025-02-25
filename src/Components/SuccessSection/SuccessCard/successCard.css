@@ -1,16 +1,19 @@
 .successCard__Container{
     background-color: #ECEAF9;
-    width: 372px;
-    height: 400px;
-    border-radius: 22px;
+    width: 420px;
+    height: 360px;
+    border-radius: 12px;
     transition: transform .3s ease-in-out;
     margin: 10px;
+    border: 2px solid #282627;
+    filter: drop-shadow(5px 5px #DAFF01);
 }
-.successCard__Container:hover{
+
+/* .successCard__Container:hover{
     background-color: #DAFF01;        
-}
+} */
 .succesCard__Text-Container{
-    height: 300px;
+    height: 250px;
 }
 .successCard__Text{
     font-family: "Archivo", sans-serif;
@@ -18,8 +21,7 @@
     font-weight: 400;
     padding: 30px 30px;
 }
-.succesCard__ImageContainer{
-    border-top: solid 1px #000;
+.succesCard__ImageContainer{    
     display: flex;    
     justify-content: flex-start;
     align-items: center;

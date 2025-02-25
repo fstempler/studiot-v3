@@ -46,10 +46,15 @@
 }
 .title-1{
     font-family: "DM Serif Text", serif;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 80px;
     color: #000;
     text-align: left;
+    font-style: italic;
+}
+.title-1-subtitle{
+    font-family: "Archivo", sans-serif;
+    font-style: normal;
 }
 .hero__Text_Img{
     width: 100%;

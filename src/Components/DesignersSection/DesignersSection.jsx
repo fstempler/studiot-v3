@@ -2,49 +2,27 @@ import './designersSection.css'
 //Images
 import star from '../../assets/Star-Shape.png'
 //Components
-import Card from './DesignerSectionCard/DesignerSectionCard'
+import { Link } from 'react-router-dom'
+import ContactCTA from '../yellowCTA/YellowCTA.jsx'
 
 const DesignersSection = () => {
     return (
-        <section className='designersSection__MainContainer' id='designersSection'>
-            <div className='designersSection__Container'>
-                <div className='row designersSection__Row'>
-                    <div className='col-12 col-md-6 designersSection__LeftColumn'>
+        <section className='upgradeSection__MainContainer' id='designersSection'>            
 
+                <div className='upgradeSection__Container'>
+                    <div className='upgradeSection__Text-Container'>
+                        <h2 className='designerSection__Title'>Ready To Upgrade Your Creative Game?</h2>
+                        <br/>
+                        <p className='designerSection__Text'><i className="bi bi-check-circle-fill"></i> No more missed deadlines. No more meh ads.</p>
+                        <br/>
+                        <p className='designerSection__Text'><i className="bi bi-check-circle-fill"></i> Just high-performing, on-brand creative. Delivered fast.</p>                            
                     </div>
-                    <div className='col-12 col-md-6 designersSection__RightColumn'>
-                        <div className='designersSection__ImageContainer'>
-                            <img src={star} className='designersSection__Image' alt='Star' />
-                        </div>
-                        <div className='designersSection__ContentContainer'>
-                            <div className='designersSection__CarouselContainer'>
-                            <div id="carouselExample" className="carousel slide">
-                                <div className="carousel-inner">
-                                    <div className="carousel-item active">
-                                        <Card title={"Expert Designers at Your Fingertips"} text={"Work with top-tier talent experienced in advertising and marketing design. Our team knows what it takes to create visuals that captivate and convert."} />
-                                    </div>
-                                    <div className="carousel-item">
-                                        <Card title={"Lightning-Fast Turnaround"} text={"Get exceptional designs in record time. We work as fast as your business moves, without sacrificing quality or creativity."} />
-                                    </div>
-                                    <div className="carousel-item">
-                                        <Card title={"Flexible Subscriptions, Tailored to You"} text={"No long-term contracts, no surprises. Our flexible subscription plans let you scale your creative needs up or down to match your goals."} />
-                                    </div>
-                                  </div>
-                                  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span className="visually-hidden">Previous</span>
-                                  </button>
-                                  <button className="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span className="visually-hidden">Next</span>
-                                  </button>
-                                </div>
-                            </div>
-                        </div>
+                    <div className='designerSection__Btn-Container'>
+                        <Link to={"/contact"}><ContactCTA text={"Get Started"}/></Link>
                     </div>
                 </div>
 
-            </div>
+            
         </section>
     )
 }

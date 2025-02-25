@@ -1,5 +1,6 @@
 .successSection__MainContainer{
-    background-image: url(../../assets/success-bg.png);
+    /* background-image: url(../../assets/success-bg.png); */
+    background-color: #FFF;
     background-size: cover;
     background-repeat: no-repeat;
     padding: 100px;
@@ -11,6 +12,11 @@
     font-weight: 400;
     line-height: 110px;
     text-align: center;
+    font-style: italic;
+}
+.successSection__Content-AltTitle{
+    font-family: "Archivo", sans-serif;
+    font-style: normal;
 }
 .successSection__Content-CardsContainer{
     margin: 80px;
@@ -37,7 +43,7 @@
     gap: 80px;
 }
 .carousel__Btn{
-    background-color: #93A2FD;
+    background-color: #FFF;
     border: none;
 } 
 .carousel__Btn--Right{

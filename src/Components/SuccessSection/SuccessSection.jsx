@@ -2,6 +2,7 @@ import './successSection.css'
 // components
 import SuccessCard from './SuccessCard/SuccessCard'
 import { useState } from 'react'
+import YellowCTA from '../yellowCTA/YellowCTA'
 //Images
 import Graceful from '../../assets/graceful-logo-black.png'
 import Alibaba from '../../assets/alibaba-logo-black.png'
@@ -93,7 +94,7 @@ const SuccessSection = () => {
             <div className='successSection__Content-Container'>
                 <div className='successSection__Content-TitleContainer'>
                     <h2 className='successSection__Content-Title'>
-                        Success Speaks for Itself
+                        Success <span className='successSection__Content-AltTitle'>Speaks</span> for <span className='successSection__Content-AltTitle'>Itself</span>
                     </h2>
                 </div>
                 <div className='successSection__Content-CardsContainer'>
@@ -119,7 +120,7 @@ const SuccessSection = () => {
 
                 
             </div>
-
+            <YellowCTA text="See What The Hype Is About"/>
         </section>
     )
 }

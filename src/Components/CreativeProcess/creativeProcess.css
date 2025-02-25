@@ -1,0 +1,45 @@
+.creativeProcess__MainContainer{
+    padding: 20px;
+}
+.creativeProcess__Title{
+    font-size: 75px;
+    font-family: "DM Serif Text", serif;
+    font-style: italic;
+    text-align: center;
+}
+.creativeProcess__AltText{
+    font-family: "Archivo", sans-serif;
+    font-style: normal;
+}
+.creativeProcess__Content{
+    background-color: #93A2FC;
+    border-radius: 38px;
+    padding: 50px;
+}
+.creativeProcess__Card-Container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.creativeProcess__Arrow{
+    width: 30px;
+}
+.creativeProcess__Image-Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.creativeProces__Image{
+    width: 100%;
+}
+@media (max-width: 1024px) {
+    .creativeProcess__Content{        
+        padding: 10px;
+    }
+    .creativeProcess__Title{
+        font-size: 40px;        
+    }
+}

@@ -32,9 +32,17 @@ const Hero = () => {
                             ></motion.img>
                     </div>
                     <div className='column-Middle col-12 col-md-5'>
-                        <h1 className='title-1'>Brilliant Design.</h1>                        
-                        <img src={heroText} alt='Hero Text' className='hero__Text_Img'/>
-                        <Link to={"/contact"}><ContactCTA text={"Talk To Us"}/></Link>
+                        <h1 className='title-1'>
+                            Performance-Driven
+                            <br />
+                            <span className='title-1-subtitle'> Design, Right <br/>When You</span>
+                            <span> Need It.</span>
+                        
+                        </h1>                        
+                        
+                        <Link to={"/contact"}>
+                            <ContactCTA text={"Get Started"}/>
+                        </Link>
                     </div>
                     <div className='column-Right col-12 col-md-3'>
                         <motion.img 

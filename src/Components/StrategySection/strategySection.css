@@ -2,11 +2,12 @@
     background-color: #FFFEF6;    
     width: 100%;        
     height: auto;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
 }
 .strategySection__Content-Container{
     background-image: url(../../assets/gradientBg.png);
-    background-position: center bottom;
+    background-position: center;
+    background-size: contain;
     background-repeat: no-repeat; 
     display: flex;
     flex-direction: column;
