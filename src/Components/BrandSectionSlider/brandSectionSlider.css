@@ -1,0 +1,111 @@
+.brandSection__MainContainer{
+    background-color: #FFF;    
+    background-image: url(../../assets/gradientBg.png);
+    background-position: center bottom;
+    background-repeat: no-repeat; 
+    /* background-size: 50%; */
+    height: 100vh;
+    /* width: 100%;
+    height: auto; */
+}
+.brandSection__Title{
+    font-family: "DM Serif Text", serif;
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 80px;
+    padding-top: 100px;
+    font-style: italic;
+    text-align: center;
+}
+.brandSection__AltTitle{
+    font-family: "Archivo", sans-serif;
+    font-style: normal;
+}
+@keyframes logosSlider{
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+.brandSection__Logos {
+    overflow: hidden;
+    padding: 60px 0;
+    background-color: #ffffff00;
+    white-space: nowrap;
+    position: relative;
+}
+.brandSection__Logos:before,
+.brandSection__Logos:after {
+    position: absolute;
+    top: 0;    
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 5;
+}
+.brandSection__Logos:before{    
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), #fff);    
+}
+.brandSection__Logos::after{    
+    right: 0;
+    background: linear-gradient( to right, rgba(255, 255, 255, 0), #fff);    
+}
+.brandSection__Logos:hover .brandSection__Logos-slide {
+    animation-play-state: paused;
+}
+.brandSection__Logos-slide {
+    display: inline-block;    
+    animation:  180s logosSlider infinite linear;
+}
+.brandSection__Logos-slide img{
+    height: 50px;
+    width: auto;
+    filter: brightness(50%);
+    margin: 0 40px;
+}
+/* Logo handler reverse */
+.brandSection__Logos-slide-reverse {
+    display: inline-block;    
+    animation:  180s logosSlider infinite linear reverse;
+}
+.brandSection__Logos-slide-reverse img{
+    height: 50px;
+    width: auto;
+    filter: brightness(50%);
+    margin: 0 40px;
+}
+.brandSection__Logos:hover .brandSection__Logos-slide-reverse {
+    animation-play-state: paused;
+}
+
+@media (max-width: 1024px) {
+    .brandSection__MainContainer{        
+        background-size: 50%;
+        background-position: center top;
+        height: auto;
+        
+    }
+}
+@media (max-width: 768px) {
+    .brandSection__MainContainer{        
+        background-size: 50%;
+        background-position: center top;
+        height: auto;
+        
+    }
+    .brandSection__Title{        
+        font-size: 40px;        
+        line-height: 42px;
+    }
+    .brandSection__Logos-slide img{
+        height: 25px;        
+        margin: 0 20px;
+    }
+    .brandSection__Logos-slide-reverse img{
+        height: 25px;                
+        margin: 0 20px;
+    }
+}

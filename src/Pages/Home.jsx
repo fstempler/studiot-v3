@@ -3,13 +3,14 @@ import './styles/home.css'
 //Components
 import Hero from '../Components/Hero/Hero'
 import Slider from '../Components/Slider/Slider'
-import BrandSection from '../Components/BrandSection/BrandSection'
+// import BrandSection from '../Components/BrandSection/BrandSection'
 import StrategySection from '../Components/StrategySection/StrategySection'
 import DesignersSection from '../Components/DesignersSection/DesignersSection'
 import ReactionSection from '../Components/ReactionsSection/ReactionSection'
 import SuccessSection from '../Components/SuccessSection/SuccessSection'
 import CreativeProcess from '../Components/CreativeProcess/CreativeProcess'
 import PlanSection from '../Components/PlansSection/PlansSection'
+import BrandSectionSlider from '../Components/BrandSectionSlider/BrandSectionSlider'
 import { useLocation } from 'react-router-dom'
 import { useEffect, useRef } from 'react'
 
@@ -29,7 +30,7 @@ const Home = () => {
         <>        
         <Hero />
         <Slider />
-        <BrandSection />
+        <BrandSectionSlider />
         <SuccessSection />
         <ReactionSection />        
         <StrategySection />
