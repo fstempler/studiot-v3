@@ -17,6 +17,12 @@
     font-style: italic;
     text-align: center;
 }
+.brandSection__Subtitle{
+    font-family: "Archivo", sans-serif;
+    font-weight: 400;
+    font-size: 18px;        
+    text-align: center;
+}
 .brandSection__AltTitle{
     font-family: "Archivo", sans-serif;
     font-style: normal;

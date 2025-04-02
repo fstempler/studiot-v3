@@ -10,6 +10,7 @@ import Openfortune from '../../assets/openfortune-logo-black.png'
 import FireEmoji from '../../assets/Fire-Emoji.png'
 import Arrow from '../../assets/services-arrow.svg'
 import { useEffect } from 'react'
+import { Link } from 'react-router-dom'
 
 
 
@@ -120,7 +121,7 @@ const SuccessSection = () => {
 
                 
             </div>
-            <YellowCTA text="See What The Hype Is About"/>
+            <Link to={"/contact"}><YellowCTA text="See What The Hype Is About"/></Link>
         </section>
     )
 }

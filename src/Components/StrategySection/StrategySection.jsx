@@ -32,7 +32,7 @@ const StrategySection = () => {
         <div className='strategySection__Title-Container'>
           <h2 className='strategySection__Title'>Your Strategy, Our Creativity</h2>
         </div>
-        <div className='strategySection__Text-Container'>
+        {/* <div className='strategySection__Text-Container'>
           <img
             src={thinkingEmoji}
             className="strategySection__ThinkingEmoji"
@@ -43,7 +43,7 @@ const StrategySection = () => {
             innovative content that takes your brand to the next level. We amplify
             your strategy with creativity that speaks for itself.
           </h2>
-        </div>
+        </div> */}
       </div>
 
       <div className='strategySection__CarouselContainer'>

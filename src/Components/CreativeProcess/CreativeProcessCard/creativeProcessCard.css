@@ -21,7 +21,8 @@
 }
 .creativeProcess__Text2{
     font-family: "Archivo", sans-serif;    
-    font-weight: 700;
+    font-weight: 400;
+    font-size: 24px;
 }
 @media (max-width: 1024px) {
     .creativeProcess__MainContainer{

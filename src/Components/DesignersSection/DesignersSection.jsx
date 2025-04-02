@@ -18,7 +18,7 @@ const DesignersSection = () => {
                         <p className='designerSection__Text'><i className="bi bi-check-circle-fill"></i> Just high-performing, on-brand creative. Delivered fast.</p>                            
                     </div>
                     <div className='designerSection__Btn-Container'>
-                        <Link to={"/contact"}><ContactCTA text={"Get Started"}/></Link>
+                        <Link to={"/contact"}><ContactCTA text={"Let's Level Up Your Creative"}/></Link>
                     </div>
                 </div>
 

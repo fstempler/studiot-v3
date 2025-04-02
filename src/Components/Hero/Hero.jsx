@@ -39,7 +39,7 @@ const Hero = () => {
                             <span> Need It.</span>
                         
                         </h1>                        
-                        
+                        <h2 className='hero__Subtitle'>Your creative team’s BFF: fast, on-brand, performance-driven design without the messy group chats and missed deadlines.</h2>
                         <Link to={"/contact"}>
                             <ContactCTA text={"Get Started"}/>
                         </Link>

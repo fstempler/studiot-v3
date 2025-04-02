@@ -3,7 +3,9 @@ import './creativeProcess.css';
 import processImg from '../../assets/processImage.png';
 import arrowDown from '../../assets/Arrow__Down.png';
 //Component
+import { Link } from 'react-router-dom'
 import CreativeProcessCard from './CreativeProcessCard/CreativeProcessCard';
+import ContactCTA from '../yellowCTA/YellowCTA.jsx'
 
 const CreativeProcess = () => {
     return (
@@ -13,18 +15,19 @@ const CreativeProcess = () => {
             <div className='row'>
                 <div className='col-md-6'>
                     <div className='creativeProcess__Card-Container'>
-                        <CreativeProcessCard text1="Let's start" text2="Slide into our plarform."/>
+                        <CreativeProcessCard text1="Deep dive into your brand" text2="(good creative starts brand-first)."/>
                         <img src={arrowDown} className="creativeProcess__Arrow"alt="Arrow Down" />
-                        <CreativeProcessCard text1="We are almost there" text2="Tell us what you need"/>
+                        <CreativeProcessCard text1="Creative  workshop for your specific needs" text2="(collaboration, new ideas, strategy, the studio t spark)"/>
                         <img src={arrowDown} className="creativeProcess__Arrow"alt="Arrow Down" />
-                        <CreativeProcessCard text1="We cook it up, fast"/>
+                        <CreativeProcessCard text1="We get to work" text2="(sharp, well-crafted, and built to stand out.)"/>
                         <img src={arrowDown} className="creativeProcess__Arrow"alt="Arrow Down" />
-                        <CreativeProcessCard text1="You get creative in" text2="Days"/>
+                        <CreativeProcessCard text1="We deliver smart, on-brand creative" text2="(No guesswork. Less changes.)"/>
                     </div>
                 </div>
                 <div className='col-md-6'>
                     <div className='creativeProcess__Image-Container'>
                         <img src={processImg} className='creativeProces__Image' alt='Studio t'/>
+                        <Link to={"/contact"}><ContactCTA text={"Let's Make It Happen"}/></Link>
                     </div>                    
                 </div>
             </div>

@@ -55,7 +55,8 @@ const BrandSectionSlider = () => {
         <>
         <div className='brandSection__MainContainer' id='brandSection'>
             <div className='brandSection__Title-Container'>
-                <h2 className='brandSection__Title'>Trusted By <span className='brandSection__AltTitle'>The Best<br/>In The</span> Business</h2>
+                <h2 className='brandSection__Title'>Receipts? <span className='brandSection__AltTitle'>We’ve Got ’Em.</span></h2>
+                <h2 className='brandSection__Subtitle'>Trusted by big shots like TikTok, Ali Baba, Foot Locker, and more.</h2>
             </div>
             
             <div className='brandSection__Logos'>                
