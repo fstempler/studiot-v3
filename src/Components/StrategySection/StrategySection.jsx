@@ -29,9 +29,9 @@ const StrategySection = () => {
   return (
     <div className='strategySection__MainContainer' id='strategySection'>
       <div className='strategySection__Content-Container'>
-        <div className='strategySection__Title-Container'>
+        {/* <div className='strategySection__Title-Container'>
           <h2 className='strategySection__Title'>Your Strategy, Our Creativity</h2>
-        </div>
+        </div> */}
         {/* <div className='strategySection__Text-Container'>
           <img
             src={thinkingEmoji}
