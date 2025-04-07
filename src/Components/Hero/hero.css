@@ -51,6 +51,10 @@
     align-items: center;
     gap: 20px;        
 }
+/* .hero__Image-Container{
+    background-color: #DAFF01;
+    border-radius: 5px;
+} */
 .hero__Image-Cel{
     display: none;
 }

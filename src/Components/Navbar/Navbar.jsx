@@ -1,6 +1,6 @@
 import './navbar.css';
 //images
-import logo from '../../assets/studiot-logo-black.png';
+import logo from '../../assets/studioT-logo-black.png';
 import { useRef, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import BlackCTA from '../blackCTA-sm/blackCTA-sm';
