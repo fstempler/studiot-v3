@@ -7,8 +7,8 @@ import YellowCTA from '../yellowCTA/YellowCTA'
 import Graceful from '../../assets/graceful-logo-black.png'
 import Alibaba from '../../assets/alibaba-logo-black.png'
 import Openfortune from '../../assets/openfortune-logo-black.png'
-import FireEmoji from '../../assets/Fire-Emoji.png'
-import Arrow from '../../assets/services-arrow.svg'
+import ArrowLeft from '../../assets/btnCarousel-l.png';
+import ArrowRight from '../../assets/btnCarousel-r.png'
 import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
@@ -110,13 +110,10 @@ const SuccessSection = () => {
                     </div>   
 
                     <div className='carousel__BtnContainer'>
-                        <button className='carousel__Btn carousel__Btn--Left' onClick={goLeft}><img src={Arrow}/></button>
-                        <button className='carousel__Btn carousel__Btn--Right' onClick={goRight}><img src={Arrow}/></button>
-                    </div>
-                    
-                    <div className='successSection__FireEmoji-Container successSection__FireEmoji-1'>
-                        <img className='successSection__FireEmoji' src={FireEmoji} alt='Fire Emoji'/>
-                    </div>
+                        <button className='carousel__Btn carousel__Btn--Left' onClick={goLeft}><img src={ArrowLeft}/></button>
+                        <button className='carousel__Btn carousel__Btn--Right' onClick={goRight}><img src={ArrowRight}/></button>
+                    </div>                    
+                   
                 </div>
 
                 

@@ -1,6 +1,6 @@
 .successSection__MainContainer{
     /* background-image: url(../../assets/success-bg.png); */
-    background-color: #FFF;
+    background-color: #282627;
     background-size: cover;
     background-repeat: no-repeat;
     padding: 100px;
@@ -8,11 +8,12 @@
 }
 .successSection__Content-Title{
     font-family: "DM Serif Text", serif;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 400;
     line-height: 110px;
     text-align: center;
     font-style: italic;
+    color: #FFF;
 }
 .successSection__Content-AltTitle{
     font-family: "Archivo", sans-serif;
@@ -41,27 +42,13 @@
 .carousel__BtnContainer{
     display: flex;
     gap: 80px;
+    padding-top: 50px;
 }
 .carousel__Btn{
-    background-color: #FFF;
+    background-color: #282627;
     border: none;
 } 
-.carousel__Btn--Right{
-    rotate: 180deg;
-}
-.successSection__FireEmoji-Container{
-    position: absolute;
-    max-width: 366px;    
-    z-index: 800; 
-}
-.successSection__FireEmoji-Container img {
-    width: 100%;
-    height: auto;
-}
-.successSection__FireEmoji-1{
-    bottom:15%;
-    left: 1%;
-}
+
 /* Tablet */
 @media (max-width: 1440px) {
     .successSection__FireEmoji-Container{        
@@ -93,10 +80,7 @@
         margin: 10px;                
         gap: 20px;
         padding: 10px;
-    }    
-    .successSection__FireEmoji-Container{
-        display: none;
-    }
+    }        
 }
 /* Mobile */
 @media (max-width: 768px) {
@@ -118,10 +102,7 @@
     }
     .successSection__Content-TitleContainer{
         width: 100%;
-    }
-    .successSection__FireEmoji-Container{
-        display: none;
-    }
+    }    
 }
 @media (max-width: 576px) {
     .successSection__Carousel-Track {
