@@ -1,0 +1,46 @@
+.carouselContainer {
+    width: 100%; /* o un valor fijo si querés */
+    height: 400px; /* este es el alto visible del carousel */
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    border-radius: 10px;
+  }
+  
+  .carouselWrapper {
+    height: 80%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .carouselSlides {
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.5s ease-in-out;
+    height: 100%;
+  }
+  
+  .carouselSlide {
+    flex: 0 0 100%; /* Cada slide toma el 100% del alto del wrapper */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .navButton {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #00000000;    
+    border: none;    
+    cursor: pointer;    
+    z-index: 1;
+  }
+  
+  .navButton.up {
+    top: 5px;
+  }
+  
+  .navButton.down {
+    bottom: 5px;
+  }

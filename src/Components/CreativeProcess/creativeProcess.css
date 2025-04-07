@@ -1,18 +1,21 @@
 .creativeProcess__MainContainer{
-    padding: 20px;
+    padding: 50px 0;
+    background-color: #282627;
 }
 .creativeProcess__Title{
-    font-size: 75px;
+    font-size: 100px;
     font-family: "DM Serif Text", serif;
     font-style: italic;
     text-align: center;
+    color: #DAFF01;
+    padding-bottom: 50px;
 }
 .creativeProcess__AltText{
     font-family: "Archivo", sans-serif;
     font-style: normal;
 }
 .creativeProcess__Content{
-    background-color: #93A2FC;
+    
     border-radius: 38px;
     padding: 50px;
 }
@@ -37,11 +40,57 @@
 .creativeProces__Image{
     width: 100%;
 }
-@media (max-width: 1024px) {
+.creativeProcess__Slider-Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+.topContainer {
+    padding: 1px; /* Grosor del borde */
+    background: linear-gradient(to top, #DAFF01, #282627);
+    border-radius: 11px; /* Opcional */
+    height: 100px;
+    width: 60%;
+    margin-bottom: 60px;
+}
+  
+.topContainer > * {
+    background-color: #282627; /* Fondo interno */
+    border-radius: 10px;     /* Menor que el del contenedor si hay border-radius */
+    height: 100%;
+    width: 100%;
+}
+.bottomContainer {
+    padding: 1px; /* Grosor del borde */
+    background: linear-gradient(to bottom, #DAFF01, #282627);
+    border-radius: 11px; /* Opcional */
+    height: 100px;
+    width: 60%;
+}
+  
+.bottomContainer > * {
+    background-color: #282627; /* Fondo interno */
+    border-radius: 10px;     /* Menor que el del contenedor si hay border-radius */
+    height: 100%;
+    width: 100%;
+}  
+
+
+@media (max-width: 1200px) {
+    .topContainer, .bottomContainer{
+        width: 100%;
+    }
     .creativeProcess__Content{        
         padding: 10px;
     }
     .creativeProcess__Title{
         font-size: 40px;        
     }
+}
+
+@media (max-width: 576px) {
+    .creativeProcess__MainContainer{
+     display: none;
+    }       
 }
