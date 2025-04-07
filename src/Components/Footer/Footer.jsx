@@ -42,16 +42,7 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='col-12 col-sm-8 footer__RightColumn'>
-                        <div className='footer__TextContainer'>
-                            {/* <h2 className='footer__Text'>Subscribe and find <span className='yellow-text'>the spark</span> that your content needs</h2> */}
-                        </div>
-                        <div className='footer__FormContainer'>
-                            {/* <form className='subscribe__Form'>
-                                <input type='email' className={"subscribeInput"} placeholder='Your e-mail' />
-                                <button type='submit' className='subscribeButton'>Subscribe</button>
-                            </form> */}
-                        </div>
+                    <div className='col-12 col-sm-8 footer__RightColumn'>                        
                         <div className='footer__ImageContainer'>
                             <Link to={"#"}><img className='footer__Image' src={studioTLogo} alt='Footer Image' /></Link>
                         </div>
