@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './VerticalCarousel.css';
+import './verticalCarousel.css';
 //components
 import CreativeProcessCard from '../CreativeProcessCard/CreativeProcessCard'
 //images
