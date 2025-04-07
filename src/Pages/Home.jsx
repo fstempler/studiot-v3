@@ -10,6 +10,7 @@ import SuccessSection from '../Components/SuccessSection/SuccessSection'
 import CreativeProcess from '../Components/CreativeProcess/CreativeProcess'
 import PlanSection from '../Components/PlansSection/PlansSection'
 import BrandSectionSlider from '../Components/BrandSectionSlider/BrandSectionSlider'
+import CreativeCaseStudies from '../Components/CreativeCaseStudies/CreativeCaseStudies'
 import { useLocation } from 'react-router-dom'
 import { useEffect, useRef } from 'react'
 
@@ -31,9 +32,8 @@ const Home = () => {
         <VsSection />
         <BrandSectionSlider />
         <StatsSection />
-        <SuccessSection />
-        
-        
+        <SuccessSection />      
+        <CreativeCaseStudies />
         <CreativeProcess />
         <PlanSection />
         <Slider />

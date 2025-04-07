@@ -1,0 +1,81 @@
+.CCS__MainContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    background-color: #282627;
+}
+.CCS__Title-Container{
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
+.CCS__Title1{
+    font-family: "Archivo", sans-serif;
+    font-size: 80px;
+    font-weight: 600;
+    color: #DAFF01;
+    letter-spacing: -4%;
+    line-height: 72px;
+}
+.CCS__Title2{
+    color: #fff;
+}
+.CCS__Title3{
+    font-family: "DM Serif Text", serif;
+    color: #fff;
+    font-style: italic;
+}
+.CCS__Clients-Container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.CCS__Clients-Title{
+    color: #fff;
+    font-family: "Archivo", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+.CCS__Clients-Subtitle{
+    color: #fff;
+    font-family: "Archivo", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    font-weight: 800;
+    font-style: italic;
+}
+.CCS__Clients-Card{
+    background-color: #fff;
+    padding: 10px 15px;
+    border-radius: 50px;
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    gap: 20px;
+}
+.CCS__Clients-Text{
+    font-family: "Archivo", sans-serif;
+    font-size: 24px;
+}
+
+@media (max-width: 1200px) {
+    .CCS__MainContainer{     
+        flex-direction: column;    
+        padding-bottom: 100px;    
+    }
+    .CCS__Clients-Container{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .CCS__Clients-Text{        
+        font-size: 16px;
+    }
+    .CCS__Title1{        
+        font-size: 60px;
+        line-height: 58px;        
+    }
+}

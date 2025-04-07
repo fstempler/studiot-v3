@@ -10,7 +10,7 @@ const PlanSection = () => {
         <section className='planSection__MainContainer' id='pricingSection'>
             <div className='row planSection__RowContainer'>
                 <div className='col-md-6 planSection__Title-ColContainer'>
-                    <h2 className='planSection__Title'><span className='planSection__AltTitle'>Your New </span> Creative <span className='planSection__AltTitle'>Bestie</span> <span className='planSection__Subtitle'>(For a Monthly Fee)</span></h2>                                                            
+                    <h2 className='planSection__Title'>Flexible <span className='planSection__AltTitle'>Plans </span> For <span className='planSection__AltTitle'>Every Brand</span></h2>                                                            
                 </div>
                 <div className='col-md-6 planSection__Title-ColContainer'>
                     <h2 className='planSection__Title2'><span className='planSection__AltTitle2'>$1,600/</span> Month</h2>

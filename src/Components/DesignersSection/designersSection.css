@@ -19,6 +19,12 @@
     font-family: "DM Serif Text", serif;
     font-weight: 400;
     color: #242424;
+    font-style: italic;
+    line-height: 75px;
+}
+.designerSection__Title2{
+    font-family: "Archivo", sans-serif;
+    font-weight: 700;
 }
 .designerSection__Text{
     color: #242424;
@@ -39,35 +45,34 @@
 }
 
 
-@media (max-width: 1024px) {
-    .upgradeSection__MainContainer{
-        background-image: url(../../assets/designers-bg.png);        
-        background-size: 100%;   
+@media (max-width: 1200px) {
+    .upgradeSection__MainContainer{                
         justify-content: flex-start;             
         height: 100%;
-        background-color: #282627;
+        background-color: #FFF;
     }
     .designerSection__Title{
-        font-size: 40px;        
+        font-size: 40px;
+        line-height: 40px;        
     }
     .designerSection__Text{        
         font-size: 18px;
+        text-align: left;
     }
 }
-@media (max-width: 768px) {
+
+@media (max-width: 576px) {
     .upgradeSection__MainContainer{
-        background-image: none;                
-        justify-content: flex-end;             
-        background-size: 50%;
+        background-image: url(../../assets/designers-bg-mobile.png);                
+        background-repeat: no-repeat;
+        background-size: contain;           
+        height: 110vh;
+        justify-content: center;
+        align-items: center;
     }
-    .upgradeSection__Container{
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        align-items: center;    
+    .upgradeSection__Container{        
         width: 100%;
-        gap: 50px;
-        padding: 20px;
-        text-align: center;
+        margin-top: 350px;        
     }
+    
 }

@@ -11,14 +11,15 @@ const DesignersSection = () => {
 
                 <div className='upgradeSection__Container'>
                     <div className='upgradeSection__Text-Container'>
-                        <h2 className='designerSection__Title'>Ready To Upgrade Your Creative Game?</h2>
+                        <h2 className='designerSection__Title'>Ready to <br /><span className='designerSection__Title2'>upgrade your</span> <br />creative game?</h2>
                         <br/>
-                        <p className='designerSection__Text'><i className="bi bi-check-circle-fill"></i> No more missed deadlines. No more meh ads.</p>
-                        <br/>
-                        <p className='designerSection__Text'><i className="bi bi-check-circle-fill"></i> Just high-performing, on-brand creative. Delivered fast.</p>                            
+                        <p className='designerSection__Text'><s>No more</s> missed deadlines.</p>                        
+                        <p className='designerSection__Text'><s>No more</s> meh ads.</p>
+                        <p className='designerSection__Text'>Just <strong>high-performing, on-brand creative.</strong></p>                            
+                        <p className='designerSection__Text'><strong>Delivered fast.</strong></p>                            
                     </div>
                     <div className='designerSection__Btn-Container'>
-                        <Link to={"/contact"}><ContactCTA text={"Let's Level Up Your Creative"}/></Link>
+                        <Link to={"/contact"}><ContactCTA text={"Get Started Today"}/></Link>
                     </div>
                 </div>
 
