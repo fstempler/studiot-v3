@@ -1,0 +1,82 @@
+.chatSection__MainContainer{
+    background-color: #FFF;
+    background-image: url('../../assets/gradientBg.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.chatSection__Text-Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+.chatSection__Text1{
+    font-family: "DM Serif Text", serif;
+    font-style: italic;
+    font-size: 32px;
+}
+.chatSection__Text2-Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;    
+}
+.chatSection__Text2{
+    font-family: "Archivo", sans-serif;
+    font-style: italic;
+    font-size: 94px;
+    font-weight: 800;
+    color: #FC5306;
+}
+.contact__BTN{
+    margin-top: -30px;
+}
+.chatSection__Text3{
+    font-family: "Archivo", sans-serif;
+    font-style: italic;
+    font-size: 20px;       
+}
+.chatSection__SubText1{
+    font-family: "Archivo", sans-serif;
+    text-align: center;
+    font-weight: 700;
+}
+.chatSection__SubText2{
+    font-family: "DM Serif Text", serif;
+    font-style: italic;    
+    font-size: 45px;
+    font-weight: 700;
+}
+@media (max-width: 1200px) {    
+    .chatSection__Text2{        
+        font-size: 74px;
+        line-height: 74px;                
+    }
+    .contact__BTN{
+        margin-top: 0;
+    }
+    
+}
+@media (max-width: 576px) {
+    .chatSection__MainContainer{        
+        height: 80vh;        
+    }
+    .chatSection__Text-Container{
+        flex-direction: column;
+        gap: 20px;
+    }   
+    .chatSection__Text2{        
+        font-size: 64px;
+        line-height: 64px;                
+    }
+    .chatSection__Text2-Container{        
+        align-items: center;    
+    }
+    .chatSection__Text3{
+        text-align: center;
+    }    
+}

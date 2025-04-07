@@ -11,6 +11,7 @@ import CreativeProcess from '../Components/CreativeProcess/CreativeProcess'
 import PlanSection from '../Components/PlansSection/PlansSection'
 import BrandSectionSlider from '../Components/BrandSectionSlider/BrandSectionSlider'
 import CreativeCaseStudies from '../Components/CreativeCaseStudies/CreativeCaseStudies'
+import ChatSection from '../Components/ChatSection/ChatSection'
 import { useLocation } from 'react-router-dom'
 import { useEffect, useRef } from 'react'
 
@@ -38,10 +39,7 @@ const Home = () => {
         <PlanSection />
         <Slider />
         <DesignersSection />  
-        {/* Contact Section*/}
-        
-        
-        
+        <ChatSection />       
         </>
     )
 }
