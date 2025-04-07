@@ -1,0 +1,134 @@
+.statsSection__MainContainer{
+    background-color: #fff;
+    background-image: url('.././../assets/stats-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding-top: 50px;
+}
+.statsSection__Title-Container-Left{
+    display: flex;
+    position: relative;
+    justify-content: flex-start;    
+    align-items: flex-start;
+    margin-left: 130px;
+    height: 100%;    
+    z-index: 900;
+}
+.statsSection__Title-Container-Right{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+    margin-left: -75px;
+    z-index: 900;
+}
+.statsSection__Title-Container-Right-Mobile{
+    display: none;
+}
+.statsSection__Title1{
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-size: 174px;
+    font-style: italic;
+}
+.statsSection__Title2{
+    font-family: "Archivo", sans-serif;
+    color: #93A2FD;
+    font-size: 140px;
+    font-weight: 800;
+    font-style: italic;
+}
+.statsSection__Title3{    
+    font-family: "Archivo", sans-serif;
+    color: #fff;
+    font-size: 140px;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.statsSection__Text-MainContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding-top: 50px;
+}
+.statsSection__Text-Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: "Archivo", sans-serif;      
+}
+.statsSection__Text1{
+    color: #fff;
+    font-size: 76px;
+    font-weight: 900;
+}
+.statsSection__Text2{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+@media (max-width: 1200px) {
+    .statsSection__Title1{                
+        font-size: 100px;        
+    }
+    .statsSection__Title2{        
+        font-size: 100px;        
+    }
+    .statsSection__Title3{            
+        font-size: 100px;                
+    }
+}
+@media (max-width: 992px) {
+    .statsSection__Title1{                
+        font-size: 80px;        
+    }
+    .statsSection__Title2{        
+        font-size: 80px;        
+    }
+    .statsSection__Title3{            
+        font-size: 80px;                
+    }
+}
+@media (max-width: 576px) {
+    .statsSection__MainContainer{
+        background-image: url('.././../assets/stats-background-mobile.png');
+    }
+
+    .statsSection__Text-MainContainer{
+        flex-direction: column;
+    }
+    .statsSection__Title-Container-Right{
+        display: none;
+    }
+    .statsSection__Title-Container-Right-Mobile{
+        display: flex;
+    }
+    .statsSection__Title-Container-Left{        
+        margin-left: 0;        
+    }
+    .statsSection__Title-Container-Right{        
+        margin-left: 0;
+    }
+    .statsSection__Title1{        
+        font-size: 100px;    
+        line-height: 102px;    
+    }
+    .statsSection__Title2{        
+        font-size: 100px;      
+        line-height: 90px;      
+        margin-top: -30px;
+    }
+    .statsSection__Title3{            
+        font-size: 100px;      
+        color: #93A2FD;  
+        line-height: 90px;
+        margin-top: -30px;    
+    }
+}

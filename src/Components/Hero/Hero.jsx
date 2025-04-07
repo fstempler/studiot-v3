@@ -2,67 +2,38 @@ import './hero.css'
 //components
 import ContactCTA from '../yellowCTA/YellowCTA.jsx'
 import { Link } from 'react-router-dom'
-import { motion } from 'framer-motion';
 //images
-import pinkSpark from '../../assets/pink-spark-lg.png'
-import heroText from '../../assets/hero-text.png'
-import hornsEmoji from '../../assets/Horns-Emoji.png'
+import testImg from '../../assets/test-img-hero.png'
+
+
 
 const Hero = () => {
     return (
         <section className='hero__MainContainer' id='heroSection'>          
-                <div className='row p-0 m-0 hero__Row-Container'>
-                    <div className='column-Left col-12 col-md-4'>
-                        <motion.img 
-                            src={pinkSpark} 
-                            alt='pinkSpark' 
-                            className='hero__PinkSpark'
-                            initial={{
-                                transform: "translateZ(8px) translateY(-2px)"
-                            }}
-                            animate={{
-                                transform: "translateZ(32px) translateY(-8px)"
-                            }}
-                            transition={{
-                                repeat: Infinity,
-                                repeatType: "mirror",
-                                duration: 2,
-                                ease: "easeInOut",
-                            }}
-                            ></motion.img>
-                    </div>
-                    <div className='column-Middle col-12 col-md-5'>
+                <div className='row p-0 m-0 hero__Row-Container'>                    
+                    <div className='column-Middle col-12'>
                         <h1 className='title-1'>
                             Performance-Driven
                             <br />
-                            <span className='title-1-subtitle'> Design, Right <br/>When You</span>
-                            <span> Need It.</span>
+                            <span className='title-2'> Design, Right</span>                                                    
+                        </h1>                                               
+                        
+                    </div>  
+
+                    <div className='column-Middle-2 col-12'>
+                        <h1 className='title-1'>                                                        
+                            <span className='title-2'>When You</span>
+                            <span><img src={testImg} className='hero__Image' /></span>
+                            <span className='title-3'> Need It.</span>
                         
                         </h1>                        
-                        <h2 className='hero__Subtitle'>Your creative team’s BFF: fast, on-brand, performance-driven design without the messy group chats and missed deadlines.</h2>
+                        <img src={testImg} className='hero__Image-Cel' />
+                        <h2 className='hero__Subtitle'>Your creative team’s BFF: fast, on-brand, performance-driven design without the messy group chats and missed deadlines.</h2>                        
                         <Link to={"/contact"}>
-                            <ContactCTA text={"Get Started"}/>
+                            <ContactCTA text={"Let's Do This!"}/>
                         </Link>
-                    </div>
-                    <div className='column-Right col-12 col-md-3'>
-                        <motion.img 
-                            src={hornsEmoji} 
-                            alt='Horns Emoji' 
-                            className='hero__HornsEmoji'
-                            initial={{
-                                transform: "translateZ(8px) translateY(-2px)"
-                            }}
-                            animate={{
-                                transform: "translateZ(32px) translateY(-8px)"
-                            }}
-                            transition={{
-                                repeat: Infinity,
-                                repeatType: "mirror",
-                                duration: 2,
-                                ease: "easeInOut",
-                            }}
-                        ></motion.img>
-                    </div>
+                    </div>  
+
                 </div>
             
         </section>

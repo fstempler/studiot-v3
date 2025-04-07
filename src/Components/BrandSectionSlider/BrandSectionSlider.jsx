@@ -170,61 +170,7 @@ const BrandSectionSlider = () => {
             </div>
         </div>
         
-        {/* <div className='brandSection__MainContainer' id='brandSection'>
-            
-            <div className='brandSection__BrandsContainer'>                                
-                <img src={fourMoms} className='brandSection__Logo' alt='4-Moms Logo' />
-                <img src={absolut} className='brandSection__Logo' alt='Absolut Logo' />
-                <img src={alibaba} className='brandSection__Logo' alt='Alibaba Logo' />
-                <img src={amaran} className='brandSection__Logo' alt='Amaran Logo' />
-                <img src={amazon} className='brandSection__Logo' alt='Amazon Logo' />
-                <img src={aputure} className='brandSection__Logo' alt='Aputure Logo' />
-                <img src={aplos} className='brandSection__Logo' alt='Aplos Logo' />
-                <img src={artsy} className='brandSection__Logo' alt='Artsy Logo' />
-                <img src={barkbox} className='brandSection__Logo' alt='Bark Box Logo' />
-                <img src={benjaminMoore} className='brandSection__Logo' alt='Benjamin Moore Logo' />
-                <img src={benzinga} className='brandSection__Logo' alt='Benzinga Logo' />
-                <img src={BlueNile} className='brandSection__Logo' alt='Blue Nile Logo' />
-                <img src={Brooks} className='brandSection__Logo' alt='Brooks Logo' />
-                <img src={bustle} className='brandSection__Logo' alt='Bustle Logo' />
-                <img src={ByteDance} className='brandSection__Logo' alt='ByteDance Logo' />
-                <img src={Cadre} className='brandSection__Logo' alt='Cadre Logo' />
-                <img src={capsule} className='brandSection__Logo' alt='capsule Logo' />
-                <img src={Care} className='brandSection__Logo' alt='Care Logo' />
-                <img src={cariuma} className='brandSection__Logo' alt='cariuma Logo' />
-                <img src={carshield} className='brandSection__Logo' alt='carshield Logo' />
-                <img src={Casper} className='brandSection__Logo' alt='Casper Logo' />
-                <img src={Chase} className='brandSection__Logo' alt='Chase Logo' />
-                <img src={craigslist} className='brandSection__Logo' alt='Craigslist Logo' />
-                <img src={eliteDaily} className='brandSection__Logo' alt='Elite Daily Logo' />
-                
-                <img src={ellen} className='brandSection__Logo' alt='Ellen Logo' />
-                <img src={ethereum} className='brandSection__Logo' alt='Ethereum Logo' />
-                <img src={express} className='brandSection__Logo' alt='Express Logo' />
-                <img src={fahlo} className='brandSection__Logo' alt='Fahlo Logo' />
-                <img src={fiver} className='brandSection__Logo' alt='Fiverr Logo' />
-                <img src={footlocker} className='brandSection__Logo' alt='Foot Locker Logo' />                
-                <img src={hinge} className='brandSection__Logo' alt='Hinge Logo' />
-                <img src={HollywoodReporter} className='brandSection__Logo' alt='Hollywood Reporter Logo' />
-                <img src={hooked} className='brandSection__Logo' alt='Hooked Logo' />
-                <img src={icracked} className='brandSection__Logo' alt='iCracked Logo' />
-                <img src={influenster} className='brandSection__Logo' alt='Influenster Logo' />
-                <img src={mavi} className='brandSection__Logo' alt='Mavi Logo' />
-                <img src={proclaim} className='brandSection__Logo' alt='Proclaim Logo' />                
-                <img src={publicvom} className='brandSection__Logo' alt='Public Logo' />
-                <img src={RachelZoe} className='brandSection__Logo' alt='Rachel Zoe Logo' />
-                <img src={sohoHouse} className='brandSection__Logo' alt='Soho House Logo' />
-                <img src={stella} className='brandSection__Logo' alt='Stella Logo' />
-                <img src={taos} className='brandSection__Logo' alt='Taos Logo' />
-                <img src={tatcha} className='brandSection__Logo' alt='Tatcha Logo' />
-                <img src={vegamour} className='brandSection__Logo' alt='Vegamour Logo' />
-                <img src={wework} className='brandSection__Logo' alt='WeWork Logo' />
-                <img src={windmill} className='brandSection__Logo' alt='Windmill Logo' />
-                <img src={wix} className='brandSection__Logo' alt='Wix Logo' />
-                <img src={worx} className='brandSection__Logo' alt='Worx Logo' />           
-            </div>
-            
-        </div> */}
+        
         <div className='wave-background'>  </div>
         </>
     )

@@ -3,10 +3,9 @@ import './styles/home.css'
 //Components
 import Hero from '../Components/Hero/Hero'
 import Slider from '../Components/Slider/Slider'
-// import BrandSection from '../Components/BrandSection/BrandSection'
-import StrategySection from '../Components/StrategySection/StrategySection'
+import VsSection from '../Components/VsSection/VsSection'
 import DesignersSection from '../Components/DesignersSection/DesignersSection'
-import ReactionSection from '../Components/ReactionsSection/ReactionSection'
+import StatsSection from '../Components/StatsSection/StatsSections'
 import SuccessSection from '../Components/SuccessSection/SuccessSection'
 import CreativeProcess from '../Components/CreativeProcess/CreativeProcess'
 import PlanSection from '../Components/PlansSection/PlansSection'
@@ -29,15 +28,19 @@ const Home = () => {
     return (
         <>        
         <Hero />
-        <Slider />
+        <VsSection />
         <BrandSectionSlider />
+        <StatsSection />
         <SuccessSection />
-        <ReactionSection />        
-        <StrategySection />
+        
+        
         <CreativeProcess />
-        <DesignersSection />                
         <PlanSection />
         <Slider />
+        <DesignersSection />  
+        {/* Contact Section*/}
+        
+        
         
         </>
     )

@@ -1,9 +1,9 @@
 import './navbar.css';
 //images
-import logo from '../../assets/studiot-logo.svg';
+import logo from '../../assets/studiot-logo-black.png';
 import { useRef, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import YellowCTA from '../yellowCTANav/YellowCTANav';
+import BlackCTA from '../blackCTA-sm/blackCTA-sm';
 
 const Navbar = () => {
     const navbarRef = useRef(null);
@@ -45,7 +45,7 @@ const Navbar = () => {
 
     return (
         <div className='navbar__MainContainer'>
-            <nav className="navbar navbar-expand-lg navbar__Container fixed-top navbar-dark" ref={navbarRef}>
+            <nav className="navbar navbar-expand-lg navbar__Container fixed-top" ref={navbarRef}>
                 <div className="container-fluid">
                     
                     <Link className="navbar-brand" to="/">
@@ -102,14 +102,14 @@ const Navbar = () => {
                     
                         <div className="d-lg-none mt-3">
                             <Link to="/contact">                                
-                                <YellowCTA text={"Contact Us"}/>
+                                <BlackCTA text={"Contact Us"}/>
                             </Link>
                         </div>
                     </div>
                 
                     <div className="d-none d-lg-block button-desktop">
                         <Link to="/contact">                            
-                            <YellowCTA text={"Contact Us"}/>
+                            <BlackCTA text={"Fix My Creative Problems"}/>
                         </Link>
                     </div>
                 </div>

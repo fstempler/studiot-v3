@@ -1,31 +1,23 @@
 nav{    
-    font-family: "Archivo", sans-serif;    
-    margin: 18px 45px 0;
-    border: 1px solid #FFFEF6;
-    border-radius: 50px;
-    background-color: #2424244d;
-    backdrop-filter: blur(5px);
-    z-index: 900;    
-    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out, border-color 0.5s ease-in-out;
+    font-family: "Archivo", sans-serif;        
+    background-color: #DAFF01;    
+    z-index: 900;        
 }
-.navbar.dark-nav{
-    background-color: #2424244d;
-    backdrop-filter: blur(5px);
-}
+
 .navbar__Container{
     padding: 15px 45px;    
 }
 .nav-link{
-    color: #FFFEF6;
+    color: #242424;
     margin: 0 10px
 }
 
 
 
 @media (max-width: 768px) {
-    nav{
+    /* nav{
         margin: 15px;        
-    }
+    } */
     .navbar__Container{
         padding: 15px;
     }
