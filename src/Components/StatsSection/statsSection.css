@@ -10,8 +10,7 @@
     display: flex;
     position: relative;
     justify-content: flex-start;    
-    align-items: flex-start;
-    margin-left: 130px;
+    align-items: flex-start;    
     height: 100%;    
     z-index: 900;
 }

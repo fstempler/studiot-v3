@@ -25,7 +25,7 @@ const Careers = () => {
         <div className='careers__MainContainer'>
             <div className='careers__Hero-Container'>
                 <div className='careers__Hero-Title'>
-                    <h1 className='careers__Title'>Become <br></br>a part of <br></br>our team</h1>
+                    <h1 className='careers__Title'>Become <br></br>a part of <br></br><span className='careers__Title2'>our team</span></h1>
                 </div>
                 <Link to={"/contact"}><YellowCTA text={"Talk To Us"} /></Link>
             </div>

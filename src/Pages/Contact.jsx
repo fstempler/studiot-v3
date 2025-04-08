@@ -34,7 +34,7 @@ const Contact = () => {
     <section className='contact__MainContainer'>
       <div className='active-background expand-container'></div>
       <div className='contact__Title-Container'>
-        <h2 className='contact__Title'>We'll take it from here</h2>
+        <h2 className='contact__Title'>We'll <span className='contact__Title2'>take it</span> from here</h2>
       </div>
       <div className='contact__Text-Container'>
         <p className='contact__Text'>Your new growth partner is just a phone call away...</p>

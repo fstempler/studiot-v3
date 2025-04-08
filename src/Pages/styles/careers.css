@@ -27,6 +27,11 @@
     font-size: 112px;
     line-height: 110px;
 }
+.careers__Title2{
+    font-family: "Archivo", sans-serif;
+    font-style: italic;
+    color: #DAFF01;
+}
 .careers__Security-Container{
     background-color: #282627;
     display: flex;
@@ -117,6 +122,7 @@
     background-color: #93A2FD;
     position: relative; /* Necesario para que el cactus se posicione relativo a este contenedor */
     overflow: hidden; /* Opcional, evita que el cactus se salga del contenedor */
+    border-bottom: solid 2px #DAFF01;
 }
 .careers-columnLeft {
     display: flex;

@@ -4,7 +4,7 @@ const Pricing = () => {
     return (
         <div className='pricing__MainContainer'>
             <div className='pricing__Title-Container'>
-                <h2 className='pricing__MainTitle'></h2>
+                <h2 className='pricing__MainTitle'>Flexible <span className='pricing__MainTitle2'>Plans</span> For <span className='pricing__MainTitle2'>Every Brand</span></h2>
             </div>
             <div className='pricing__Data-Container'>
             <div className='row credit__ColumnsContainer'>

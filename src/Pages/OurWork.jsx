@@ -35,7 +35,7 @@ const OurWork = () => {
             <div className='ourWork__Works-Container'>
                 <div className='ourWork__Grid-Title-Container'>
                     <img src={fireEmoji} alt='Fire Emoji' className='ourwork__FireEmoji'/>
-                    <h2 className='ourWork__GridTitle'>Here are some of our standout projects</h2>
+                    <h2 className='ourWork__GridTitle'>Here are <span className='ourWork__GridTitle2'>some</span> of our <span className='ourWork__GridTitle2'>Standout Projects</span></h2>
                 </div>
                 <div className='ourWork__Grid'>
                     

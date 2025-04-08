@@ -9,10 +9,15 @@
 }
 .contact__Title{
     font-family: "DM Serif Text", serif;
-    font-size: 48px;
-    line-height: 56px;
+    font-size: 80px;
+    line-height: 86px;
     color: #242424;
     text-align: center;
+    font-style: italic;
+}
+.contact__Title2{
+    font-family: "Archivo", sans-serif;
+    color: #FFFFFF;
 }
 .contact__Text-Container{
     width: 100%;

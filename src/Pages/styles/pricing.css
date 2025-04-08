@@ -13,13 +13,20 @@
     justify-content: center;
     flex-direction: column;
 }
+.pricing__Title-Container{
+    padding: 50px 0;
+}
 .pricing__MainTitle{
     font-family: "DM Serif Text", serif;
-    color: #93A2FD;
+    color: #FFFFFF;
     font-size: 90px;
-    font-weight: 900;
+    font-weight: 500;
+    font-style: italic;
 }
-
+.pricing__MainTitle2{
+    font-family: "Archivo", sans-serif;
+    color: #DAFF01;
+}
 .pricing__Content-Container, .credit__Content-Container-Content{
     border: solid 1px #DAFF01;
     padding: 15px;

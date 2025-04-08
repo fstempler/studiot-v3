@@ -1,14 +1,16 @@
 import './customCarousel.css';
 import { useEffect, useState } from 'react';
 //Images
-import Img1 from '../../../assets/customCarousel-1.png';
+import Img1 from '../../../assets/customCarousel-1.gif';
+import Img2 from '../../../assets/customCarousel-2.gif';
+import Img3 from '../../../assets/customCarousel-3.gif';
 import ArrowLeft from '../../../assets/btnCarousel-l.png';
 import ArrowRight from '../../../assets/btnCarousel-r.png'
 
 const images = [
   Img1,
-  Img1,
-  Img1,
+  Img2,
+  Img3,
 ];
 
 export default function CustomCarousel() {
@@ -20,7 +22,7 @@ export default function CustomCarousel() {
       setActiveIndex((prevIndex) => (prevIndex + 1) % images.length);
     }, 3000);
 
-    return () => clearInterval(interval); // limpia al desmontar
+    return () => clearInterval(interval); 
   }, []);
 
   const goToPrev = () => {
@@ -64,7 +66,7 @@ export default function CustomCarousel() {
               className={`btn btn-sm rounded-circle ${
                 index === activeIndex ? 'btn-dark' : 'btn-outline-dark'
               }`}
-              style={{ width: '10px', height: '10px', padding: 0, backgroundColor: '#93A2FD' }}
+              style={{ width: '10px', height: '10px', padding: 0, backgroundColor: index === activeIndex ? '#DAFF01' : '#D6D8FF' }}
             />
           ))}
         </div>
