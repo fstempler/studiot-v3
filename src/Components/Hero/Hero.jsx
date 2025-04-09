@@ -3,7 +3,7 @@ import './hero.css'
 import ContactCTA from '../yellowCTA/YellowCTA.jsx'
 import { Link } from 'react-router-dom'
 //images
-import testImg from '../../assets/test-img-hero.png'
+import testImg from '../../assets/test-img-hero.gif'
 
 
 
@@ -23,7 +23,8 @@ const Hero = () => {
                     <div className='column-Middle-2 col-12'>
                         <h1 className='title-1'>                                                        
                             <span className='title-2'>When You</span>
-                            <span className='hero__Image-Container'><img src={testImg} className='hero__Image' /></span>
+                            <span className='hero__Image-Container'>
+                                <img src={testImg} className='hero__Image' /></span>
                             <span className='title-3'> Need It.</span>
                         
                         </h1>                        

@@ -26,6 +26,10 @@ const OurWork = () => {
     const column11 = cardData.filter(card => card.id === 19 || card.id === 23);
     const column12 = cardData.filter(card => card.id === 20 || card.id === 24);
     //Line4
+    const column13 = cardData.filter(card => card.id === 25 || card.id === 29);
+    const column14 = cardData.filter(card => card.id === 26 || card.id === 30);
+    const column15 = cardData.filter(card => card.id === 27 || card.id === 31);
+    const column16 = cardData.filter(card => card.id === 28 || card.id === 32);
     
 
     return (
@@ -46,6 +50,7 @@ const OurWork = () => {
                                 img={card.image}
                                 shape={card.shape}
                                 alt={card.alt}
+                                tag={card.tag}
                             />
                         ))}
                     </div>
@@ -57,6 +62,7 @@ const OurWork = () => {
                                 img={card.image}
                                 shape={card.shape}
                                 alt={card.alt}
+                                tag={card.tag}
                             />
                         ))}
                     </div>
@@ -68,6 +74,7 @@ const OurWork = () => {
                                 img={card.image}
                                 shape={card.shape}
                                 alt={card.alt}
+                                tag={card.tag}
                             />
                         ))}
                     </div>
@@ -79,6 +86,7 @@ const OurWork = () => {
                                 img={card.image}
                                 shape={card.shape}
                                 alt={card.alt}
+                                tag={card.tag}
                             />
                         ))}
                     </div>
@@ -93,6 +101,7 @@ const OurWork = () => {
                                 img={card.image}
                                 shape={card.shape}
                                 alt={card.alt}
+                                tag={card.tag}
                             />
                         ))}
                     </div>
@@ -104,6 +113,7 @@ const OurWork = () => {
                                 img={card.image}
                                 shape={card.shape}
                                 alt={card.alt}
+                                tag={card.tag}
                             />
                         ))}
                     </div>
@@ -115,6 +125,7 @@ const OurWork = () => {
                                 img={card.image}
                                 shape={card.shape}
                                 alt={card.alt}
+                                tag={card.tag}
                             />
                         ))}
                     </div>
@@ -126,6 +137,7 @@ const OurWork = () => {
                                 img={card.image}
                                 shape={card.shape}
                                 alt={card.alt}
+                                tag={card.tag}
                             />
                         ))}
                     </div>
@@ -140,6 +152,7 @@ const OurWork = () => {
                                 img={card.image}
                                 shape={card.shape}
                                 alt={card.alt}
+                                tag={card.tag}
                             />
                         ))}
                     </div>
@@ -151,6 +164,7 @@ const OurWork = () => {
                                 img={card.image}
                                 shape={card.shape}
                                 alt={card.alt}
+                                tag={card.tag}
                             />
                         ))}
                     </div>
@@ -162,6 +176,7 @@ const OurWork = () => {
                                 img={card.image}
                                 shape={card.shape}
                                 alt={card.alt}
+                                tag={card.tag}
                             />
                         ))}
                     </div>
@@ -173,9 +188,55 @@ const OurWork = () => {
                                 img={card.image}
                                 shape={card.shape}
                                 alt={card.alt}
+                                tag={card.tag}
                             />
                         ))}
                     </div>
+                    <div className='ourWork__Column'>
+                        {column13.map(card => (
+                            <Card
+                                key={card.id}
+                                img={card.image}
+                                shape={card.shape}
+                                alt={card.alt}
+                                tag={card.tag}
+                            />
+                        ))}
+                    </div>
+                    <div className='ourWork__Column'>
+                        {column14.map(card => (
+                            <Card
+                                key={card.id}
+                                img={card.image}
+                                shape={card.shape}
+                                alt={card.alt}
+                                tag={card.tag}
+                            />
+                        ))}
+                    </div>
+                    <div className='ourWork__Column'>
+                        {column15.map(card => (
+                            <Card
+                                key={card.id}
+                                img={card.image}
+                                shape={card.shape}
+                                alt={card.alt}
+                                tag={card.tag}
+                            />
+                        ))}
+                    </div>
+                    <div className='ourWork__Column'>
+                        {column16.map(card => (
+                            <Card
+                                key={card.id}
+                                img={card.image}
+                                shape={card.shape}
+                                alt={card.alt}
+                                tag={card.tag}
+                            />
+                        ))}
+                    </div>
+                    
                 </div>
 
 

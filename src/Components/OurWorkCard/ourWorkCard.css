@@ -17,3 +17,27 @@
     border-radius: 18px;
     
 }
+.ourWordCard__Tag-Container{    
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    width: 100%;
+    margin-top: -20px;
+}
+.ourWorkCard__Tag-Text-Container{
+    width: fit-content;
+    background-color: #DAFF01;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-family: "Archivo", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotateZ(5deg);
+}
+.ourWorkCard__Tag{
+    font-size: 18px;
+    line-height: 16px;
+    margin: 0;
+}

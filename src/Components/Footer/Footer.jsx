@@ -37,7 +37,7 @@ const Footer = () => {
                         <div className='row'>
                             <div className='col footer__SocialIcons-Container'>
                                 <Link to={"#"}><img className='footer__SocialIcon' src={facebookLogo} alt='Facebook Icon' /></Link>
-                                <Link to={"#"}><img className='footer__SocialIcon' src={instagramLogo} alt='Instagram Icon' /></Link>
+                                <Link to={"https://www.instagram.com/studiot_agency?igsh=MTI4eGh4d2VoazB3eQ=="}><img className='footer__SocialIcon' src={instagramLogo} alt='Instagram Icon' /></Link>
                                 <Link to={"#"}><img className='footer__SocialIcon' src={youtubeLogo} alt='YouTube Icon' /></Link>
                             </div>
                         </div>

@@ -1,7 +1,8 @@
 import './ourWorkCard.css';
 
-const OurWorkCard = ({ img, alt, shape }) => {
+const OurWorkCard = ({ img, alt, shape, tag }) => {
     return (
+        <>
         <div className={`ourWorkCard__Container ${shape === 'rectangle' ? 'card--rectangle' : 'card--square'}`}>
             {shape === 'rectangle' ? (
                 <div style={{ padding: '177.67% 0 0 0', position: 'relative' }}>
@@ -18,7 +19,14 @@ const OurWorkCard = ({ img, alt, shape }) => {
             ) : (
                 <img src={img} alt={alt} className="ourWorkCard__Img" />
             )}
+            
         </div>
+        <div className='ourWordCard__Tag-Container'>
+            <div className='ourWorkCard__Tag-Text-Container'>
+                <h3 className='ourWorkCard__Tag'>{tag}</h3>
+            </div>                
+        </div>
+        </>
     );
 };
 

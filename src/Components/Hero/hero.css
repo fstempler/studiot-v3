@@ -51,10 +51,19 @@
     align-items: center;
     gap: 20px;        
 }
-/* .hero__Image-Container{
+.hero__Image-Container{
     background-color: #DAFF01;
     border-radius: 5px;
-} */
+    width: fit-content;
+    height: auto;
+    padding: 5px;
+}
+.hero__Image{
+    transform: rotateZ(15deg);
+    height: 195px;
+    width: 247px;
+    border-radius: 5px;
+}
 .hero__Image-Cel{
     display: none;
 }

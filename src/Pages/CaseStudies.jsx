@@ -2,13 +2,11 @@ import './styles/caseStudies.css'
 //Components
 import YellowCTA from '../Components/yellowCTA/YellowCTA'
 import Slider from '../Components/Slider/Slider'
-import CaseStudyMain from '../Components/CaseStudiesMain/CaseStudyMain'
-import CaseStudyImgSection from '../Components/CaseStudiesImgSection/caseStudyImgSection'
-import CaseStudyMetrics from '../Components/CaseStudyMetrics/CaseStudyMetrics'
 import { Link } from 'react-router-dom'
 //Images
-import StudioTSkate from '../assets/studioT-skate.png'
-import star from '../assets/Star-Shape.png'
+import WSScs from '../assets/WSS-CS.gif'
+import Grooved from '../assets/GROOVED-CS.gif'
+import Precision from '../assets/PRECISION-CS.gif'
 
 const CaseStudies = () => {
     return (
@@ -16,23 +14,40 @@ const CaseStudies = () => {
             
             <div className='caseStudies__Hero-Container'>
                 <div className='caseStudies__Hero-Container-Main'>
-                    <div className='row p-0 m-0'>
-                        <div className='col-7 col-sm-4 caseStudies__Hero-LeftColumn'>
-                            <h1 className='caseStudies__Title'>Case <br></br>Studies</h1>
-                            <Link to="/contact"><YellowCTA text={"Talk To Us"}/></Link> 
-                            {/* <img src={star} className='caseStudy__Star' alt='star'/> */}
-                        </div>
-                        <div className='col-5 col-sm-8 caseStudies__Hero-RightColumn'>
-                            <img src={StudioTSkate} alt='Pink Sparkle' className='caseStudies__StudioTSkate'/>
-                        </div>
+                    <h1 className='caseStudies__Title'>Case Studies</h1>
+                    <Link to="/contact"><YellowCTA text={"Talk To Us"}/></Link>                     
+                </div>
+                <div className='caseStudies__CS-Container'>
+                    <img src={WSScs} alt='WSS' />
+                    <div className='caseStudies__CS-Title-Container'>
+                        <h3 className='caseStudies__CS-Tag'>AI Paid Media</h3>
+                        <h2 className='caseStudies__CS-Title'>From Weeks to Hours: <br />How We Transformed
+                        WSS’s Content Strategy With AI.</h2>
                     </div>
+                    
+                </div>
+                <div className='caseStudies__CS-Container'>
+                    <img src={Grooved} alt='WSS' />
+                    <div className='caseStudies__CS-Title-Container'>
+                        <h3 className='caseStudies__CS-Tag'>Brand Strategy</h3>
+                        <h2 className='caseStudies__CS-Title'>From Graceful to Groovy: <br />Creating a Bold New Identity for Grooved Learning.</h2>
+                    </div>
+                    
+                </div>
+                <div className='caseStudies__CS-Container'>
+                    <img src={Precision} alt='WSS' />
+                    <div className='caseStudies__CS-Title-Container'>
+                        <h3 className='caseStudies__CS-Tag'>Brand Strategy</h3>
+                        <h2 className='caseStudies__CS-Title'>Unseen Precision, Unmatched Results: <br />How We Transformed Precision Medicine’s Brand Identity</h2>
+                    </div>
+                    
                 </div>
                 
 
                 <Slider />
-                <CaseStudyMain />
+                {/* <CaseStudyMain />
                 <CaseStudyImgSection />
-                <CaseStudyMetrics />
+                <CaseStudyMetrics /> */}
             </div>
             
         </div>
