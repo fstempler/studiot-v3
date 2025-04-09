@@ -12,6 +12,7 @@ import Careers from './Pages/Careers'
 import Pricing from './Pages/Pricing'
 import Contact from './Pages/Contact'
 import Calendly from './Pages/Calendly'
+import WwsCaseStudy from './Pages/WwsCaseStudy'
 
 
 const ScrollToTop = () => {
@@ -44,6 +45,7 @@ const routes = createBrowserRouter(
       <Route path="/pricing" element={<Pricing />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/calendly" element={<Calendly />} />
+      <Route path="/wwsCaseStudy" element={<WwsCaseStudy />} />
     </Route>
   )
 );

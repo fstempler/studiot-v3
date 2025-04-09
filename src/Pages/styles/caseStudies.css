@@ -22,7 +22,13 @@
     font-family: "DM Serif Text", serif;
     color: #fff;
     font-size: 90px;
-    font-weight: 900;
+    font-weight: 800;
+}
+.caseStudies__Title2{
+    font-family: "Archivo", sans-serif;
+    color: #DAFF01;
+    font-style: italic;
+    font-weight: 500;
 }
 .caseStudies__CS-Container{
     display: flex;
@@ -35,8 +41,12 @@
     border-radius: 10px;
     width: 80%;
 }
+.caseStudies__Image-Link{
+    text-align: center;
+}
 .caseStudies__CS-Title-Container{
-    width: 80%;
+    width: 100%;
+    text-align: center;
 }
 .caseStudies__CS-Tag{
     font-family: "DM Serif Text", serif;
@@ -49,65 +59,32 @@
     color: #fff;
     font-size: 38px;
     font-weight: 500;
-    text-align: left;
+    text-align: center;
     line-height: 38px;
 }
 
-@media (max-width: 1024px) {
-    .caseStudies__Hero-LeftColumn{
-        padding-left: 15px;
-        position: relative;
-        z-index: 900;
-    } 
-    .caseStudies__StudioTSkate{        
-        height: 70%;    
-        width: auto;
-    }    
-    .caseStudies__Hero-Container-Main{
-        height: 90vh;
-    }
-}
-@media (max-width: 768px) {
-    .caseStudies__Hero-LeftColumn{
-        padding-left: 50px;
-        position: relative;
-        z-index: 900;
-    }
-    .caseStudies__Hero-RightColumn{             
-        align-items: center;        
-    } 
-    .caseStudies__StudioTSkate{
-        object-fit: cover;    
-        height: 30%;    
-        width: auto;
-    }
-    .caseStudies__Title{        
-        font-size: 50px;        
-    }
-    .caseStudies__Hero-LeftColumn{        
-        height: 50vh;
-    }
-    .caseStudies__Hero-Container-Main{
-        height: 50vh;
-        background-size: contain;        
-    }
-}
 @media (max-width: 576px) {
-    .caseStudies__Hero-Container-Main{
-        height: 50vh;
-        background-size: contain;        
-        background-position: bottom right;
-        padding-top: 50px;
+    .caseStudies__Title{
+        font-family: "DM Serif Text", serif;
+        color: #fff;
+        font-size: 55px;
+        font-weight: 800;
     }
-    .caseStudies__Hero-LeftColumn{
-        padding-left: 20px;     
-        padding-right: 0;
+    .caseStudies__Title2{
+        font-family: "Archivo", sans-serif;
+        color: #DAFF01;
+        font-style: italic;
+        font-weight: 500;
     }
-    .caseStudies__StudioTSkate{         
-        height: 35%;    
-        width: auto;
+    .caseStudies__Hero-Container-Main{            
+        padding: 100px 0;        
     }
-    .caseStudies__Hero-RightColumn{        
-        height: 50vh;
+    .caseStudies__CS-Title{        
+        font-size: 24px;        
+        line-height: 24px;
+    }
+    .caseStudies__CS-Tag{
+        font-size: 16px;
+        font-weight: 400;
     }
 }

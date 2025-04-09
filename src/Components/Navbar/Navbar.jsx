@@ -89,9 +89,9 @@ const Navbar = () => {
                             <li className="nav-item">
                                 <Link className="nav-link" aria-current="page" to="/ourWork">Our Work</Link>
                             </li>         
-                            {/* <li className="nav-item">
+                            <li className="nav-item">
                                 <Link className="nav-link" aria-current="page" to="/caseStudies">Case Studies</Link>
-                            </li>   */}
+                            </li>  
                             <li className="nav-item">
                                 <Link className="nav-link" aria-current="page" to="/careers">Careers</Link>                                
                             </li>  
