@@ -28,8 +28,8 @@ const CaseStudies = () => {
                     </Link>
                 </div>
                 <div className='caseStudies__CS-Container'>
-                    <Link to={"/wwsCaseStudy"} className='caseStudies__Image-Link'><img src={Grooved} alt='WSS' /></Link>
-                    <Link to={"/wwsCaseStudy"}>
+                    <Link to={"/groovedLearningCaseStudy"} className='caseStudies__Image-Link'><img src={Grooved} alt='WSS' /></Link>
+                    <Link to={"/groovedLearningCaseStudy"}>
                     <div className='caseStudies__CS-Title-Container'>
                         <h3 className='caseStudies__CS-Tag'>Brand Strategy</h3>
                         <h2 className='caseStudies__CS-Title'>From Graceful to Groovy: <br />Creating a Bold New Identity for Grooved Learning.</h2>
@@ -37,8 +37,8 @@ const CaseStudies = () => {
                     </Link>
                 </div>
                 <div className='caseStudies__CS-Container'>
-                    <Link to={"/wwsCaseStudy"} className='caseStudies__Image-Link'><img src={Precision} alt='WSS' /></Link>
-                    <Link to={"/wwsCaseStudy"}>
+                    <Link to={"/PrecisionCaseStudy"} className='caseStudies__Image-Link'><img src={Precision} alt='WSS' /></Link>
+                    <Link to={"/PrecisionCaseStudy"}>
                     <div className='caseStudies__CS-Title-Container'>
                         <h3 className='caseStudies__CS-Tag'>Brand Strategy</h3>
                         <h2 className='caseStudies__CS-Title'>Unseen Precision, Unmatched Results: <br />How We Transformed Precision Medicine’s Brand Identity</h2>

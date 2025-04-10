@@ -146,7 +146,7 @@ const cardData = [
         tag: 'Ads',
     },
     {   id: 25,
-        image: '../ourWork/TheBeadChest-2.png',
+        image: '../ourWork/stinger-1.png',
         shape:'square',
         alt: 'Chest Work',
         tag: 'Ads',

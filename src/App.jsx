@@ -13,6 +13,8 @@ import Pricing from './Pages/Pricing'
 import Contact from './Pages/Contact'
 import Calendly from './Pages/Calendly'
 import WwsCaseStudy from './Pages/WwsCaseStudy'
+import GroovedLearningCaseStudy from './Pages/GroovedLearningCaseStudy'
+import PrecisionCaseStudy from './Pages/PrecisionCaseStudy'
 
 
 const ScrollToTop = () => {
@@ -46,6 +48,8 @@ const routes = createBrowserRouter(
       <Route path="/contact" element={<Contact />} />
       <Route path="/calendly" element={<Calendly />} />
       <Route path="/wwsCaseStudy" element={<WwsCaseStudy />} />
+      <Route path="/groovedLearningCaseStudy" element={<GroovedLearningCaseStudy />} />
+      <Route path="/PrecisionCaseStudy" element={<PrecisionCaseStudy />} />
     </Route>
   )
 );

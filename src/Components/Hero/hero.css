@@ -59,7 +59,7 @@
     padding: 5px;
 }
 .hero__Image{
-    transform: rotateZ(15deg);
+    transform: rotateZ(10deg);
     height: 195px;
     width: 247px;
     border-radius: 5px;
@@ -98,6 +98,9 @@
     .hero__Subtitle{                
         font-size: 16px;
         text-align: center;
+    }
+    .hero__Image-Container{
+        display: none;
     }
     .hero__Image-Cel{
         display: flex;

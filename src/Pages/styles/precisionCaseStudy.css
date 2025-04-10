@@ -1,0 +1,528 @@
+.Precision__CaseStudy-MainContainer{
+    padding-top: 150px;
+}
+.Precision__hero-container{
+    width: 80%;
+}
+.Precision__hero-container img{
+    width: 100%;
+    border-radius: 10px;
+    filter: drop-shadow(10px 10px 5px  #26282710);
+}
+.Precision__hero-title-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;    
+    width: 100%;
+}
+.Precision__hero-title{
+    font-family: "Archivo", sans-serif;
+    color: #262827;
+    font-size: 80px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 80px;
+}
+.Precision__hero-text{
+    font-family: "Archivo", sans-serif;
+    color: #262827;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 22px;
+}
+.Precision__hero-tag{
+    font-family: "DM Serif Text", serif;
+    font-style: italic;
+    font-size: 24px;
+}
+
+/* Stats */
+.Precision__hero-stats-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.Precision__hero-stats{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+    padding: 0 20px 0 0;
+}
+.Precision__hero-stats-image-container h2{
+    font-size: 48px;
+}
+.Precision__hero-stats-text-container p{    
+    font-family: "Archivo", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+}
+.Precision__hero-stats-text-container h2{
+    font-family: "Archivo", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+}
+.Precision__hero-line-vertical{
+    background-color: #26282725;
+    width: 1px;
+    height: auto;
+}
+.Precision__hero-stats3-text{
+    font-size: 26px !important;    
+}
+
+/* Challenge */
+.Precision__hero-challenge-container, .Precision__hero-challenge-title-container, .Precision__hero-results-container{
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    padding:100px 0;
+}
+.Precision__hero-challenge-title-container, .Precision__hero-results-title-container{
+    width: 100%;    
+}
+.Precision__hero-results-title-container h2, .Precision__hero-challenge-title-container h2 {    
+    text-align: center;
+    font-family: "Archivo", sans-serif;
+}
+.Precision__hero-results-title-container p, .Precision__hero-challenge-title-container p {    
+    text-align: center;
+    font-family: "Archivo", sans-serif;
+}
+.Precision__hero-challenge-title-container h2, .Precision__hero-results-title-container h2{ 
+    font-size: 48px;
+}
+.Precision__hero-challenge-title-container p, .Precision__hero-results-title-container p{
+    font-size: 24px;
+}
+.Precision__hero-challenge-image-container{
+    display: flex;
+    justify-content: space-between;  
+    flex-direction: row;  
+    gap: 20px;
+}
+.Precision__hero-challenge-image-container img{
+    width: 50%;
+    filter: drop-shadow(0px 15px 5px  #26282715);
+    border-radius: 5px;    
+    object-fit: cover;
+}
+.Precision__hero-challenge-text-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 50px;
+    padding: 50px;
+}
+.Precision__hero-challenge-image2-container{    
+    padding-top: 50px;
+}
+.Precision__hero-challenge-image2-container img{
+    width: 100%;
+    filter: drop-shadow(0px 15px 5px  #26282715);
+    border-radius: 5px;    
+    object-fit: cover;
+}
+.Precision__hero-challenge-text1, .Precision__hero-challenge-text2{
+    width: 50%;
+}
+.Precision__hero-challenge-text1 p, .Precision__hero-challenge-text2 p{
+    font-family: "Archivo", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 26px;
+}
+/* Approach */
+.Precision__hero-approach-text-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 80%;
+    padding: 50px;
+}
+.Precision__hero-approach-text1{
+    width: 40%;
+} 
+.Precision__hero-approach-text2{
+    width: 60%;
+}
+.Precision__hero-approach-text-container h2{
+    font-family: "Archivo", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 50px;
+}
+.Precision__hero-approach-text-container p{
+    font-family: "Archivo", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 26px;
+}
+/* Solution */
+.Precision__hero-solution-container{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.Precision__hero-solution-title-container{
+    width: 50%;
+    padding: 0 20px 0px 0;
+}
+
+.Precision__hero-solution-bulletts-text{
+    font-family: "Archivo", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+}
+.Precision__hero-solution-bulletts-text2{
+    font-size: 24px !important;
+    line-height: 100%;
+}
+.Precision__hero-line-horizontal{
+    width: 100%;
+    height: 1px;
+    background-color: #26282725;
+}
+.Precision__hero-solution-image-container{
+    width: 50%;
+}
+.Precision__hero-solution-image-container img{    
+    width: 100%;
+    border-radius: 10px;
+    filter: drop-shadow(0px 15px 5px  #26282715);
+}
+.Precision__hero-solution-bullets-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 20px;
+}
+.Precision__hero-solution-bullets-container p{
+    font-size: 32px;
+}
+/* Image */
+.Precision__hero-image-container{
+    display: flex;
+    width: 80%;
+    padding-top: 50px;
+}
+.Precision__hero-image-container img{    
+    width: 100%;
+    filter: drop-shadow(0px 15px 5px  #26282715);
+    border-radius: 5px;    
+}
+
+/* Results */
+.Precision__hero-results-title-container{
+    display: flex;
+    width: 100%;
+    gap: 30px;
+}
+.Precision__hero-results-text1, .Precision__hero-results-text2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;    
+}
+.Precision__hero-results-text1 h2, .Precision__hero-results-text2 h2{
+    font-family: "Archivo", sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+}
+.Precision__hero-results-text1 p, .Precision__hero-results-text2 p{
+    font-family: "Archivo", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: left;
+    line-height: 26px;
+}
+.Precision__results-image-container, .Glearning__hero-solution-bullets-container{
+    width: 50%;
+}
+/* Conclusion */
+.Precision__hero-conclusion-container{
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.Precision__hero-results-image-container{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+.Precision__hero-results-image-container img{
+    width: 100%;
+    border-radius: 10px;
+}
+.Precision__hero-conclusion-title{
+    font-family: "Archivo", sans-serif;   
+    font-size: 48px;
+    font-weight: 500;
+    text-align: center;
+}
+.Precision__hero-conclusion-title2{
+    font-family: "DM Serif Text", serif;
+    font-style: italic;
+    font-size: 48px;
+    font-weight: 500;
+    color: #FC5306;
+}
+.Precision__hero-conclusion-text{
+    font-family: "Archivo", sans-serif;   
+    font-size: 24px; 
+    font-weight: 500; 
+    text-align: center;
+}
+.Precision__results-container{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+}
+.Precision__results-text-container{
+    width: 50%;    
+}
+.Precision__results-text-container h2{
+    font-family: "Archivo", sans-serif;   
+    font-size: 48px; 
+    font-weight: 500;     
+}
+.Precision__results-image-container{
+    width: 50%;
+}
+.Precision__results-image-container img{
+    width: 100%;
+    border-radius: 5px;
+}
+@media (max-width: 1400px) {
+    .Precision__hero-challenge-image-container img{
+        width: 300px;        
+    }    
+}
+@media (max-width: 1200px) {
+    .Precision__hero-challenge-image-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 20px;
+    }
+    .Precision__hero-challenge-image-container img{
+        width: 300px;
+        filter: drop-shadow(10px 15px 5px  #26282715);        
+    }    
+}
+@media (max-width: 1024px) {
+    .Precision__hero-title{        
+        font-size: 65px;        
+        line-height: 65px;
+    }
+    .Precision__hero-text{        
+        font-size: 16px;        
+        line-height: 18px;
+    }
+    .Precision__hero-challenge-image-container{        
+        flex-direction: column;
+        gap: 20px;
+    }
+    .Precision__hero-solution-container{        
+        flex-direction: column;        
+    }
+    .Precision__hero-solution-title-container{
+        width: 100%;
+    }
+    .Precision__hero-solution-image-container{
+        width: 100%;
+    }
+    .Precision__hero-results-image-container img{
+        width: 100%;
+    }
+    /* Stats */
+    .Precision__hero-stats-image-container h2{
+        font-size: 24px;
+    }
+    .Precision__hero-stats-text-container p{        
+        font-size: 16px;        
+    }
+    .Precision__hero-stats-text-container h2{        
+        font-size: 18px;        
+    }
+    .Precision__hero-stats3-text{
+        font-size: 16px !important;    
+    }
+    /* Challenge */
+    .Precision__hero-challenge-container, .Precision__hero-challenge-title-container, .Precision__hero-results-container{
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        padding:100px 0;
+    }
+    .Precision__hero-challenge-title-container, .Precision__hero-results-title-container{
+        width: 100%;    
+    }    
+    .Precision__hero-challenge-title-container h2, .Precision__hero-results-title-container h2{ 
+        font-size: 24px;
+    }
+    .Precision__hero-challenge-title-container p, .Precision__hero-results-title-container p{
+        font-size: 18px;
+    }
+    .Precision__hero-challenge-image-container{
+        display: flex;
+        justify-content: space-between;    
+    }
+    .Precision__hero-challenge-image-container img{
+        width: 400px;
+        filter: drop-shadow(0px 15px 5px  #26282715);
+        border-radius: 5px;    
+    }
+    /* Solution */
+    
+    .Precision__hero-solution-title-container h2{
+        font-size: 32px;
+    }
+    .Precision__hero-solution-title-container p{
+        font-size: 18px;           
+    }        
+    .Precision__hero-solution-bullets-container p{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .Precision__hero-container{
+        width: 95%;
+        
+    }
+    .Precision__hero-tag{        
+        font-size: 12px;
+    }
+    .Precision__hero-title-container{        
+        flex-direction: column;        
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .Precision__hero-title{        
+        font-size: 24px;        
+        line-height: 24px;        
+    }
+    .Precision__hero-text{        
+        font-size: 12px;        
+        line-height: 12px;
+    }
+    /* Stats */
+    
+    .Precision__hero-stats-text-container h2{        
+        font-size: 12px;        
+    }    
+
+    /* Challenge */
+    .Precision__hero-challenge-container{
+        padding: 0;
+        width: 95%;
+    }
+    .Precision__hero-challenge-title-container{
+        padding: 0;
+    }    
+    .Precision__hero-challenge-title-container p{
+        font-size: 16px;
+        line-height: 18px;
+    }    
+    .Precision__hero-challenge-image-container img{
+        width: 250px;        
+    }
+    .Precision__hero-challenge-image-container{
+        padding-top: 50px;
+    }
+    .Precision__hero-challenge-text-container{
+        flex-direction: column;        
+        align-items: center; 
+        padding: 0;       
+        padding-top: 50px;
+    }
+    .Precision__hero-challenge-text1 p, .Precision__hero-challenge-text2 p{
+        font-size: 16px;
+        text-align: center;
+        line-height: 17px;
+    }
+    /* Approach */
+    .Precision__hero-approach-text-container{
+        flex-direction: column;
+        padding: 50px 0;
+        align-items: center;        
+    }
+    .Precision__hero-approach-text1, .Precision__hero-approach-text2{
+        width: 100%;
+    }
+    .Precision__hero-approach-text1 h2{
+        text-align: center;
+        font-size: 24px;
+        line-height: 26px;
+    }
+    .Precision__hero-approach-text2 p{
+        text-align: center;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    /* Solution */
+    .Precision__hero-solution-title-container h2{
+        font-size: 24px;
+    }
+    .Precision__hero-solution-title-container p{
+        font-size: 12px;           
+        line-height: 100%;
+    }        
+    .Precision__hero-solution-bullets-container p{
+        font-size: 16px;        
+    }
+    .Precision__hero-solution-bulletts-text2{
+        font-size: 14px !important;
+    }
+    .Precision__hero-solution-container{
+        gap: 20px;
+    }
+    .Precision__hero-conclusion-title{        
+        font-size: 24px;        
+        text-align: center;
+    }
+    .Precision__hero-conclusion-title2{        
+        font-size: 24px;        
+    }
+    .Precision__hero-conclusion-text{        
+        font-size: 18px; 
+        text-align: center;
+    }
+    /* Results */
+    .Precision__hero-results-text{
+        font-size: 16px !important;
+        line-height: 18px;
+    }
+    .Precision__results-container{
+        flex-direction: column;        
+    }
+    .Precision__results-text-container, .Precision__results-image-container
+    {
+        width: 100%;
+    }
+    .Precision__results-text-container h2{
+        font-size: 24px;
+        text-align: center;
+    }
+    .Precision__results-text-container p{
+        font-size: 16px;
+        line-height: 18px;
+        text-align: center;
+    }
+    
+}

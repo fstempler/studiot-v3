@@ -1,0 +1,480 @@
+.Glearning__CaseStudy-MainContainer{
+    padding-top: 150px;
+}
+.Glearning__hero-container{
+    width: 80%;
+}
+.Glearning__hero-container img{
+    width: 100%;
+    border-radius: 10px;
+    filter: drop-shadow(10px 10px 5px  #26282710);
+}
+.Glearning__hero-title-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;    
+    width: 100%;
+}
+.Glearning__hero-title{
+    font-family: "Archivo", sans-serif;
+    color: #262827;
+    font-size: 80px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 80px;
+}
+.Glearning__hero-text{
+    font-family: "Archivo", sans-serif;
+    color: #262827;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 22px;
+}
+.Glearning__hero-tag{
+    font-family: "DM Serif Text", serif;
+    font-style: italic;
+    font-size: 24px;
+}
+
+/* Stats */
+.Glearning__hero-stats-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.Glearning__hero-stats{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+    padding: 0 20px 0 0;
+}
+.Glearning__hero-stats-image-container h2{
+    font-size: 48px;
+}
+.Glearning__hero-stats-text-container h2{
+    font-family: "Archivo", sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    margin: 0;
+}
+.Glearning__hero-line-vertical{
+    background-color: #26282725;
+    width: 1px;
+    height: auto;
+}
+.Glearning__hero-stats3-text{
+    font-size: 26px !important;    
+}
+
+/* Challenge */
+.Glearning__hero-challenge-container, .Glearning__hero-challenge-title-container, .Glearning__hero-results-container{
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    padding:100px 0;
+}
+.Glearning__hero-challenge-title-container, .Glearning__hero-results-title-container{
+    width: 100%;    
+}
+.Glearning__hero-results-title-container h2, .Glearning__hero-challenge-title-container h2 {    
+    text-align: center;
+    font-family: "Archivo", sans-serif;
+}
+.Glearning__hero-results-title-container p, .Glearning__hero-challenge-title-container p {    
+    text-align: center;
+    font-family: "Archivo", sans-serif;
+}
+.Glearning__hero-challenge-title-container h2, .Glearning__hero-results-title-container h2{ 
+    font-size: 48px;
+}
+.Glearning__hero-challenge-title-container p, .Glearning__hero-results-title-container p{
+    font-size: 24px;
+}
+.Glearning__hero-challenge-image-container{
+    display: flex;
+    justify-content: space-between;    
+}
+.Glearning__hero-challenge-image-container img{
+    width: 100%;
+    filter: drop-shadow(0px 15px 5px  #26282715);
+    border-radius: 5px;    
+}
+.Glearning__hero-challenge-text-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 50px;
+    padding: 50px;
+}
+.Glearning__hero-challenge-text1, .Glearning__hero-challenge-text2{
+    width: 50%;
+}
+.Glearning__hero-challenge-text1 p, .Glearning__hero-challenge-text2 p{
+    font-family: "Archivo", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 26px;
+}
+/* Approach */
+.Glearning__hero-approach-text-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 80%;
+    padding: 50px;
+}
+.Glearning__hero-approach-text1{
+    width: 40%;
+} 
+.Glearning__hero-approach-text2{
+    width: 60%;
+}
+.Glearning__hero-approach-text-container h2{
+    font-family: "Archivo", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 50px;
+}
+.Glearning__hero-approach-text-container p{
+    font-family: "Archivo", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 26px;
+}
+/* Solution */
+.Glearning__hero-solution-container{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.Glearning__hero-solution-title-container{
+    width: 50%;
+    padding: 0 20px 0px 0;
+}
+
+.Glearning__hero-solution-bulletts-text{
+    font-family: "Archivo", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+}
+.Glearning__hero-solution-bulletts-text2{
+    font-size: 24px !important;
+    line-height: 100%;
+}
+.Glearning__hero-line-horizontal{
+    width: 100%;
+    height: 1px;
+    background-color: #26282725;
+}
+.Glearning__hero-solution-image-container{
+    width: 50%;
+}
+.Glearning__hero-solution-image-container img{    
+    width: 100%;
+    border-radius: 10px;
+    filter: drop-shadow(0px 15px 5px  #26282715);
+}
+.Glearning__hero-solution-bullets-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 20px;
+}
+.Glearning__hero-solution-bullets-container p{
+    font-size: 32px;
+}
+/* Image */
+.Glearning__hero-image-container{
+    display: flex;
+    width: 80%;
+    padding-top: 50px;
+}
+.Glearning__hero-image-container img{    
+    width: 100%;
+    filter: drop-shadow(0px 15px 5px  #26282715);
+    border-radius: 5px;    
+}
+/* Conclusion */
+.Glearning__hero-conclusion-container{
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.Glearning__hero-results-image-container{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+.Glearning__hero-results-image-container img{
+    width: 100%;
+    border-radius: 10px;
+}
+.Glearning__hero-conclusion-title{
+    font-family: "Archivo", sans-serif;   
+    font-size: 48px;
+    font-weight: 500;
+}
+.Glearning__hero-conclusion-title2{
+    font-family: "DM Serif Text", serif;
+    font-style: italic;
+    font-size: 48px;
+    font-weight: 500;
+    color: #FC5306;
+}
+.Glearning__hero-conclusion-text{
+    font-family: "Archivo", sans-serif;   
+    font-size: 24px; 
+    font-weight: 500; 
+}
+.Glearning__results-container{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+}
+.Glearning__results-text-container{
+    width: 50%;    
+}
+.Glearning__results-text-container h2{
+    font-family: "Archivo", sans-serif;   
+    font-size: 48px; 
+    font-weight: 500;     
+}
+.Glearning__results-image-container{
+    width: 50%;
+}
+.Glearning__results-image-container img{
+    width: 100%;
+    border-radius: 5px;
+}
+@media (max-width: 1400px) {
+    .Glearning__hero-challenge-image-container img{
+        width: 300px;        
+    }    
+}
+@media (max-width: 1200px) {
+    .Glearning__hero-challenge-image-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 20px;
+    }
+    .Glearning__hero-challenge-image-container img{
+        width: 300px;
+        filter: drop-shadow(10px 15px 5px  #26282715);        
+    }    
+}
+@media (max-width: 1024px) {
+    .Glearning__hero-title{        
+        font-size: 65px;        
+        line-height: 65px;
+    }
+    .Glearning__hero-text{        
+        font-size: 16px;        
+        line-height: 18px;
+    }
+    .Glearning__hero-challenge-image-container{        
+        flex-direction: column;
+        gap: 20px;
+    }
+    .Glearning__hero-solution-container{        
+        flex-direction: column;        
+    }
+    .Glearning__hero-solution-title-container{
+        width: 100%;
+    }
+    .Glearning__hero-solution-image-container{
+        width: 100%;
+    }
+    .Glearning__hero-results-image-container img{
+        width: 100%;
+    }
+    /* Stats */
+    .Glearning__hero-stats-image-container h2{
+        font-size: 24px;
+    }
+    .Glearning__hero-stats-text-container p{        
+        font-size: 16px;        
+    }
+    .Glearning__hero-stats-text-container h2{        
+        font-size: 18px;        
+    }
+    .Glearning__hero-stats3-text{
+        font-size: 16px !important;    
+    }
+    /* Challenge */
+    .Glearning__hero-challenge-container, .Glearning__hero-challenge-title-container, .Glearning__hero-results-container{
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        padding:100px 0;
+    }
+    .Glearning__hero-challenge-title-container, .Glearning__hero-results-title-container{
+        width: 100%;    
+    }    
+    .Glearning__hero-challenge-title-container h2, .Glearning__hero-results-title-container h2{ 
+        font-size: 24px;
+    }
+    .Glearning__hero-challenge-title-container p, .Glearning__hero-results-title-container p{
+        font-size: 18px;
+    }
+    .Glearning__hero-challenge-image-container{
+        display: flex;
+        justify-content: space-between;    
+    }
+    .Glearning__hero-challenge-image-container img{
+        width: 400px;
+        filter: drop-shadow(0px 15px 5px  #26282715);
+        border-radius: 5px;    
+    }
+    /* Solution */
+    
+    .Glearning__hero-solution-title-container h2{
+        font-size: 32px;
+    }
+    .Glearning__hero-solution-title-container p{
+        font-size: 18px;           
+    }        
+    .Glearning__hero-solution-bullets-container p{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .Glearning__hero-container{
+        width: 95%;
+        
+    }
+    .Glearning__hero-tag{        
+        font-size: 12px;
+    }
+    .Glearning__hero-title-container{        
+        flex-direction: column;        
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .Glearning__hero-title{        
+        font-size: 24px;        
+        line-height: 24px;        
+    }
+    .Glearning__hero-text{        
+        font-size: 12px;        
+        line-height: 12px;
+    }
+    /* Stats */
+    
+    .Glearning__hero-stats-text-container h2{        
+        font-size: 12px;        
+    }    
+
+    /* Challenge */
+    .Glearning__hero-challenge-container{
+        padding: 0;
+        width: 95%;
+    }
+    .Glearning__hero-challenge-title-container{
+        padding: 0;
+    }    
+    .Glearning__hero-challenge-title-container p{
+        font-size: 16px;
+        line-height: 18px;
+    }    
+    .Glearning__hero-challenge-image-container img{
+        width: 250px;        
+    }
+    .Glearning__hero-challenge-image-container{
+        padding-top: 50px;
+    }
+    .Glearning__hero-challenge-text-container{
+        flex-direction: column;        
+        align-items: center; 
+        padding: 0;       
+        padding-top: 50px;
+    }
+    .Glearning__hero-challenge-text1 p, .Glearning__hero-challenge-text2 p{
+        font-size: 16px;
+        text-align: center;
+        line-height: 17px;
+    }
+    /* Approach */
+    .Glearning__hero-approach-text-container{
+        flex-direction: column;
+        padding: 50px 0;
+        align-items: center;        
+    }
+    .Glearning__hero-approach-text1, .Glearning__hero-approach-text2{
+        width: 100%;
+    }
+    .Glearning__hero-approach-text1 h2{
+        text-align: center;
+        font-size: 24px;
+        line-height: 26px;
+    }
+    .Glearning__hero-approach-text2 p{
+        text-align: center;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    /* Solution */
+    .Glearning__hero-solution-title-container h2{
+        font-size: 24px;
+    }
+    .Glearning__hero-solution-title-container p{
+        font-size: 12px;           
+        line-height: 100%;
+    }        
+    .Glearning__hero-solution-bullets-container p{
+        font-size: 16px;        
+    }
+    .Glearning__hero-solution-bulletts-text2{
+        font-size: 14px !important;
+    }
+    .Glearning__hero-solution-container{
+        gap: 20px;
+    }
+    .Glearning__hero-conclusion-title{        
+        font-size: 24px;        
+        text-align: center;
+    }
+    .Glearning__hero-conclusion-title2{        
+        font-size: 24px;        
+    }
+    .Glearning__hero-conclusion-text{        
+        font-size: 18px; 
+        text-align: center;
+    }
+    /* Results */
+    .Glearning__hero-results-text{
+        font-size: 16px !important;
+        line-height: 18px;
+    }
+    .Glearning__results-container{
+        flex-direction: column;        
+    }
+    .Glearning__results-text-container, .Glearning__results-image-container
+    {
+        width: 100%;
+    }
+    .Glearning__results-text-container h2{
+        font-size: 24px;
+        text-align: center;
+    }
+    .Glearning__results-text-container p{
+        font-size: 16px;
+        line-height: 18px;
+        text-align: center;
+    }
+    
+}
