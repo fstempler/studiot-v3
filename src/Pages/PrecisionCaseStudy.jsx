@@ -1,4 +1,4 @@
-import './styles/PrecisionCaseStudy.css'
+import './styles/precisionCaseStudy.css'
 //Images
 import Precision from '../assets/PRECISION-LOGO-ICON.gif'
 import Precision2 from '../assets/Precision-2.png'
