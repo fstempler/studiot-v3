@@ -10,7 +10,7 @@ const cardData = [
     { id: 7, image: 'https://player.vimeo.com/video/1074583878', shape: 'rectangle', alt: 'Chest Work', tag: 'Email Marketing' },
     { id: 8, image: '../ourWork/laneEight-1.jpg', shape: 'square', alt: 'Fahlo Work', tag: 'Ads' },
     { id: 9, image: '../ourWork/grooved-2.png', shape: 'square', alt: 'Chest Work', tag: '3D Rendering' },
-    { id: 10, image: 'https://player.vimeo.com/video/1026678720', shape: 'rectangle', alt: 'Chest Work', tag: 'Email Marketing' },
+    { id: 10, image: 'https://player.vimeo.com/video/1074799537', shape: 'rectangle', alt: 'Chest Work', tag: 'Landing Page ' },
     { id: 11, image: '../ourWork/PlayHard-2.gif', shape: 'square', alt: 'Play Hard Work', tag: 'Motion Graphics' },
     { id: 12, image: 'https://player.vimeo.com/video/1074586676', shape: 'rectangle', alt: 'Chest Work', tag: 'Scripted Storytelling' },
     { id: 13, image: 'https://player.vimeo.com/video/1074676991', shape: 'rectangle', alt: 'Chest Work', tag: 'Video Editing' },
