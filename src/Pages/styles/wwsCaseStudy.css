@@ -283,6 +283,10 @@
 }
 
 @media (max-width: 576px) {
+    .WWS__CaseStudy-MainContainer{
+        padding: 0;
+        padding-top: 100px;
+    }
     .WWS__hero-container{
         width: 95%;
         
@@ -294,6 +298,7 @@
         flex-direction: column;        
         justify-content: flex-start;
         align-items: flex-start;
+        padding-bottom: 10px;
     }
     .WWS__hero-title{        
         font-size: 24px;        
@@ -322,11 +327,18 @@
         padding: 0;
         width: 95%;
     }
+    .WWS__hero-challenge-title-container p{
+        font-size: 16px;
+    }
     .WWS__hero-challenge-title-container{
         padding: 0;
     }    
     .WWS__hero-challenge-image-container img{
         width: 250px;        
+    }
+    /* Results */
+    .WWS__hero-results-title-container p{
+        font-size: 16px;
     }
     /* Solution */
     .WWS__hero-solution-title-container h2{
@@ -351,5 +363,9 @@
     .WWS__hero-conclusion-text{        
         font-size: 18px; 
         text-align: center;
+    }
+    /* Conslusion */
+    .WWS__hero-conclusion-container{
+        padding-top: 50px;
     }
 }

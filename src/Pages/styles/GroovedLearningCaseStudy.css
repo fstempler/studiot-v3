@@ -116,8 +116,7 @@
 }
 .Glearning__hero-challenge-text1 p, .Glearning__hero-challenge-text2 p{
     font-family: "Archivo", sans-serif;
-    font-size: 24px;    
-    line-height: 26px;
+    font-size: 24px;        
 }
 /* Approach */
 .Glearning__hero-approach-text-container{
@@ -143,7 +142,7 @@
     font-family: "Archivo", sans-serif;
     font-size: 24px;
     font-weight: 500;
-    line-height: 26px;
+    line-height: 28px;
 }
 /* Solution */
 .Glearning__hero-solution-container{
@@ -167,8 +166,8 @@
     font-size: 32px;
 }
 .Glearning__hero-solution-bulletts-text2{
-    font-size: 24px !important;
-    line-height: 100%;
+    font-size: 22px !important;
+    line-height: 26px;
 }
 .Glearning__hero-line-horizontal{
     width: 100%;
@@ -250,12 +249,12 @@
 .Glearning__results-text-container h2{
     font-family: "Archivo", sans-serif;   
     font-size: 48px; 
-    font-weight: 500;     
+    font-weight: 500;         
 }
 .Glearning__results-text-container p{
     font-family: "Archivo", sans-serif;   
     font-size: 28px; 
-    line-height: 30px;    
+    line-height: 34px;    
 }
 .Glearning__results-image-container{
     width: 50%;
@@ -359,6 +358,9 @@
 }
 
 @media (max-width: 576px) {
+    .Glearning__CaseStudy-MainContainer{
+        padding-top: 100px;
+    }
     .Glearning__hero-container{
         width: 95%;
         
@@ -370,6 +372,7 @@
         flex-direction: column;        
         justify-content: flex-start;
         align-items: flex-start;
+        padding-bottom: 10px;
     }
     .Glearning__hero-title{        
         font-size: 24px;        
@@ -398,7 +401,7 @@
         line-height: 18px;
     }    
     .Glearning__hero-challenge-image-container img{
-        width: 250px;        
+        width: 100%;        
     }
     .Glearning__hero-challenge-image-container{
         padding-top: 50px;
@@ -407,18 +410,22 @@
         flex-direction: column;        
         align-items: center; 
         padding: 0;       
-        padding-top: 50px;
+        padding-top: 50px;        
+    }
+    .Glearning__hero-challenge-text1, .Glearning__hero-challenge-text2 {
+        width: 100%;
     }
     .Glearning__hero-challenge-text1 p, .Glearning__hero-challenge-text2 p{
         font-size: 16px;
         text-align: center;
-        line-height: 17px;
+        line-height: 17px;        
     }
     /* Approach */
     .Glearning__hero-approach-text-container{
         flex-direction: column;
         padding: 50px 0;
-        align-items: center;        
+        align-items: center;
+        width: 100%;        
     }
     .Glearning__hero-approach-text1, .Glearning__hero-approach-text2{
         width: 100%;
@@ -428,10 +435,14 @@
         font-size: 24px;
         line-height: 26px;
     }
+    .Glearning__hero-approach-text2{
+        width: 100%;
+    }
     .Glearning__hero-approach-text2 p{
         text-align: center;
         font-size: 16px;
-        line-height: 18px;
+        line-height: 17px;
+        font-weight: 400;
     }
     /* Solution */
     .Glearning__hero-solution-title-container h2{
@@ -449,6 +460,7 @@
     }
     .Glearning__hero-solution-container{
         gap: 20px;
+        width: 100%;
     }
     .Glearning__hero-conclusion-title{        
         font-size: 24px;        
@@ -461,13 +473,20 @@
         font-size: 18px; 
         text-align: center;
     }
+    .Glearning__hero-image-container{
+        width: 100%;
+    }
     /* Results */
+    .Glearning__hero-results-container{
+        padding: 50px 0;  
+        width: 100%;
+    }
     .Glearning__hero-results-text{
         font-size: 16px !important;
         line-height: 18px;
     }
     .Glearning__results-container{
-        flex-direction: column;        
+        flex-direction: column;             
     }
     .Glearning__results-text-container, .Glearning__results-image-container
     {

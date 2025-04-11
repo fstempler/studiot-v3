@@ -230,6 +230,9 @@
 .Precision__hero-results-title-container h2{
     text-align: left;
 }
+.Precision__hero-results-title-container p{
+    text-align: left;
+}
 .Precision__hero-results-text1, .Precision__hero-results-text2{
     display: flex;
     flex-direction: column;
@@ -404,9 +407,15 @@
 }
 
 @media (max-width: 576px) {
+    .Precision__CaseStudy-MainContainer{
+        padding: 0;
+        padding-top: 100px;
+    }
     .Precision__hero-container{
-        width: 95%;
-        
+        width: 95%;        
+    }
+    .Precision__hero-container img{
+        width: 100%;        
     }
     .Precision__hero-tag{        
         font-size: 12px;
@@ -415,6 +424,7 @@
         flex-direction: column;        
         justify-content: flex-start;
         align-items: flex-start;
+        padding-bottom: 10px;
     }
     .Precision__hero-title{        
         font-size: 24px;        
@@ -453,11 +463,23 @@
         align-items: center; 
         padding: 0;       
         padding-top: 50px;
+        width: 100%;
+    }
+    .Precision__hero-challenge-text1, .Precision__hero-challenge-text2 {
+        width: 80%;
     }
     .Precision__hero-challenge-text1 p, .Precision__hero-challenge-text2 p{
         font-size: 16px;
         text-align: center;
         line-height: 17px;
+    }
+    .Precision__hero-image-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .Precision__hero-image-container img{
+        width: 95%;
     }
     /* Approach */
     .Precision__hero-approach-text-container{
@@ -513,6 +535,9 @@
     }
     .Precision__results-container{
         flex-direction: column;        
+    }
+    .Precision__hero-results-title-container{
+        flex-direction: column;
     }
     .Precision__results-text-container, .Precision__results-image-container
     {

@@ -1,6 +1,7 @@
 import './styles/precisionCaseStudy.css'
 //Images
-import Precision from '../assets/PRECISION-LOGO-ICON.gif'
+// import Precision from '../assets/PRECISION-LOGO-ICON.gif'
+import Precision from '../assets/PRECISION-CS.gif'
 import Precision2 from '../assets/Precision-2.png'
 import Precision3 from '../assets/Precision-3.png'
 import Precision4 from '../assets/Precision-4.gif'
@@ -8,8 +9,8 @@ import Precision5 from '../assets/Precision-5.png'
 import Precision6 from '../assets/Precision-6.png'
 import Precision7 from '../assets/Precision-7.png'
 import Precision8 from '../assets/Precision-8.gif'
-import GroovedEyes from '../assets/Grooved-Eyes.gif'
-import GroovedBooks from '../assets/Grooved-Books.jpg'
+import Precision9 from '../assets/Precision-8.png'
+import Precision10 from '../assets/Precision-9.png'
 import check from '../assets/CheckFat.svg'
 //Components
 import ChatSection from '../Components/ChatSection/ChatSection'
@@ -83,6 +84,9 @@ const WwsCaseStudy = () => {
                     <div className='Precision__hero-challenge-text2'>
                         <p>Traditional pharmacy branding wouldn’t cut it—Precision Medicine required a bold, contemporary identity that spoke to their mission: providing high-quality, customized medications with precision and care.</p>    
                     </div>                    
+                </div>
+                <div className='Precision__hero-challenge-image2-container'>
+                    <img src={Precision9} alt='Grooved Learning Logo' />                    
                 </div>                
             </div>
             <div className='Precision__hero-approach-text-container'>
@@ -96,15 +100,18 @@ const WwsCaseStudy = () => {
             </div>            
             
             <div className='Precision__hero-image-container'>
-                <img src={Precision5} alt='Grooved Learning Cap' />                                    
+                <img src={Precision10} alt='Grooved Learning Cap' />                                    
             </div>
             
             
             <div className='Precision__hero-results-container'>
-                
                 <div className='Precision__hero-results-title-container'>
-                    <h2 className='Precision__hero-results-title'>A logo with meaning</h2>
-                    <p className='Precision__hero-results-text'>The new mark features a partially hidden “P,” embodying the idea that precision is invisible yet powerful. As their CEO, Chris Stella put it: “Other brands need hours to explain their logos. I can explain ours in five minutes. It’s our unseen P.”</p>
+                <div className='Precision__hero-approach-text1'>
+                        <h2>A logo with meaning</h2>
+                    </div>
+                    <div className='Precision__hero-approach-text2'>
+                        <p>The new mark features a partially hidden “P,” embodying the idea that precision is invisible yet powerful. As their CEO, Chris Stella put it: “Other brands need hours to explain their logos. I can explain ours in five minutes. It’s our unseen P.”</p>    
+                    </div>   
                 </div>
                 <div className='Precision__hero-results-image-container'>
                     <img src={Precision6} alt='Precision' />                    
