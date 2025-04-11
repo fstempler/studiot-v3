@@ -5,7 +5,7 @@ import Precision from '../assets/PRECISION-CS.gif'
 import Precision2 from '../assets/Precision-2.png'
 import Precision3 from '../assets/Precision-3.png'
 import Precision4 from '../assets/Precision-4.gif'
-import Precision5 from '../assets/Precision-5.png'
+import Precision5 from '../assets/PRECISION-LOGO-ICON.gif'
 import Precision6 from '../assets/Precision-6.png'
 import Precision7 from '../assets/Precision-7.png'
 import Precision8 from '../assets/Precision-8.gif'
@@ -114,7 +114,7 @@ const WwsCaseStudy = () => {
                     </div>   
                 </div>
                 <div className='Precision__hero-results-image-container'>
-                    <img src={Precision6} alt='Precision' />                    
+                    <img src={Precision5} alt='Precision' />                    
                 </div>
                 <div className='Precision__hero-results-title-container'>                    
                     <div className='Precision__hero-results-text1'>
