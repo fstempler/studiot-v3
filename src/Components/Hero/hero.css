@@ -59,7 +59,7 @@
     padding: 5px;
 }
 .hero__Image{
-    transform: rotateZ(10deg);
+    transform: rotateZ(5deg);
     height: 195px;
     width: 247px;
     border-radius: 5px;
