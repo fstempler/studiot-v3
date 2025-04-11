@@ -4,7 +4,7 @@ const cardData = [
     { id: 1, image: '../ourWork/Fahlo-3.png', shape: 'square', alt: 'Fahlo Work', tag: 'Ads' },
     { id: 2, image: 'https://player.vimeo.com/video/1026520874', shape: 'rectangle', alt: 'Chest Work', tag: 'Motion Graphics' },
     { id: 3, image: '../ourWork/precision-1.png', shape: 'square', alt: 'Chest Work', tag: 'Branding' },
-    { id: 43, image: 'https://player.vimeo.com/video/1074587128', shape: 'rectangle', alt: 'Chest Work', tag: 'Motion Graphics' },
+    { id: 4, image: 'https://player.vimeo.com/video/1074798133', shape: 'rectangle', alt: 'Chest Work', tag: 'Amazon Store Front' },
     { id: 5, image: 'https://player.vimeo.com/video/1026484308', shape: 'rectangle', alt: 'Chest Work', tag: 'Email Marketing' },
     { id: 6, image: '../ourWork/Amaran-1.jpg', shape: 'square', alt: 'Amaran Work', tag: 'Ads' },
     { id: 7, image: 'https://player.vimeo.com/video/1074583878', shape: 'rectangle', alt: 'Chest Work', tag: 'Email Marketing' },
@@ -43,7 +43,7 @@ const cardData = [
     { id: 40, image: 'https://player.vimeo.com/video/1074580571', shape: 'rectangle', alt: 'Chest Work', tag: 'Scripted Storytelling' },
     { id: 41, image: 'https://player.vimeo.com/video/1074797463', shape: 'rectangle', alt: 'Chest Work', tag: 'Website' },
     { id: 42, image: '../ourWork/grooved-3.png', shape: 'square', alt: 'Fahlo Work', tag: 'Branding' },
-    { id: 4, image: 'https://player.vimeo.com/video/1074798133', shape: 'rectangle', alt: 'Chest Work', tag: 'Amazon Store Front' },
+    { id: 43, image: 'https://player.vimeo.com/video/1074587128', shape: 'rectangle', alt: 'Chest Work', tag: 'Motion Graphics' },
     { id: 44, image: '../ourWork/grooved-2.png', shape: 'square', alt: 'Fahlo Work', tag: 'Amazon PDP' },
         
   ];
