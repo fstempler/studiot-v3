@@ -7,6 +7,8 @@ import Adidas3 from '../assets/Addidas-Samba-3.png'
 import wwsAdidas from '../assets/WSS-Adidas.gif'
 import check from '../assets/CheckFat.svg'
 import conclusion from '../assets/WWS-CONCLUSION.gif'
+//Video
+import wwsVideo from '../assets/WSS-Superstar.mp4'
 //Components
 import ChatSection from '../Components/ChatSection/ChatSection'
 
@@ -94,7 +96,13 @@ const WwsCaseStudy = () => {
                     <p className='WWS__hero-results-text'>With AI, we transformed their approach to content creation. Instead of spending weeks on production, the team now had engaging, on-brand visuals ready in hours—without sacrificing quality.</p>
                 </div>
                 <div className='WWS__hero-results-image-container'>
+                <video  autoPlay  muted  loop  playsInline  width="100%">
+                    <source src={wwsVideo} type="video/mp4" />
                     <img src={conclusion} alt='WSS Adidas' />                    
+                </video>
+
+
+                    
                 </div>
                 <div className='WWS__hero-conclusion-container'>
                     <h2 className='WWS__hero-conclusion-title'>AI isn’t replacing creativity; <span className='WWS__hero-conclusion-title2'>it’s amplifying it.</span></h2>

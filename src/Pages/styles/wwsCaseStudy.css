@@ -164,6 +164,9 @@
     justify-content: center;
     padding: 50px 0;
 }
+.WWS__hero-results-image-container video{
+    width: 100%;    
+}
 .WWS__hero-results-image-container img{
     border-radius: 10px;
 }

@@ -225,7 +225,10 @@
 .Precision__hero-results-title-container{
     display: flex;
     width: 100%;
-    gap: 30px;
+    gap: 30px;    
+}
+.Precision__hero-results-title-container h2{
+    text-align: left;
 }
 .Precision__hero-results-text1, .Precision__hero-results-text2{
     display: flex;

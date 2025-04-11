@@ -107,7 +107,7 @@ const WwsCaseStudy = () => {
                     <p className='Precision__hero-results-text'>The new mark features a partially hidden “P,” embodying the idea that precision is invisible yet powerful. As their CEO, Chris Stella put it: “Other brands need hours to explain their logos. I can explain ours in five minutes. It’s our unseen P.”</p>
                 </div>
                 <div className='Precision__hero-results-image-container'>
-                    <img src={Precision6} alt='Grooved Learning T-Shirt' />                    
+                    <img src={Precision6} alt='Precision' />                    
                 </div>
                 <div className='Precision__hero-results-title-container'>                    
                     <div className='Precision__hero-results-text1'>

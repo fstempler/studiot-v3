@@ -116,8 +116,7 @@
 }
 .Glearning__hero-challenge-text1 p, .Glearning__hero-challenge-text2 p{
     font-family: "Archivo", sans-serif;
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 24px;    
     line-height: 26px;
 }
 /* Approach */
@@ -159,7 +158,9 @@
     width: 50%;
     padding: 0 20px 0px 0;
 }
-
+.Glearning__hero-solution-bullets-container{
+    width: 100% !important;
+}
 .Glearning__hero-solution-bulletts-text{
     font-family: "Archivo", sans-serif;
     font-weight: 500;
@@ -250,6 +251,11 @@
     font-family: "Archivo", sans-serif;   
     font-size: 48px; 
     font-weight: 500;     
+}
+.Glearning__results-text-container p{
+    font-family: "Archivo", sans-serif;   
+    font-size: 28px; 
+    line-height: 30px;    
 }
 .Glearning__results-image-container{
     width: 50%;
