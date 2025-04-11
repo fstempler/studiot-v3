@@ -30,6 +30,11 @@ const OurWork = () => {
     const column14 = cardData.filter(card => card.id === 26 || card.id === 30);
     const column15 = cardData.filter(card => card.id === 27 || card.id === 31);
     const column16 = cardData.filter(card => card.id === 28 || card.id === 32);
+    //Line5
+    const column17 = cardData.filter(card => card.id === 33 || card.id === 37);
+    const column18 = cardData.filter(card => card.id === 34 || card.id === 38);
+    const column19 = cardData.filter(card => card.id === 35 || card.id === 39);
+    const column20 = cardData.filter(card => card.id === 36 || card.id === 40);
     
 
     return (
@@ -227,6 +232,50 @@ const OurWork = () => {
                     </div>
                     <div className='ourWork__Column'>
                         {column16.map(card => (
+                            <Card
+                                key={card.id}
+                                img={card.image}
+                                shape={card.shape}
+                                alt={card.alt}
+                                tag={card.tag}
+                            />
+                        ))}
+                    </div>
+                    <div className='ourWork__Column'>
+                        {column17.map(card => (
+                            <Card
+                                key={card.id}
+                                img={card.image}
+                                shape={card.shape}
+                                alt={card.alt}
+                                tag={card.tag}
+                            />
+                        ))}
+                    </div>
+                    <div className='ourWork__Column'>
+                        {column18.map(card => (
+                            <Card
+                                key={card.id}
+                                img={card.image}
+                                shape={card.shape}
+                                alt={card.alt}
+                                tag={card.tag}
+                            />
+                        ))}
+                    </div>
+                    <div className='ourWork__Column'>
+                        {column19.map(card => (
+                            <Card
+                                key={card.id}
+                                img={card.image}
+                                shape={card.shape}
+                                alt={card.alt}
+                                tag={card.tag}
+                            />
+                        ))}
+                    </div>
+                    <div className='ourWork__Column'>
+                        {column20.map(card => (
                             <Card
                                 key={card.id}
                                 img={card.image}
