@@ -290,7 +290,7 @@ const cardData = [
     { id: 41, image: 'https://player.vimeo.com/video/1026598692?', shape: 'rectangle', alt: 'Chest Work', tag: 'Email Design' },
     { id: 42, image: '../ourWork/grooved-3.png', shape: 'square', alt: 'Fahlo Work', tag: 'Branding' },
     { id: 43, image: 'https://player.vimeo.com/video/1026598692?', shape: 'rectangle', alt: 'Chest Work', tag: 'Email Design' },
-    { id: 44, image: '../ourWork/grooved-2.png', shape: 'square', alt: 'Fahlo Work', tag: 'Amazon PDP' },
+    { id: 44, image: '../ourWork/grooved-2.png', shape: 'square', alt: 'Fahlo Work', tag: '3D Rendering' },
         
   ];
   
