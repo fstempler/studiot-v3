@@ -54,9 +54,8 @@
 .hero__Image-Container{
     background-color: #DAFF01;
     border-radius: 5px;
-    width: fit-content;
-    height: auto;
-    padding: 5px;
+    width: fit-content;    
+    padding: 5px;          
 }
 .hero__Image{
     transform: rotateZ(5deg);
