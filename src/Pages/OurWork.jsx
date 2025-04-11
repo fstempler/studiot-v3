@@ -289,7 +289,7 @@ const OurWork = () => {
                             />
                         ))}
                     </div>
-                    {/* <div className='ourWork__Column'>
+                    <div className='ourWork__Column'>
                         {column21.map(card => (
                             <Card
                                 key={card.id}
@@ -299,7 +299,7 @@ const OurWork = () => {
                                 tag={card.tag}
                             />
                         ))}
-                    </div> */}
+                    </div>
                     <div className='ourWork__Column'>
                         {column22.map(card => (
                             <Card
@@ -311,7 +311,7 @@ const OurWork = () => {
                             />
                         ))}
                     </div>
-                    {/* <div className='ourWork__Column'>
+                    <div className='ourWork__Column'>
                         {column23.map(card => (
                             <Card
                                 key={card.id}
@@ -321,7 +321,7 @@ const OurWork = () => {
                                 tag={card.tag}
                             />
                         ))}
-                    </div> */}
+                    </div>
                     <div className='ourWork__Column'>
                         {column24.map(card => (
                             <Card
