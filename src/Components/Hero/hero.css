@@ -59,8 +59,8 @@
 }
 .hero__Image{
     transform: rotateZ(5deg);
-    height: 195px;
-    width: 247px;
+    /* height: 195px;
+    width: 247px; */
     border-radius: 5px;
 }
 .hero__Image-Cel{
@@ -103,6 +103,8 @@
     }
     .hero__Image-Cel{
         display: flex;
+        width: 100%;
+        border-radius: 5px;
     }
     
 }
