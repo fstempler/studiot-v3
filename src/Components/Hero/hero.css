@@ -81,7 +81,10 @@
     .hero__MainContainer{             
         padding-top: 100px; 
         padding-bottom: 20px;     
-    }        
+    }   
+    .hero__Image {
+        width: 100%;
+    }     
 }
 
 @media (max-width: 576px) {          

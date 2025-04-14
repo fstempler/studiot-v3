@@ -31,7 +31,7 @@ const Hero = () => {
                         
                         </h1> 
                         <div className='hero__Image-Container'>
-                            <video autoPlay muted loop playsInline className='hero__Image-Cel'>
+                            <video autoPlay muted loop playsInline className='hero__Image'>
                                 <source src={testVid} type="video/mp4" />
                                 <img src={testImg} alt="Animación decorativa" />
                             </video>

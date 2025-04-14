@@ -87,12 +87,27 @@
         padding: 0px;
     }
     .ourWork__Grid {        
-        padding: 20px 0;   
+        padding: 20px 0;  
+        width: 100%; 
     }
     .ourWork__Grid-Title-Container{
         width: 100%;
         padding-left: 30px;
     }
+}
+
+@media (max-width: 1200px) {
+    .card--rectangle {
+        grid-column: span 1;
+        height: 466px;
+        width: 250px;
+    }
+
+    .card--square {
+        grid-column: span 1;
+        height: 240px;
+        width: 240px;
+    } 
 }
 @media (max-width: 1024px) {
     .ourWork__Grid {
