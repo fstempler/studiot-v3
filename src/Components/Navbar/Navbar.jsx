@@ -68,23 +68,23 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                            <Link
-  className="nav-link"
-  aria-current="page"
-  role="button"
-  to={{ pathname: "/", hash: "#pricingSection" }}
-  onClick={() => {
-    // Espera un poco y luego navega al segundo hash
-    setTimeout(() => {
-      const targetSection = document.getElementById("pricingSectionMobile");
-      if (targetSection) {
-        targetSection.scrollIntoView({ behavior: "smooth" });
-      }
-    }, 500);
-  }}
->
-  Services
-</Link>
+                            {/*<Link
+                                className="nav-link"
+                                aria-current="page"
+                                role="button"
+                                to={{ pathname: "/", hash: "#pricingSection" }}
+                                onClick={() => {
+                                    // Espera un poco y luego navega al segundo hash
+                                setTimeout(() => {
+                                const targetSection = document.getElementById("pricingSectionMobile");
+                                    if (targetSection) {
+                                        targetSection.scrollIntoView({ behavior: "smooth" });
+                                    }
+                                    }, 500);
+                                }}
+                            >
+                            Services
+                            </Link>*/}
                             </li> 
                             <li className="nav-item">
                                 <Link className="nav-link" aria-current="page" to="/ourWork">Our Work</Link>

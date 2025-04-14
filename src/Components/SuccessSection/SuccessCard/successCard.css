@@ -78,6 +78,6 @@
 }
 @media (max-width: 576px) {
     .successCard__Container {
-        min-width: 31%; /* Mostrar una tarjeta en pantallas pequeñas */
+        min-width: 31%; 
     }
 }
