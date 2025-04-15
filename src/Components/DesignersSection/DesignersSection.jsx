@@ -13,8 +13,8 @@ const DesignersSection = () => {
                     <div className='upgradeSection__Text-Container'>
                         <h2 className='designerSection__Title'>Ready to <br /><span className='designerSection__Title2'>upgrade your</span> <br />creative game?</h2>
                         <br/>
-                        <p className='designerSection__Text'>No more missed deadlines.</p>                        
-                        <p className='designerSection__Text'>No more meh ads.</p>
+                        <p className='designerSection__Text'><strong>No more</strong> missed deadlines.</p>                        
+                        <p className='designerSection__Text'><strong>No more</strong> meh ads.</p>
                         <p className='designerSection__Text'>Just <strong>high-performing, on-brand creative.</strong></p>                            
                         <p className='designerSection__Text'><strong>Delivered fast.</strong></p>                            
                     </div>
