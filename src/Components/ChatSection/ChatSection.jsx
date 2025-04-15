@@ -19,7 +19,7 @@ const ChatSection = () => {
                 </div>
             </div>
             <div className='chatSection__SubText-Container'>
-                <h3 className='chatSection__SubText1'>Thx for stopping by. <br />Your creative <span className='chatSection__SubText2'>glow-up</span> awaits.Still Thinking?</h3>
+                <h3 className='chatSection__SubText1'>Thx for stopping by. <br />Your creative <span className='chatSection__SubText2'>glow-up</span> awaits. Still Thinking?</h3>
                 
             </div>
         </section>

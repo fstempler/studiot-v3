@@ -48,10 +48,7 @@ const CaseStudies = () => {
                 </div>
                 
 
-                <Slider />
-                {/* <CaseStudyMain />
-                <CaseStudyImgSection />
-                <CaseStudyMetrics /> */}
+                <Slider />                
             </div>
             
         </div>

@@ -1,3 +1,6 @@
+.planSection__MainContainer{
+    padding-top: 50px;
+}
 .planSection__Title-ColContainer{
     display: flex;
     flex-direction: column;

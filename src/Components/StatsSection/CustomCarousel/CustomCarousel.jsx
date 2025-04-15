@@ -55,7 +55,7 @@ export default function CustomCarousel() {
       {/* Controles abajo */}
       <div className="d-flex justify-content-center align-items-center mt-3 gap-3">
         <button className="btn " onClick={goToPrev}>
-          <img src={ArrowLeft} />
+          <img className="btn-handle" src={ArrowLeft} />
         </button>
 
         <div className="d-flex gap-2">
@@ -72,7 +72,7 @@ export default function CustomCarousel() {
         </div>
 
         <button className="btn " onClick={goToNext}>
-          <img src={ArrowRight} />
+          <img className="btn-handle" src={ArrowRight} />
         </button>
       </div>
     </div>

@@ -72,6 +72,14 @@
     font-weight: 400;
     text-align: center;
 }
+.btn-handle{
+    transition: ease-in-out background-color 1s;
+}
+
+.btn-handle:hover{
+    border: solid 1px #DAFF01;
+    border-radius: 50px;    
+}
 
 @media (max-width: 1200px) {
     .statsSection__Title1{                
