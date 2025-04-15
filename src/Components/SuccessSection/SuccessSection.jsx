@@ -18,7 +18,7 @@ const carouselData = [
     {
         id: 1,
         image: Graceful,
-        text: 'We love the work Studio T does. They actually care about what we are trying to build and consistently go above and beyond.',
+        text: 'We love the work Studio t does. They actually care about what we are trying to build and consistently go above and beyond.',
         alt: '4 Moms Logo'
     },
     {
@@ -36,7 +36,7 @@ const carouselData = [
     {
         id: 4,
         image: Graceful,
-        text: 'We love the work Studio T does. They actually care about what we are trying to build and consistently go above and beyond.',
+        text: 'We love the work Studio t does. They actually care about what we are trying to build and consistently go above and beyond.',
         alt: '4 Moms Logo'
     },
     {

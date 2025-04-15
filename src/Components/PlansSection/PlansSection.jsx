@@ -47,7 +47,7 @@ const PlanSection = () => {
                                 <p className='planSection__Text'><i className="bi bi-check-circle-fill"></i> Amazon Content</p>
                             </li>
                             <li>
-                                <p className='planSection__Text'><i className="bi bi-check-circle-fill"></i> Lead Magnets Presentation Graphics</p>
+                                <p className='planSection__Text'><i className="bi bi-check-circle-fill"></i> Lead Magnets - Presentation Graphics</p>
                             </li>
                             <li>
                                 <p className='planSection__Text'><i className="bi bi-check-circle-fill"></i> Templates</p>

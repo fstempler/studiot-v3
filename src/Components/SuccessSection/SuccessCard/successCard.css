@@ -79,5 +79,15 @@
 @media (max-width: 576px) {
     .successCard__Container {
         min-width: 31%; 
+        height: auto;
+    }
+    .succesCard__Text-Container{
+        height: 180px;
+    }
+    .succesCard__Image{
+        width: 70%;
+    }
+    .succesCard__ImageContainer{
+        padding: 30px 40px;
     }
 }

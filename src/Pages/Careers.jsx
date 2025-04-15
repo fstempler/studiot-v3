@@ -38,7 +38,7 @@ const Careers = () => {
             <h3 className='careers__Disclosure-Subtitle'>Important security Tips!</h3>
             <div className='careers__Disclosure-Container'>
                 <p className='careers__Disclosure-Text'>
-                    Taktical will never send recruiting messages through SMS texts or as unsolicited emails. If you have been contacted by someone in this manner, they do not represent our company and communications with them should be stopped immediately.
+                    Studio t will never send recruiting messages through SMS texts or as unsolicited emails. If you have been contacted by someone in this manner, they do not represent our company and communications with them should be stopped immediately.
                 </p>
             </div>
         </div>
