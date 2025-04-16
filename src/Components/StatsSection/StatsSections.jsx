@@ -7,18 +7,18 @@ import CustomCarousel from './CustomCarousel/CustomCarousel';
 const StatsSection = () => {
     return (
         <section className='statsSection__MainContainer'>
-            <div className='row'>
-                <div className='col-md-4 order-1 order-md-1'>
+            <div className='row statsSection__Col-Container'>
+                <div className='col-md-4 order-1 order-md-1 p-0 statsSection__Col-Container'>
                     <div className='statsSection__Title-Container-Left'>
                         <h2 className='statsSection__Title1'>Stats</h2>
                     </div>                    
                 </div>
-                <div className='col-md-4 order-3 order-md-2'>
+                <div className='col-md-4 order-3 order-md-2 p-0 statsSection__Col-Container'>
                     <div className='statsSection__Title-Container-Middle'>
                         <CustomCarousel />
                     </div>                    
                 </div>
-                <div className='col-md-4 order-2 order-md-3'>
+                <div className='col-md-4 order-2 order-md-3 p-0 statsSection__Col-Container'>
                     <div className='statsSection__Title-Container-Right'>
                         <h2 className='statsSection__Title2'>don't</h2>
                         <h2 className='statsSection__Title3'>lie</h2>

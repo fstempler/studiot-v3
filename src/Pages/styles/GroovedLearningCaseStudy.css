@@ -309,6 +309,7 @@
     /* Stats */
     .Glearning__hero-stats-image-container h2{
         font-size: 24px;
+        margin-right: 10px;
     }
     .Glearning__hero-stats-text-container p{        
         font-size: 16px;        

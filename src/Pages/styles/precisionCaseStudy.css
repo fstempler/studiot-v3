@@ -358,6 +358,7 @@
     /* Stats */
     .Precision__hero-stats-image-container h2{
         font-size: 24px;
+        margin-right: 10px;        
     }
     .Precision__hero-stats-text-container p{        
         font-size: 16px;        

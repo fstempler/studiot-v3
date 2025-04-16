@@ -6,31 +6,37 @@ import Img2 from '../../../assets/customCarousel-2.gif';
 import Img3 from '../../../assets/customCarousel-3.gif';
 import ArrowLeft from '../../../assets/btnCarousel-l.png';
 import ArrowRight from '../../../assets/btnCarousel-r.png'
+//Videos
+import Vid1 from '../../../assets/customCarousel-1.mp4';
+import Vid2 from '../../../assets/customCarousel-2.mp4';
+import Vid3 from '../../../assets/customCarousel-3.mp4';
+//Components
+import CustomCarouselContent from './CustomCarouselContent/CustomCarouselContent';
 
-const images = [
-  Img1,
-  Img2,
-  Img3,
+const slides = [
+  <CustomCarouselContent vid={Vid1} views="11.2k" />,
+  <CustomCarouselContent vid={Vid2} views="5.9k" />,
+  <CustomCarouselContent vid={Vid3} views="4.9k" />,
 ];
 
 export default function CustomCarousel() {
   const [activeIndex, setActiveIndex] = useState(0);
 
-  // Cambio automático cada 3 segundos
+  // Cambio automático cada 4 segundos
   useEffect(() => {
     const interval = setInterval(() => {
-      setActiveIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 3000);
+      setActiveIndex((prevIndex) => (prevIndex + 1) % slides.length);
+    }, 4000);
 
     return () => clearInterval(interval); 
   }, []);
 
   const goToPrev = () => {
-    setActiveIndex((prevIndex) => (prevIndex === 0 ? images.length - 1 : prevIndex - 1));
+    setActiveIndex((prevIndex) => (prevIndex === 0 ? slides.length - 1 : prevIndex - 1));
   };
 
   const goToNext = () => {
-    setActiveIndex((prevIndex) => (prevIndex + 1) % images.length);
+    setActiveIndex((prevIndex) => (prevIndex + 1) % slides.length);
   };
 
   const goToSlide = (index) => {
@@ -41,12 +47,12 @@ export default function CustomCarousel() {
     <div className="w-100 text-center" id="customCarouselContainer">
       <div className="carousel slide carousel-fade" id="customCarousel">
         <div className="carousel-inner">
-          {images.map((src, index) => (
+          {slides.map((slide, index) => (
             <div
               key={index}
               className={`carousel-item ${index === activeIndex ? 'active' : ''}`}
             >
-              <img src={src} className="d-block w-100" alt={`Slide ${index + 1}`} />
+              {slide}
             </div>
           ))}
         </div>
@@ -59,7 +65,7 @@ export default function CustomCarousel() {
         </button>
 
         <div className="d-flex gap-2">
-          {images.map((_, index) => (
+          {slides.map((_, index) => (
             <button
               key={index}
               onClick={() => goToSlide(index)}
