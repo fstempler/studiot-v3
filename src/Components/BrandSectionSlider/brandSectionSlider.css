@@ -83,7 +83,13 @@
 .brandSection__Logos:hover .brandSection__Logos-slide-reverse {
     animation-play-state: paused;
 }
-
+@media (max-width: 1200px) {
+    .brandSection__MainContainer{        
+        background-size: 75%;
+        background-position: center top;
+        height: 100vh;        
+    }
+}
 @media (max-width: 1024px) {
     .brandSection__MainContainer{        
         background-size: 50%;
