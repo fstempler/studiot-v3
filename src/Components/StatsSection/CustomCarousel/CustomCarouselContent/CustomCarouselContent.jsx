@@ -1,6 +1,6 @@
 import './customCarouselContent.css'
 //images
-import eye from '../../../../assets/eye.png';
+import eye from '../../../../assets/Eye.png';
 
 const CustomCarouselContent = ({ vid, views }) => {
     return (
