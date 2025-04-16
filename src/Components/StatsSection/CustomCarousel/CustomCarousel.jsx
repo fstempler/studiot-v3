@@ -1,9 +1,6 @@
 import './customCarousel.css';
 import { useEffect, useState } from 'react';
 //Images
-import Img1 from '../../../assets/customCarousel-1.gif';
-import Img2 from '../../../assets/customCarousel-2.gif';
-import Img3 from '../../../assets/customCarousel-3.gif';
 import ArrowLeft from '../../../assets/btnCarousel-l.png';
 import ArrowRight from '../../../assets/btnCarousel-r.png'
 //Videos
